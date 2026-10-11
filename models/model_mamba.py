@@ -180,21 +180,34 @@ def paper_forecasting_train(dataset_name, dataset, run_num, sampling_rate, epoch
         logging.error(f"Skipping Mamba due to error: {str(e)}", exc_info=True)
 
 if __name__ == "__main__":
+    dataset_names = ["belgium", "germany", "london", "zonnedael"]
     dataset_classes = dict(belgium=DatasetBelgiumNF, 
                            germany=DatasetGermanyNF, 
                            london=DatasetLondonNF, 
                            zonnedael=DatasetZonnedaelNF)
     parser = argparse.ArgumentParser(description="Run the Mamba forecasting benchmark.")
-    parser.add_argument("--dataset", choices=["belgium", "germany", "london", "zonnedael"], default="belgium", help="Dataset to forecast.")
-    parser.add_argument("--sampling_rates", "--sampling_rate", nargs="+", type=float, default=[25, 100/3, 50, 100], help="Sampling percentages to evaluate.")
+    parser.add_argument("--dataset", choices=dataset_names, default=None, help="Dataset to forecast by name.")
+    parser.add_argument("--data", type=int, choices=range(1, 5), default=None, metavar="{1,2,3,4}", help="Select one dataset: 1=Belgium, 2=Germany, 3=London, 4=Zonnedael.")
+    parser.add_argument("--sampling_rate", type=float, default=None, help="Run one sampling percentage, e.g. 25.")
+    parser.add_argument("--sampling_rates", nargs="+", type=float, default=None, help="Run one or more sampling percentages.")
     parser.add_argument("--runs", type=int, default=10, help="Number of runs.")
     parser.add_argument("--epochs", type=int, default=100, help="Training epochs.")
     parser.add_argument("--gpu", type=int, default=-1, help=GPU_HELP)
     parser.add_argument("--results_dir", type=Path, default=PROJECT_ROOT / "results", help="Root directory for generated results.")
     args = parser.parse_args()
-    dataset = dataset_classes[args.dataset]()
+    if args.sampling_rate is not None and args.sampling_rates is not None:
+        parser.error("Use either --sampling_rate or --sampling_rates, not both.")
+    sampling_rates = (
+        [args.sampling_rate] if args.sampling_rate is not None
+        else args.sampling_rates if args.sampling_rates is not None
+        else [25, 100/3, 50, 100]
+    )
+    if args.dataset is not None and args.data is not None:
+        parser.error("Use either --dataset or --data, not both.")
+    dataset_name = args.dataset or (dataset_names[args.data - 1] if args.data else "belgium")
+    dataset = dataset_classes[dataset_name]()
     device = torch.device(torch_device(args.gpu))
     # Run all sampling rates and seeds
-    for sampling_rate in args.sampling_rates:
+    for sampling_rate in sampling_rates:
         for run_num in range(1, args.runs + 1):
-            paper_forecasting_train(args.dataset, dataset, run_num, sampling_rate, args.epochs, device, args.gpu, args.results_dir)
+            paper_forecasting_train(dataset_name, dataset, run_num, sampling_rate, args.epochs, device, args.gpu, args.results_dir)

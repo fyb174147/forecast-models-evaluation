@@ -38,6 +38,10 @@ Use `python <script> --help` for all available options.
 
 The common options are `--dataset`, `--sampling_rate`, `--runs`, `--gpu`, and `--results_dir`. Use `--gpu 0` for GPU 0, `--gpu 1` for GPU 1, or any other value (the default is `-1`) for CPU. Multi-model scripts also provide `--models`; trainable models provide `--epochs` where applicable. Foundation-model scripts expose their checkpoint, batch size, and service settings through their own CLI options.
 
+For GPU model scripts numbered 3–9 in the Colab notebook, `--data` selects exactly one dataset: `1` Belgium, `2` Germany, `3` London, or `4` Zonnedael. For example, `python models/model_mamba.py --gpu 0 --data 1` runs Mamba on Belgium only. The named `--dataset` option remains available; use either option, not both. If neither is supplied, the default remains Belgium.
+
+All model scripts accept `--sampling_rate` to run a single sampling percentage. For example, `python models/model_mamba.py --gpu 0 --data 1 --sampling_rate 25` runs Belgium at 25% only. Use `--sampling_rates 25 50` to run multiple selected percentages. When neither option is passed, the existing four defaults (25%, approximately 33.3%, 50%, and 100%) are used.
+
 ## Datasets
 
 Datasets are loaded via [utils/dataset_config.py](utils/dataset_config.py). File locations used by the loaders:

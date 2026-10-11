@@ -208,15 +208,23 @@ if __name__ == "__main__":
                             "NaiveMovingAverage"}
     parser = argparse.ArgumentParser(description="Run statistical and machine-learning forecasts.")
     parser.add_argument("--dataset", choices=["belgium", "germany", "london", "zonnedael"], default="london", help="Dataset to forecast.")
-    parser.add_argument("--sampling_rates", "--sampling_rate", nargs="+", type=float, default=[25, 100/3, 50, 100], help="Sampling percentages to evaluate.")
+    parser.add_argument("--sampling_rate", type=float, default=None, help="Run one sampling percentage, e.g. 25.")
+    parser.add_argument("--sampling_rates", nargs="+", type=float, default=None, help="Run one or more sampling percentages.")
     parser.add_argument("--models", nargs="+", choices=["KNNRegression", "LightGBM", "ARIMA", "NaiveMovingAverage"],
         default=["NaiveMovingAverage"], help="Models to evaluate.")
     parser.add_argument("--runs", type=int, help="Runs per model; otherwise 1 for deterministic models and 10 for others.")
     parser.add_argument("--gpu", type=int, default=-1, help=GPU_HELP)
     parser.add_argument("--results_dir", type=Path, default=PROJECT_ROOT / "results", help="Root directory for generated results.")
     args = parser.parse_args()
+    if args.sampling_rate is not None and args.sampling_rates is not None:
+        parser.error("Use either --sampling_rate or --sampling_rates, not both.")
+    sampling_rates = (
+        [args.sampling_rate] if args.sampling_rate is not None
+        else args.sampling_rates if args.sampling_rates is not None
+        else [25, 100/3, 50, 100]
+    )
     dataset = dataset_classes[args.dataset]()
-    for sampling_rate in args.sampling_rates:
+    for sampling_rate in sampling_rates:
         for model_type in args.models:
             n_runs = args.runs if args.runs is not None else (1 if model_type in deterministic_models else 10)
             for run_num in range(1, n_runs + 1):
