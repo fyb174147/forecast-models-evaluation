@@ -149,7 +149,7 @@ if __name__ == "__main__":
                            zonnedael=DatasetZonnedaelNF)
     parser = argparse.ArgumentParser(description="Run the naive-drift forecasting benchmark.")
     parser.add_argument("--dataset", choices=["belgium", "germany", "london", "zonnedael"], default="belgium", help="Dataset to forecast.")
-    parser.add_argument("--sampling_rate", type=float, default=None, help="Run one sampling percentage, e.g. 25.")
+    parser.add_argument("--sampling_rate", nargs="+", type=float, default=None, help="Run one or more sampling percentages.")
     parser.add_argument("--sampling_rates", nargs="+", type=float, default=None, help="Run one or more sampling percentages.")
     parser.add_argument("--runs", type=int, default=1, help="Number of runs.")
     parser.add_argument("--gpu", type=int, default=-1, help=GPU_HELP)
@@ -158,7 +158,7 @@ if __name__ == "__main__":
     if args.sampling_rate is not None and args.sampling_rates is not None:
         parser.error("Use either --sampling_rate or --sampling_rates, not both.")
     sampling_rates = (
-        [args.sampling_rate] if args.sampling_rate is not None
+        args.sampling_rate if args.sampling_rate is not None
         else args.sampling_rates if args.sampling_rates is not None
         else [25, 100/3, 50, 100]
     )

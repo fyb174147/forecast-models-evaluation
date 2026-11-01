@@ -168,25 +168,25 @@ def paper_forecasting_train(dataset_name, dataset, run_num, sampling_rate, epoch
 if __name__ == "__main__":
     dataset_names = ["belgium", "germany", "london", "zonnedael"]
     model_classes = {
-        "BiTCN": BiTCN,
-        "DeepNPTS": DeepNPTS,
-        "Informer": Informer,
-        "NBEATS": NBEATS,
         "NHITS": NHITS,
-        "NLinear": NLinear,
-        "PatchTST": PatchTST,
-        "TCN": TCN,
+        "NBEATS": NBEATS,
         "TiDE": TiDE,
+        "NLinear": NLinear,
+        "DeepNPTS": DeepNPTS,
+        "TCN": TCN,
+        "BiTCN": BiTCN,
         "TimesNet": TimesNet,
-        "TimeXer": TimeXer,
+        "Informer": Informer,
+        "PatchTST": PatchTST,
         "iTransformer": iTransformer,
-        "VanillaTransformer": VanillaTransformer
+        "VanillaTransformer": VanillaTransformer,
+        "TimeXer": TimeXer,
     }
     dataset_classes = dict(belgium=DatasetBelgiumNF, germany=DatasetGermanyNF, london=DatasetLondonNF, zonnedael=DatasetZonnedaelNF)
     parser = argparse.ArgumentParser(description="Run NeuralForecast model benchmarks.")
     parser.add_argument("--dataset", choices=dataset_names, default=None, help="Dataset to forecast by name.")
     parser.add_argument("--data", type=int, choices=range(1, 5), default=None, metavar="{1,2,3,4}", help="Select one dataset: 1=Belgium, 2=Germany, 3=London, 4=Zonnedael.")
-    parser.add_argument("--sampling_rate", type=float, default=None, help="Run one sampling percentage, e.g. 25.")
+    parser.add_argument("--sampling_rate", nargs="+", type=float, default=None, help="Run one or more sampling percentages.")
     parser.add_argument("--sampling_rates", nargs="+", type=float, default=None, help="Run one or more sampling percentages.")
     parser.add_argument("--models", nargs="+", choices=list(model_classes), default=list(model_classes), help="NeuralForecast models to evaluate.")
     parser.add_argument("--runs", type=int, default=10, help="Number of runs.")
@@ -197,7 +197,7 @@ if __name__ == "__main__":
     if args.sampling_rate is not None and args.sampling_rates is not None:
         parser.error("Use either --sampling_rate or --sampling_rates, not both.")
     sampling_rates = (
-        [args.sampling_rate] if args.sampling_rate is not None
+        args.sampling_rate if args.sampling_rate is not None
         else args.sampling_rates if args.sampling_rates is not None
         else [25, 100/3, 50, 100]
     )

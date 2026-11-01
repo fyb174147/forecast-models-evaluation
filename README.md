@@ -40,7 +40,7 @@ The common options are `--dataset`, `--sampling_rate`, `--runs`, `--gpu`, and `-
 
 For GPU model scripts numbered 3–9 in the Colab notebook, `--data` selects exactly one dataset: `1` Belgium, `2` Germany, `3` London, or `4` Zonnedael. For example, `python models/model_mamba.py --gpu 0 --data 1` runs Mamba on Belgium only. The named `--dataset` option remains available; use either option, not both. If neither is supplied, the default remains Belgium.
 
-All model scripts accept `--sampling_rate` to run a single sampling percentage. For example, `python models/model_mamba.py --gpu 0 --data 1 --sampling_rate 25` runs Belgium at 25% only. Use `--sampling_rates 25 50` to run multiple selected percentages. When neither option is passed, the existing four defaults (25%, approximately 33.3%, 50%, and 100%) are used.
+All model scripts accept either `--sampling_rate` or `--sampling_rates` followed by one or more sampling percentages. For example, `python models/model_mamba.py --gpu 0 --data 1 --sampling_rate 25` runs Belgium at 25% only; `python models/models_neuralforecast.py --gpu 0 --data 1 --sampling_rates 25 33.333333 50 100` runs all four sampling percentages. When neither option is passed, the existing four defaults (25%, approximately 33.3%, 50%, and 100%) are used. Do not pass both options in the same command.
 
 ## Datasets
 
@@ -183,11 +183,25 @@ Examples:
 python models/fmodel_timegpt.py --dataset belgium --sampling_rates 100 --runs 1 --model timegpt-1-long-horizon --confidence_level 95 --finetune_steps 0 --finetune_depth 1 --results_dir results
 ```
 
+In Google Colab, add a Secret named `TIMEGPT_API_KEY` and enable Notebook access. Since the benchmark is launched with `!python` (a child process), read the secret in a notebook cell and pass it through the environment:
+
+```python
+import os
+from google.colab import userdata
+
+os.environ["TIMEGPT_API_KEY"] = userdata.get("TIMEGPT_API_KEY")
+```
+
+Then run the command above in a following cell. Outside Colab, set `TIMEGPT_API_KEY` (or `NIXTLA_API_KEY`) in the environment or pass `--api_key`.
+
 *TimesFM*
 
 ```bash
-python models/fmodel_timesfm.py --gpu 0 --dataset belgium --sampling_rates 100 --runs 1 --batch_size 32 --model_id google/timesfm-1.0-200m-pytorch --results_dir results
+pip install "timesfm[torch]==2.0.2"
+python models/fmodel_timesfm.py --gpu 0 --dataset belgium --sampling_rates 100 --runs 1 --batch_size 32 --model_id google/timesfm-2.5-200m-pytorch --results_dir results
 ```
+
+The TimesFM script uses the TimesFM 2.5 200M checkpoint by default. Results from this configuration are not directly comparable to previous TimesFM 1.0 results; the package version and checkpoint are recorded in each run's `model_config.txt`.
 
 *MOIRAI*
 
@@ -204,6 +218,7 @@ python models/fmodel_chronos.py --gpu 0 --dataset belgium --sampling_rates 100 -
 *Timer-XL*
 
 ```bash
+pip install "transformers==4.40.1" accelerate
 python models/fmodel_timerxl.py --gpu 0 --dataset belgium --sampling_rates 100 --runs 1 --model_id thuml/timer-base-84m --save_folder TimerXL --results_dir results
 ```
 

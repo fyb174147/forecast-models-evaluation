@@ -47,8 +47,8 @@ def _iter_sampling_subdirs(sampling_dir: Path) -> List[Path]:
         return []
     return sorted([path for path in sampling_dir.iterdir() if path.is_dir()])
 
-def _collect_target_files(model_dir: Path, target_filename: str) -> List[Path]:
-    sampling_dir = model_dir / "Sampling_100"
+def _collect_target_files(model_dir: Path, target_filename: str, sampling: str = "Sampling_100") -> List[Path]:
+    sampling_dir = model_dir / sampling
     if not sampling_dir.exists():
         return []
     direct = _find_target_file(sampling_dir, target_filename)
@@ -64,10 +64,10 @@ def _collect_target_files(model_dir: Path, target_filename: str) -> List[Path]:
             target_files.append(target_file)
     return target_files
 
-def discover_target_filenames(dataset_dir: Path) -> List[str]:
+def discover_target_filenames(dataset_dir: Path, sampling: str = "Sampling_100") -> List[str]:
     targets: Set[str] = set()
     for model_dir in find_model_dirs(dataset_dir):
-        sampling_dir = model_dir / "Sampling_100"
+        sampling_dir = model_dir / sampling
         if not sampling_dir.exists() or not sampling_dir.is_dir():
             continue
         search_dirs = [sampling_dir]
@@ -113,8 +113,9 @@ def _read_single_load_file(load_csv: Path) -> Optional[pd.DataFrame]:
 def read_target_series(
     model_dir: Path,
     target_filename: str,
+    sampling: str = "Sampling_100",
 ) -> Tuple[Optional[pd.Series], Optional[pd.Series], Optional[Path]]:
-    target_files = _collect_target_files(model_dir, target_filename)
+    target_files = _collect_target_files(model_dir, target_filename, sampling)
     if not target_files:
         return None, None, None
     run_frames: List[pd.DataFrame] = []
@@ -255,7 +256,36 @@ def plot_dm_heatmaps(
     # Eliminate outer white margins in the saved figure.
     fig.subplots_adjust(left=0.0, right=1.0, bottom=0.0, top=1.0, wspace=0.12)
     fig.savefig(output_pdf, format="pdf", dpi=300, bbox_inches="tight", pad_inches=0)
+    output_png = output_pdf.with_suffix(".png")
+    fig.savefig(output_png, format="png", dpi=300, bbox_inches="tight", pad_inches=0)
     plt.close(fig)
+
+DEFAULT_LEGEND_NAMES = {
+    "KNNRegression": "KNN Reg.",
+    "NaiveDrift": "Naive Drift",
+    "NaiveMovingAverage": "Naive MA",
+    "MQCNN": "MQ-CNN",
+    "TemporalFusionTransformer": "TFT",
+    "MQRNN": "MQ-RNN",
+    "VanillaTransformer": "Vanilla Trans.",
+    "TimerXL": "Timer-XL",
+    "PatchTST": "PatchTST",
+    "iTransformer": "iTransformer",
+    "TimeXer": "TimeXer",
+    "TimesNet": "TimesNet",
+    "NBEATS": "N-BEATS",
+    "NHITS": "N-HITS",
+    "NLinear": "N-Linear",
+    "DeepNPTS": "DeepNPTS",
+    "DeepAR": "DeepAR",
+    "DeepFactor": "DeepFactor",
+    "WaveNet": "WaveNet",
+    "Chronos": "Chronos",
+    "MOIRAI": "MOIRAI",
+    "TimeGPT": "TimeGPT",
+    "TimesFM": "TimesFM",
+    "LightGBM": "LightGBM",
+}
 
 def run_dm_for_dataset(
     dataset_name: str,
@@ -263,96 +293,80 @@ def run_dm_for_dataset(
     output_dir: Optional[Path] = None,
     font_size: int = 9,
     legend_names: Optional[Dict[str, str]] = None,
+    sampling: str = "Sampling_100",
 ) -> List[Path]:
+    if legend_names is None:
+        legend_names = DEFAULT_LEGEND_NAMES
     dataset_dir = base_dir / "results" / f"results_{dataset_name}"
     if not dataset_dir.exists() or not dataset_dir.is_dir():
         raise FileNotFoundError(f"Dataset results folder not found: {dataset_dir}")
-    output_pdfs: List[Path] = []
+    output_files: List[Path] = []
     model_dirs = find_model_dirs(dataset_dir)
     if not model_dirs:
         print(f"Warning: no model folders found in {dataset_dir}")
-        return output_pdfs
-    target_filenames = discover_target_filenames(dataset_dir)
+        return output_files
+    target_filenames = discover_target_filenames(dataset_dir, sampling)
     if not target_filenames:
-        print(f"Warning: no *_forecast_vs_actual.csv files found in {dataset_dir}")
-        return output_pdfs
-    model_names = [model_dir.name for model_dir in model_dirs]
+        print(f"Warning: no *_forecast_vs_actual.csv files found in {dataset_dir} for {sampling}")
+        return output_files
+    raw_model_names = [model_dir.name for model_dir in model_dirs]
     for target_filename in target_filenames:
         actual_series_map: Dict[str, Optional[pd.Series]] = {}
         forecast_series_map: Dict[str, Optional[pd.Series]] = {}
         missing_loss_files: List[str] = []
         for model_dir in model_dirs:
             model_name = model_dir.name
-            actual_series, forecast_series, _ = read_target_series(model_dir, target_filename)
+            actual_series, forecast_series, _ = read_target_series(model_dir, target_filename, sampling)
             actual_series_map[model_name] = actual_series
             forecast_series_map[model_name] = forecast_series
             if actual_series is None or forecast_series is None:
                 missing_loss_files.append(model_name)
-        if missing_loss_files:
-            print(
-                f"Warning ({dataset_dir.name} | {target_filename}): could not read forecast series for models: "
-                + ", ".join(sorted(missing_loss_files))
-            )
-        available_lengths = [len(series) for series in forecast_series_map.values() if series is not None]
-        common_index = _compute_common_timestamp_index(forecast_series_map)
+        # Filter down to models that actually produced forecast series for this target
+        available_models = [m for m in raw_model_names if forecast_series_map.get(m) is not None]
+        if len(available_models) < 2:
+            continue
+        available_forecasts = {m: forecast_series_map[m] for m in available_models}
+        common_index = _compute_common_timestamp_index(available_forecasts)
         if len(common_index) < 5:
             print(
-                f"Warning ({dataset_dir.name} | {target_filename}): insufficient shared timestamps for DM test "
+                f"Warning ({dataset_dir.name} | {sampling} | {target_filename}): insufficient shared timestamps for DM test "
                 f"(shared={len(common_index)}). Skipping target."
             )
             continue
         actual_series_map = _align_losses_to_index(actual_series_map, common_index)
         forecast_series_map = _align_losses_to_index(forecast_series_map, common_index)
-        # Verify that Actual values are consistent across models on the shared timestamp grid.
-        ref_model = next((name for name, series in actual_series_map.items() if series is not None), None)
-        if ref_model is not None:
-            ref_actual = actual_series_map[ref_model]
-            mismatched_actual_models: List[str] = []
-            for model_name, actual_series in actual_series_map.items():
-                if actual_series is None or ref_actual is None:
-                    continue
-                same = np.allclose(ref_actual.to_numpy(), actual_series.to_numpy(), rtol=0.0, atol=1e-12)
-                if not same:
-                    mismatched_actual_models.append(model_name)
-            if mismatched_actual_models:
-                print(
-                    f"Warning ({dataset_dir.name} | {target_filename}): Actual series mismatch on shared index for models: "
-                    + ", ".join(sorted(mismatched_actual_models))
-                )
+
         mae_losses: Dict[str, Optional[pd.Series]] = {}
         rmse_losses: Dict[str, Optional[pd.Series]] = {}
-        for model_name in model_names:
+        valid_models: List[str] = []
+        for model_name in available_models:
             mae_series, rmse_series = _build_losses_from_actual_forecast(
                 actual_series_map.get(model_name), forecast_series_map.get(model_name)
             )
-            mae_losses[model_name] = mae_series
-            rmse_losses[model_name] = rmse_series
-        dropped_after_alignment = [name for name, series in mae_losses.items() if series is None]
-        if dropped_after_alignment:
-            print(
-                f"Warning ({dataset_dir.name} | {target_filename}): models removed after shared-index alignment: "
-                + ", ".join(sorted(dropped_after_alignment))
-            )
-        if available_lengths and len(common_index) < min(available_lengths):
-            print(
-                f"Info ({dataset_dir.name} | {target_filename}): enforcing shared index reduced sample length "
-                f"from min={min(available_lengths)} to shared={len(common_index)}"
-            )
-        dm_matrix_mae = build_dm_matrix(mae_losses, model_names)
-        dm_matrix_rmse = build_dm_matrix(rmse_losses, model_names)
+            if mae_series is not None and rmse_series is not None:
+                mae_losses[model_name] = mae_series
+                rmse_losses[model_name] = rmse_series
+                valid_models.append(model_name)
+
+        if len(valid_models) < 2:
+            continue
+
+        dm_matrix_mae = build_dm_matrix(mae_losses, valid_models)
+        dm_matrix_rmse = build_dm_matrix(rmse_losses, valid_models)
         target_name = target_filename.replace("_forecast_vs_actual.csv", "").lower()
         result_dir = output_dir or base_dir / "results" / "dm_test"
-        output_pdf = result_dir / dataset_name / f"dm_test_{target_name}.pdf"
+        sampling_tag = sampling.lower().replace("sampling_", "samp")
+        output_pdf = result_dir / dataset_name / f"dm_test_{target_name}_{sampling_tag}.pdf"
         plot_dm_heatmaps(
-            model_names,
+            valid_models,
             dm_matrix_mae,
             dm_matrix_rmse,
             output_pdf,
             font_size,
             legend_names,
         )
-        output_pdfs.append(output_pdf)
-    return output_pdfs
+        output_files.append(output_pdf)
+    return output_files
 
 if __name__ == "__main__":
     legend_names = {
@@ -364,14 +378,35 @@ if __name__ == "__main__":
         "MQRNN": "MQ-RNN",
         "VanillaTransformer": "Vanilla Trans.",
         "TimerXL": "Timer-XL",
+        "PatchTST": "PatchTST",
+        "iTransformer": "iTransformer",
+        "TimeXer": "TimeXer",
+        "TimesNet": "TimesNet",
+        "NBEATS": "N-BEATS",
+        "NHITS": "N-HITS",
+        "NLinear": "N-Linear",
+        "DeepNPTS": "DeepNPTS",
+        "DeepAR": "DeepAR",
+        "DeepFactor": "DeepFactor",
+        "WaveNet": "WaveNet",
+        "Chronos": "Chronos",
+        "MOIRAI": "MOIRAI",
+        "TimeGPT": "TimeGPT",
+        "TimesFM": "TimesFM",
+        "LightGBM": "LightGBM",
     }
     parser = argparse.ArgumentParser(description="Compute and plot DM test heatmaps for model comparisons.")
-    parser.add_argument("--datasets", nargs="+", choices=["belgium", "germany", "london", "zonnedael"], default=["zonnedael"], help="Datasets to compare.")
+    parser.add_argument("--datasets", nargs="+", choices=["belgium", "germany", "london", "zonnedael"], default=["belgium"], help="Datasets to compare.")
+    parser.add_argument("--sampling", type=str, default="all", choices=["all", "Sampling_100", "Sampling_25", "Sampling_33", "Sampling_50"], help="Sampling folder name or 'all'.")
     parser.add_argument("--base_dir", type=Path, default=PROJECT_ROOT, help="Project directory containing results.")
     parser.add_argument("--output_dir", type=Path, help="Output root; otherwise <base_dir>/results/dm_test.")
-    parser.add_argument("--font_size", type=int, default=9, help="Plot font size.")
+    parser.add_argument("--font_size", type=int, default=8, help="Plot font size.")
     args = parser.parse_args()
+    
+    samplings_to_run = ["Sampling_25", "Sampling_33", "Sampling_50", "Sampling_100"] if args.sampling == "all" else [args.sampling]
+
     for dataset_name in args.datasets:
-        output_pdfs = run_dm_for_dataset(dataset_name, args.base_dir, args.output_dir, args.font_size, legend_names)
-        for output_pdf in output_pdfs:
-            print(f"Saved DM test heatmap to: {output_pdf}")
+        for s in samplings_to_run:
+            output_files = run_dm_for_dataset(dataset_name, args.base_dir, args.output_dir, args.font_size, DEFAULT_LEGEND_NAMES, s)
+            for out in output_files:
+                print(f"Saved DM test heatmap to: {out} and {out.with_suffix('.png')}")

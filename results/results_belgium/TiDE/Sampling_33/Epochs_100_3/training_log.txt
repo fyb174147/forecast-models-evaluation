@@ -1,0 +1,44 @@
+2026-10-10 09:40:50,879 - INFO - Logger initialized at /content/drive/MyDrive/Forecast-Models-Evaluation/results/results_belgium/TiDE/Sampling_33/Epochs_100_3/training_log.txt
+2026-10-10 09:40:50,880 - INFO - ...Start training for 100 epochs using TiDE...
+2026-10-10 09:40:50,880 - INFO - Training PV models
+2026-10-10 09:40:50,932 - INFO - Using random seed: 1791625250
+2026-10-10 09:40:50,933 - INFO - Training TiDE PV_house_1 model on 2848 samples (33.333333333333336% of original training set)...
+2026-10-10 09:40:55,845 - INFO - PV_house_1 - MAE: 0.0959, RMSE: 0.1472
+2026-10-10 09:40:56,102 - INFO - Using random seed: 1791625256
+2026-10-10 09:40:56,103 - INFO - Training TiDE PV_house_2 model on 2848 samples (33.333333333333336% of original training set)...
+2026-10-10 09:41:00,054 - ERROR - Skipping model TiDE due to error: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/Forecast-Models-Evaluation/models/models_neuralforecast.py", line 156, in paper_forecasting_train
+  File "/content/drive/MyDrive/Forecast-Models-Evaluation/models/models_neuralforecast.py", line 102, in train_all_models
+  File "/content/drive/MyDrive/Forecast-Models-Evaluation/models/models_neuralforecast.py", line 76, in neural_forecast_model
+  File "/usr/local/lib/python3.13/dist-packages/neuralforecast/core.py", line 1500, in predict
+    fcsts, cols = self._generate_forecasts(
+                  ~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset=dataset,
+        ^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        **data_kwargs,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/neuralforecast/core.py", line 3296, in _generate_forecasts
+    model_fcsts = model.predict(dataset=dataset, h=h, **data_kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/neuralforecast/common/_base_model.py", line 2754, in predict
+    self._pred_trainer = pl.Trainer(**pred_trainer_kwargs)
+                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/pytorch_lightning/utilities/argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/pytorch_lightning/trainer/trainer.py", line 447, in __init__
+    self._callback_connector.on_trainer_init(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        callbacks,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        max_time,
+        ^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/pytorch_lightning/trainer/connectors/callback_connector.py", line 63, in on_trainer_init
+    self.trainer._default_root_dir = default_root_dir or os.getcwd()
+                                                         ~~~~~~~~~^^
+FileNotFoundError: [Errno 2] No such file or directory

@@ -1,5 +1,8 @@
 import argparse
 import os
+os.environ['MPLBACKEND'] = 'Agg'
+import matplotlib
+matplotlib.use('Agg')
 import sys
 import warnings
 import logging
@@ -179,7 +182,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run the Moirai forecasting benchmark.")
     parser.add_argument("--dataset", choices=dataset_names, default=None, help="Dataset to forecast by name.")
     parser.add_argument("--data", type=int, choices=range(1, 5), default=None, metavar="{1,2,3,4}", help="Select one dataset: 1=Belgium, 2=Germany, 3=London, 4=Zonnedael.")
-    parser.add_argument("--sampling_rate", type=float, default=None, help="Run one sampling percentage, e.g. 25.")
+    parser.add_argument("--sampling_rate", nargs="+", type=float, default=None, help="Run one or more sampling percentages.")
     parser.add_argument("--sampling_rates", nargs="+", type=float, default=None, help="Run one or more sampling percentages.")
     parser.add_argument("--runs", type=int, default=1, help="Number of runs.")
     parser.add_argument("--model", choices=["moirai", "moirai-moe"], default="moirai", help="Moirai architecture.")
@@ -192,7 +195,7 @@ if __name__ == "__main__":
     if args.sampling_rate is not None and args.sampling_rates is not None:
         parser.error("Use either --sampling_rate or --sampling_rates, not both.")
     sampling_rates = (
-        [args.sampling_rate] if args.sampling_rate is not None
+        args.sampling_rate if args.sampling_rate is not None
         else args.sampling_rates if args.sampling_rates is not None
         else [25, 100/3, 50, 100]
     )

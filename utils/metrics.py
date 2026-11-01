@@ -1,6 +1,9 @@
-import numpy as np
-import matplotlib.pyplot as plt
 import os
+os.environ['MPLBACKEND'] = 'Agg'
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 import pickle
 import pandas as pd
 import seaborn as sns
@@ -93,3 +96,4 @@ def plot_model_metrics(metrics, save_dir: str):
     plt.tight_layout()
     pdf_path = os.path.join(save_dir, "model_metrics_summary.pdf")
     plt.savefig(pdf_path)
+    plt.close()

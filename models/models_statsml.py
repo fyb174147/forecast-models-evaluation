@@ -8,8 +8,14 @@ import gc
 from pathlib import Path
 import pandas as pd
 from sklearn.neighbors import KNeighborsRegressor
-import lightgbm as lgb
-import pmdarima as pm
+try:
+    import lightgbm as lgb
+except ImportError:
+    lgb = None
+try:
+    import pmdarima as pm
+except ImportError:
+    pm = None
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
@@ -208,7 +214,7 @@ if __name__ == "__main__":
                             "NaiveMovingAverage"}
     parser = argparse.ArgumentParser(description="Run statistical and machine-learning forecasts.")
     parser.add_argument("--dataset", choices=["belgium", "germany", "london", "zonnedael"], default="london", help="Dataset to forecast.")
-    parser.add_argument("--sampling_rate", type=float, default=None, help="Run one sampling percentage, e.g. 25.")
+    parser.add_argument("--sampling_rate", nargs="+", type=float, default=None, help="Run one or more sampling percentages.")
     parser.add_argument("--sampling_rates", nargs="+", type=float, default=None, help="Run one or more sampling percentages.")
     parser.add_argument("--models", nargs="+", choices=["KNNRegression", "LightGBM", "ARIMA", "NaiveMovingAverage"],
         default=["NaiveMovingAverage"], help="Models to evaluate.")
@@ -219,7 +225,7 @@ if __name__ == "__main__":
     if args.sampling_rate is not None and args.sampling_rates is not None:
         parser.error("Use either --sampling_rate or --sampling_rates, not both.")
     sampling_rates = (
-        [args.sampling_rate] if args.sampling_rate is not None
+        args.sampling_rate if args.sampling_rate is not None
         else args.sampling_rates if args.sampling_rates is not None
         else [25, 100/3, 50, 100]
     )

@@ -29,6 +29,19 @@ def load_dotenv(path: Path = PROJECT_ROOT / ".env") -> None:
         os.environ.setdefault(key, value)
 
 
+def get_colab_secret(secret_name: str):
+    """Read a secret from Colab when available; return None outside Colab."""
+    try:
+        from google.colab import userdata
+    except ImportError:
+        return None
+    try:
+        return userdata.get(secret_name)
+    except Exception:
+        # Secret may be absent or unavailable to this notebook.
+        return None
+
+
 def setup_model_logger(save_dir):
     os.makedirs(save_dir, exist_ok=True)
     log_file = os.path.join(save_dir, "training_log.txt")
@@ -167,7 +180,8 @@ if __name__ == "__main__":
     parser.add_argument("--dataset", choices=["belgium", "germany", "london", "zonnedael"], default="belgium", help="Dataset to forecast.")
     parser.add_argument("--sampling_rates", "--sampling_rate", nargs="+", type=float, default=[25, 100/3, 50, 100], help="Sampling percentages to evaluate.")
     parser.add_argument("--runs", type=int, default=1, help="Number of runs.")
-    parser.add_argument("--api_key", default=None, help="TimeGPT API key. Falls back to TIMEGPT_API_KEY in .env.")
+    parser.add_argument("--api_key", default=None, help="TimeGPT API key. Overrides environment and Colab Secrets.")
+    parser.add_argument("--colab_secret", default="TIMEGPT_API_KEY", help="Colab Secret name (default: TIMEGPT_API_KEY).")
     parser.add_argument("--model", choices=["timegpt-1", "timegpt-1-long-horizon"], default="timegpt-1-long-horizon", help="TimeGPT model.")
     parser.add_argument("--confidence_level", type=int, default=95, help="Prediction interval confidence level.")
     parser.add_argument("--finetune_steps", type=int, default=0, help="Fine-tuning steps.")
@@ -175,9 +189,18 @@ if __name__ == "__main__":
     parser.add_argument("--gpu", type=int, default=-1, help=GPU_HELP)
     parser.add_argument("--results_dir", type=Path, default=PROJECT_ROOT / "results", help="Root directory for generated results.")
     args = parser.parse_args()
-    api_key = args.api_key or os.getenv("TIMEGPT_API_KEY") or os.getenv("NIXTLA_API_KEY")
+    api_key = (
+        args.api_key
+        or os.getenv("TIMEGPT_API_KEY")
+        or os.getenv("NIXTLA_API_KEY")
+        or get_colab_secret(args.colab_secret)
+    )
     if not api_key:
-        parser.error("TimeGPT API key is missing. Set TIMEGPT_API_KEY in the .env file or pass --api_key.")
+        parser.error(
+            "TimeGPT API key is missing. Add a Colab Secret named "
+            f"{args.colab_secret}, set TIMEGPT_API_KEY/NIXTLA_API_KEY, "
+            "or pass --api_key."
+        )
     if execution_target(args.gpu) != "CPU":
         logging.info("TimeGPT inference runs on the remote service; local preprocessing will use CPU.")
     dataset = dataset_classes[args.dataset]()
