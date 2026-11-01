@@ -1,0 +1,15 @@
+2026-10-11 10:27:27,914 - INFO - Logger initialized at /content/drive/MyDrive/forecast-models-evaluation/results/results_germany/TimesFM/Sampling_50/Run_1/training_log.txt
+2026-10-11 10:27:28,038 - INFO - HTTP Request: HEAD https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-11 10:27:28,050 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/timesfm-2.5-200m-pytorch/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/config.json?%2Fgoogle%2Ftimesfm-2.5-200m-pytorch%2Fresolve%2Fmain%2Fconfig.json=&etag=%2294445b5415c93256bbab9cf759df2ffce2671b16%22 "HTTP/1.1 200 OK"
+2026-10-11 10:27:28,143 - INFO - HTTP Request: HEAD https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-11 10:27:28,156 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/timesfm-2.5-200m-pytorch/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/config.json?%2Fgoogle%2Ftimesfm-2.5-200m-pytorch%2Fresolve%2Fmain%2Fconfig.json=&etag=%2294445b5415c93256bbab9cf759df2ffce2671b16%22 "HTTP/1.1 200 OK"
+2026-10-11 10:27:28,157 - INFO - Downloading checkpoint from Hugging Face repo google/timesfm-2.5-200m-pytorch
+2026-10-11 10:27:28,246 - INFO - HTTP Request: HEAD https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-11 10:27:29,630 - INFO - Loading checkpoint from: /root/.cache/huggingface/hub/models--google--timesfm-2.5-200m-pytorch/snapshots/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/model.safetensors
+2026-10-11 10:27:30,098 - INFO - ...Start TimesFM forecasting...
+2026-10-11 10:27:30,099 - INFO - Forecasting Germany load
+2026-10-11 10:27:30,124 - INFO - Running TimesFM germany_load for 4272 samples (50% of training set)...
+2026-10-11 10:27:33,494 - INFO - germany_load - MAE: 0.0568, RMSE: 0.1475
+2026-10-11 10:27:33,830 - INFO - Saved model metrics to /content/drive/MyDrive/forecast-models-evaluation/results/results_germany/TimesFM/Sampling_50/Run_1/model_metrics_summary.csv
+2026-10-11 10:27:34,133 - INFO - ...End TimesFM forecasting...
+2026-10-11 10:27:34,133 - INFO - Forecasting completed in 4.03 seconds.

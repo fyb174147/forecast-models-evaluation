@@ -1,0 +1,11 @@
+2026-10-31 15:36:05,821 - INFO - Logger initialized at /content/drive/MyDrive/forecast-models-evaluation/results/results_germany/MOIRAI/Sampling_50/Run_1/training_log.txt
+2026-10-31 15:36:05,821 - INFO - ...Start Uni2TS/Moirai forecasting...
+2026-10-31 15:36:05,821 - INFO - Forecasting Germany load
+2026-10-31 15:36:05,879 - INFO - Running Moirai germany_load for 4272 samples (50% of original training set)...
+2026-10-31 15:36:05,966 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 15:36:05,976 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-1.1-R-small/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/config.json?%2FSalesforce%2Fmoirai-1.1-R-small%2Fresolve%2Fmain%2Fconfig.json=&etag=%22ae2a0de8172dba3af57413d0d459723ecf714773%22 "HTTP/1.1 200 OK"
+2026-10-31 15:36:06,174 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-31 15:36:06,529 - INFO - germany_load - MAE: 0.0627, RMSE: 0.1470
+2026-10-31 15:36:07,728 - INFO - Saved model metrics to /content/drive/MyDrive/forecast-models-evaluation/results/results_germany/MOIRAI/Sampling_50/Run_1/model_metrics_summary.csv
+2026-10-31 15:36:08,308 - INFO - ...End Uni2TS/Moirai forecasting...
+2026-10-31 15:36:08,309 - INFO - Forecasting completed in 2.49 seconds.

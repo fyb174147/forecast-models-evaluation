@@ -1,0 +1,47 @@
+2026-10-31 15:35:21,771 - INFO - Logger initialized at /content/drive/MyDrive/forecast-models-evaluation/results/results_belgium/MOIRAI/Sampling_33/Run_1/training_log.txt
+2026-10-31 15:35:21,771 - INFO - ...Start Uni2TS/Moirai forecasting...
+2026-10-31 15:35:21,772 - INFO - Forecasting PV
+2026-10-31 15:35:21,844 - INFO - Running Moirai PV_house_1 for 2848 samples (33% of original training set)...
+2026-10-31 15:35:21,925 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 15:35:21,936 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-1.1-R-small/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/config.json?%2FSalesforce%2Fmoirai-1.1-R-small%2Fresolve%2Fmain%2Fconfig.json=&etag=%22ae2a0de8172dba3af57413d0d459723ecf714773%22 "HTTP/1.1 200 OK"
+2026-10-31 15:35:22,117 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-31 15:35:22,492 - INFO - PV_house_1 - MAE: 0.1548, RMSE: 0.1988
+2026-10-31 15:35:22,893 - INFO - Running Moirai PV_house_2 for 2848 samples (33% of original training set)...
+2026-10-31 15:35:22,976 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 15:35:22,988 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-1.1-R-small/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/config.json?%2FSalesforce%2Fmoirai-1.1-R-small%2Fresolve%2Fmain%2Fconfig.json=&etag=%22ae2a0de8172dba3af57413d0d459723ecf714773%22 "HTTP/1.1 200 OK"
+2026-10-31 15:35:23,177 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-31 15:35:23,545 - INFO - PV_house_2 - MAE: 0.1384, RMSE: 0.1742
+2026-10-31 15:35:23,918 - INFO - Running Moirai PV_house_3 for 2848 samples (33% of original training set)...
+2026-10-31 15:35:24,001 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 15:35:24,012 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-1.1-R-small/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/config.json?%2FSalesforce%2Fmoirai-1.1-R-small%2Fresolve%2Fmain%2Fconfig.json=&etag=%22ae2a0de8172dba3af57413d0d459723ecf714773%22 "HTTP/1.1 200 OK"
+2026-10-31 15:35:24,197 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-31 15:35:24,627 - INFO - PV_house_3 - MAE: 0.1491, RMSE: 0.1852
+2026-10-31 15:35:25,072 - INFO - Running Moirai PV_house_4 for 2848 samples (33% of original training set)...
+2026-10-31 15:35:25,153 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 15:35:25,164 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-1.1-R-small/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/config.json?%2FSalesforce%2Fmoirai-1.1-R-small%2Fresolve%2Fmain%2Fconfig.json=&etag=%22ae2a0de8172dba3af57413d0d459723ecf714773%22 "HTTP/1.1 200 OK"
+2026-10-31 15:35:25,348 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-31 15:35:25,680 - INFO - PV_house_4 - MAE: 0.1502, RMSE: 0.1880
+2026-10-31 15:35:25,958 - INFO - Forecasting BESS
+2026-10-31 15:35:26,058 - INFO - Running Moirai BESS_house_1 for 2848 samples (33% of original training set)...
+2026-10-31 15:35:26,142 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 15:35:26,153 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-1.1-R-small/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/config.json?%2FSalesforce%2Fmoirai-1.1-R-small%2Fresolve%2Fmain%2Fconfig.json=&etag=%22ae2a0de8172dba3af57413d0d459723ecf714773%22 "HTTP/1.1 200 OK"
+2026-10-31 15:35:26,340 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-31 15:35:26,714 - INFO - BESS_house_1 - MAE: 0.0771, RMSE: 0.1231
+2026-10-31 15:35:27,125 - INFO - Running Moirai BESS_house_2 for 2848 samples (33% of original training set)...
+2026-10-31 15:35:27,207 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 15:35:27,219 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-1.1-R-small/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/config.json?%2FSalesforce%2Fmoirai-1.1-R-small%2Fresolve%2Fmain%2Fconfig.json=&etag=%22ae2a0de8172dba3af57413d0d459723ecf714773%22 "HTTP/1.1 200 OK"
+2026-10-31 15:35:27,413 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-31 15:35:27,773 - INFO - BESS_house_2 - MAE: 0.1630, RMSE: 0.2207
+2026-10-31 15:35:28,157 - INFO - Running Moirai BESS_house_3 for 2848 samples (33% of original training set)...
+2026-10-31 15:35:28,237 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 15:35:28,249 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-1.1-R-small/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/config.json?%2FSalesforce%2Fmoirai-1.1-R-small%2Fresolve%2Fmain%2Fconfig.json=&etag=%22ae2a0de8172dba3af57413d0d459723ecf714773%22 "HTTP/1.1 200 OK"
+2026-10-31 15:35:28,446 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-31 15:35:28,784 - INFO - BESS_house_3 - MAE: 0.1490, RMSE: 0.2215
+2026-10-31 15:35:29,369 - INFO - Running Moirai BESS_house_4 for 2848 samples (33% of original training set)...
+2026-10-31 15:35:29,449 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 15:35:29,461 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-1.1-R-small/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/config.json?%2FSalesforce%2Fmoirai-1.1-R-small%2Fresolve%2Fmain%2Fconfig.json=&etag=%22ae2a0de8172dba3af57413d0d459723ecf714773%22 "HTTP/1.1 200 OK"
+2026-10-31 15:35:29,648 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-31 15:35:30,000 - INFO - BESS_house_4 - MAE: 0.0828, RMSE: 0.1284
+2026-10-31 15:35:30,315 - INFO - Saved model metrics to /content/drive/MyDrive/forecast-models-evaluation/results/results_belgium/MOIRAI/Sampling_33/Run_1/model_metrics_summary.csv
+2026-10-31 15:35:30,847 - INFO - ...End Uni2TS/Moirai forecasting...
+2026-10-31 15:35:30,848 - INFO - Forecasting completed in 9.08 seconds.

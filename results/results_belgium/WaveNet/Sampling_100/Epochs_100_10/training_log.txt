@@ -1,0 +1,2487 @@
+2026-10-30 15:52:14,969 - INFO - Logger initialized at /content/drive/MyDrive/forecast-models-evaluation/results/results_belgium/WaveNet/Sampling_100/Epochs_100_10/training_log.txt
+2026-10-30 15:52:14,970 - INFO - ...Start training using WaveNet with 100.0% sampling rate...
+2026-10-30 15:52:14,971 - INFO - Training PV models
+2026-10-30 15:52:15,025 - INFO - Using random seed: 1793375535
+2026-10-30 15:52:15,027 - INFO - Training PV_house_1 model on 8544 samples...
+2026-10-30 15:52:15,030 - WARNING - Multiple 15 does not divide base seasonality 1. Falling back to seasonality 1.
+2026-10-30 15:52:15,031 - INFO - Using dilation depth 9 and receptive field length 512
+2026-10-30 15:52:15,108 - INFO - Start model training
+2026-10-30 15:52:15,114 - INFO - Epoch[0] Learning rate is 0.001
+2026-10-30 15:52:15,527 - INFO - Number of parameters in WaveNetTraining: 93509
+2026-10-30 15:52:15,528 - INFO - Epoch[0] Elapsed time 0.413 seconds
+2026-10-30 15:52:15,528 - INFO - Epoch[0] Evaluation metric 'epoch_loss'=6.945099
+2026-10-30 15:52:15,544 - INFO - Epoch[1] Learning rate is 0.001
+2026-10-30 15:52:15,849 - INFO - Epoch[1] Elapsed time 0.304 seconds
+2026-10-30 15:52:15,850 - INFO - Epoch[1] Evaluation metric 'epoch_loss'=6.866069
+2026-10-30 15:52:15,868 - INFO - Epoch[2] Learning rate is 0.001
+2026-10-30 15:52:16,180 - INFO - Epoch[2] Elapsed time 0.311 seconds
+2026-10-30 15:52:16,181 - INFO - Epoch[2] Evaluation metric 'epoch_loss'=6.794822
+2026-10-30 15:52:16,202 - INFO - Epoch[3] Learning rate is 0.001
+2026-10-30 15:52:16,496 - INFO - Epoch[3] Elapsed time 0.293 seconds
+2026-10-30 15:52:16,496 - INFO - Epoch[3] Evaluation metric 'epoch_loss'=6.724390
+2026-10-30 15:52:16,516 - INFO - Epoch[4] Learning rate is 0.001
+2026-10-30 15:52:16,867 - INFO - Epoch[4] Elapsed time 0.350 seconds
+2026-10-30 15:52:16,867 - INFO - Epoch[4] Evaluation metric 'epoch_loss'=6.646892
+2026-10-30 15:52:16,884 - INFO - Epoch[5] Learning rate is 0.001
+2026-10-30 15:52:17,253 - INFO - Epoch[5] Elapsed time 0.369 seconds
+2026-10-30 15:52:17,253 - INFO - Epoch[5] Evaluation metric 'epoch_loss'=6.550556
+2026-10-30 15:52:17,272 - INFO - Epoch[6] Learning rate is 0.001
+2026-10-30 15:52:17,593 - INFO - Epoch[6] Elapsed time 0.320 seconds
+2026-10-30 15:52:17,594 - INFO - Epoch[6] Evaluation metric 'epoch_loss'=6.490052
+2026-10-30 15:52:17,615 - INFO - Epoch[7] Learning rate is 0.001
+2026-10-30 15:52:17,967 - INFO - Epoch[7] Elapsed time 0.351 seconds
+2026-10-30 15:52:17,967 - INFO - Epoch[7] Evaluation metric 'epoch_loss'=6.381896
+2026-10-30 15:52:17,988 - INFO - Epoch[8] Learning rate is 0.001
+2026-10-30 15:52:18,349 - INFO - Epoch[8] Elapsed time 0.361 seconds
+2026-10-30 15:52:18,350 - INFO - Epoch[8] Evaluation metric 'epoch_loss'=6.241648
+2026-10-30 15:52:18,376 - INFO - Epoch[9] Learning rate is 0.001
+2026-10-30 15:52:18,624 - INFO - Epoch[9] Elapsed time 0.247 seconds
+2026-10-30 15:52:18,624 - INFO - Epoch[9] Evaluation metric 'epoch_loss'=6.133557
+2026-10-30 15:52:18,646 - INFO - Epoch[10] Learning rate is 0.001
+2026-10-30 15:52:19,005 - INFO - Epoch[10] Elapsed time 0.358 seconds
+2026-10-30 15:52:19,006 - INFO - Epoch[10] Evaluation metric 'epoch_loss'=6.038542
+2026-10-30 15:52:19,023 - INFO - Epoch[11] Learning rate is 0.001
+2026-10-30 15:52:19,385 - INFO - Epoch[11] Elapsed time 0.362 seconds
+2026-10-30 15:52:19,387 - INFO - Epoch[11] Evaluation metric 'epoch_loss'=5.823041
+2026-10-30 15:52:19,415 - INFO - Epoch[12] Learning rate is 0.001
+2026-10-30 15:52:19,662 - INFO - Epoch[12] Elapsed time 0.245 seconds
+2026-10-30 15:52:19,663 - INFO - Epoch[12] Evaluation metric 'epoch_loss'=5.585289
+2026-10-30 15:52:19,682 - INFO - Epoch[13] Learning rate is 0.001
+2026-10-30 15:52:19,994 - INFO - Epoch[13] Elapsed time 0.312 seconds
+2026-10-30 15:52:19,995 - INFO - Epoch[13] Evaluation metric 'epoch_loss'=5.551423
+2026-10-30 15:52:20,011 - INFO - Epoch[14] Learning rate is 0.001
+2026-10-30 15:52:20,267 - INFO - Epoch[14] Elapsed time 0.256 seconds
+2026-10-30 15:52:20,268 - INFO - Epoch[14] Evaluation metric 'epoch_loss'=5.238723
+2026-10-30 15:52:20,286 - INFO - Epoch[15] Learning rate is 0.001
+2026-10-30 15:52:20,626 - INFO - Epoch[15] Elapsed time 0.340 seconds
+2026-10-30 15:52:20,626 - INFO - Epoch[15] Evaluation metric 'epoch_loss'=5.047823
+2026-10-30 15:52:20,647 - INFO - Epoch[16] Learning rate is 0.001
+2026-10-30 15:52:21,011 - INFO - Epoch[16] Elapsed time 0.363 seconds
+2026-10-30 15:52:21,012 - INFO - Epoch[16] Evaluation metric 'epoch_loss'=4.899641
+2026-10-30 15:52:21,029 - INFO - Epoch[17] Learning rate is 0.001
+2026-10-30 15:52:21,326 - INFO - Epoch[17] Elapsed time 0.297 seconds
+2026-10-30 15:52:21,327 - INFO - Epoch[17] Evaluation metric 'epoch_loss'=4.562079
+2026-10-30 15:52:21,347 - INFO - Epoch[18] Learning rate is 0.001
+2026-10-30 15:52:21,672 - INFO - Epoch[18] Elapsed time 0.325 seconds
+2026-10-30 15:52:21,673 - INFO - Epoch[18] Evaluation metric 'epoch_loss'=4.422907
+2026-10-30 15:52:21,691 - INFO - Epoch[19] Learning rate is 0.001
+2026-10-30 15:52:21,940 - INFO - Epoch[19] Elapsed time 0.249 seconds
+2026-10-30 15:52:21,940 - INFO - Epoch[19] Evaluation metric 'epoch_loss'=4.398413
+2026-10-30 15:52:21,962 - INFO - Epoch[20] Learning rate is 0.001
+2026-10-30 15:52:22,357 - INFO - Epoch[20] Elapsed time 0.393 seconds
+2026-10-30 15:52:22,357 - INFO - Epoch[20] Evaluation metric 'epoch_loss'=4.305451
+2026-10-30 15:52:22,375 - INFO - Epoch[21] Learning rate is 0.001
+2026-10-30 15:52:22,682 - INFO - Epoch[21] Elapsed time 0.306 seconds
+2026-10-30 15:52:22,683 - INFO - Epoch[21] Evaluation metric 'epoch_loss'=4.445910
+2026-10-30 15:52:22,703 - INFO - Epoch[22] Learning rate is 0.001
+2026-10-30 15:52:23,039 - INFO - Epoch[22] Elapsed time 0.336 seconds
+2026-10-30 15:52:23,040 - INFO - Epoch[22] Evaluation metric 'epoch_loss'=4.390231
+2026-10-30 15:52:23,061 - INFO - Epoch[23] Learning rate is 0.001
+2026-10-30 15:52:23,392 - INFO - Epoch[23] Elapsed time 0.330 seconds
+2026-10-30 15:52:23,393 - INFO - Epoch[23] Evaluation metric 'epoch_loss'=4.264170
+2026-10-30 15:52:23,414 - INFO - Epoch[24] Learning rate is 0.001
+2026-10-30 15:52:23,673 - INFO - Epoch[24] Elapsed time 0.258 seconds
+2026-10-30 15:52:23,674 - INFO - Epoch[24] Evaluation metric 'epoch_loss'=4.275098
+2026-10-30 15:52:23,693 - INFO - Epoch[25] Learning rate is 0.001
+2026-10-30 15:52:24,026 - INFO - Epoch[25] Elapsed time 0.333 seconds
+2026-10-30 15:52:24,026 - INFO - Epoch[25] Evaluation metric 'epoch_loss'=4.201841
+2026-10-30 15:52:24,048 - INFO - Epoch[26] Learning rate is 0.001
+2026-10-30 15:52:24,275 - INFO - Epoch[26] Elapsed time 0.227 seconds
+2026-10-30 15:52:24,276 - INFO - Epoch[26] Evaluation metric 'epoch_loss'=4.247743
+2026-10-30 15:52:24,297 - INFO - Epoch[27] Learning rate is 0.001
+2026-10-30 15:52:24,623 - INFO - Epoch[27] Elapsed time 0.325 seconds
+2026-10-30 15:52:24,623 - INFO - Epoch[27] Evaluation metric 'epoch_loss'=3.980953
+2026-10-30 15:52:24,645 - INFO - Epoch[28] Learning rate is 0.001
+2026-10-30 15:52:24,930 - INFO - Epoch[28] Elapsed time 0.283 seconds
+2026-10-30 15:52:24,930 - INFO - Epoch[28] Evaluation metric 'epoch_loss'=3.858348
+2026-10-30 15:52:24,949 - INFO - Epoch[29] Learning rate is 0.001
+2026-10-30 15:52:25,233 - INFO - Epoch[29] Elapsed time 0.284 seconds
+2026-10-30 15:52:25,233 - INFO - Epoch[29] Evaluation metric 'epoch_loss'=3.886980
+2026-10-30 15:52:25,253 - INFO - Epoch[30] Learning rate is 0.001
+2026-10-30 15:52:25,559 - INFO - Epoch[30] Elapsed time 0.305 seconds
+2026-10-30 15:52:25,560 - INFO - Epoch[30] Evaluation metric 'epoch_loss'=4.140590
+2026-10-30 15:52:25,578 - INFO - Epoch[31] Learning rate is 0.001
+2026-10-30 15:52:25,916 - INFO - Epoch[31] Elapsed time 0.338 seconds
+2026-10-30 15:52:25,917 - INFO - Epoch[31] Evaluation metric 'epoch_loss'=3.912797
+2026-10-30 15:52:25,938 - INFO - Epoch[32] Learning rate is 0.001
+2026-10-30 15:52:26,233 - INFO - Epoch[32] Elapsed time 0.294 seconds
+2026-10-30 15:52:26,233 - INFO - Epoch[32] Evaluation metric 'epoch_loss'=4.033348
+2026-10-30 15:52:26,252 - INFO - Epoch[33] Learning rate is 0.001
+2026-10-30 15:52:26,572 - INFO - Epoch[33] Elapsed time 0.319 seconds
+2026-10-30 15:52:26,572 - INFO - Epoch[33] Evaluation metric 'epoch_loss'=3.937153
+2026-10-30 15:52:26,592 - INFO - Epoch[34] Learning rate is 0.001
+2026-10-30 15:52:26,909 - INFO - Epoch[34] Elapsed time 0.317 seconds
+2026-10-30 15:52:26,910 - INFO - Epoch[34] Evaluation metric 'epoch_loss'=4.017938
+2026-10-30 15:52:26,930 - INFO - Epoch[35] Learning rate is 0.001
+2026-10-30 15:52:27,212 - INFO - Epoch[35] Elapsed time 0.281 seconds
+2026-10-30 15:52:27,213 - INFO - Epoch[35] Evaluation metric 'epoch_loss'=3.773744
+2026-10-30 15:52:27,230 - INFO - Epoch[36] Learning rate is 0.001
+2026-10-30 15:52:27,438 - INFO - Epoch[36] Elapsed time 0.207 seconds
+2026-10-30 15:52:27,438 - INFO - Epoch[36] Evaluation metric 'epoch_loss'=3.925716
+2026-10-30 15:52:27,456 - INFO - Epoch[37] Learning rate is 0.001
+2026-10-30 15:52:27,872 - INFO - Epoch[37] Elapsed time 0.415 seconds
+2026-10-30 15:52:27,873 - INFO - Epoch[37] Evaluation metric 'epoch_loss'=3.907477
+2026-10-30 15:52:27,893 - INFO - Epoch[38] Learning rate is 0.001
+2026-10-30 15:52:28,186 - INFO - Epoch[38] Elapsed time 0.292 seconds
+2026-10-30 15:52:28,186 - INFO - Epoch[38] Evaluation metric 'epoch_loss'=3.734909
+2026-10-30 15:52:28,205 - INFO - Epoch[39] Learning rate is 0.001
+2026-10-30 15:52:28,543 - INFO - Epoch[39] Elapsed time 0.337 seconds
+2026-10-30 15:52:28,543 - INFO - Epoch[39] Evaluation metric 'epoch_loss'=3.663331
+2026-10-30 15:52:28,565 - INFO - Epoch[40] Learning rate is 0.001
+2026-10-30 15:52:28,880 - INFO - Epoch[40] Elapsed time 0.315 seconds
+2026-10-30 15:52:28,880 - INFO - Epoch[40] Evaluation metric 'epoch_loss'=3.911022
+2026-10-30 15:52:28,901 - INFO - Epoch[41] Learning rate is 0.001
+2026-10-30 15:52:29,146 - INFO - Epoch[41] Elapsed time 0.245 seconds
+2026-10-30 15:52:29,147 - INFO - Epoch[41] Evaluation metric 'epoch_loss'=3.642575
+2026-10-30 15:52:29,173 - INFO - Epoch[42] Learning rate is 0.001
+2026-10-30 15:52:29,542 - INFO - Epoch[42] Elapsed time 0.369 seconds
+2026-10-30 15:52:29,542 - INFO - Epoch[42] Evaluation metric 'epoch_loss'=3.637153
+2026-10-30 15:52:29,560 - INFO - Epoch[43] Learning rate is 0.001
+2026-10-30 15:52:29,837 - INFO - Epoch[43] Elapsed time 0.276 seconds
+2026-10-30 15:52:29,838 - INFO - Epoch[43] Evaluation metric 'epoch_loss'=3.835813
+2026-10-30 15:52:29,862 - INFO - Epoch[44] Learning rate is 0.001
+2026-10-30 15:52:30,211 - INFO - Epoch[44] Elapsed time 0.349 seconds
+2026-10-30 15:52:30,212 - INFO - Epoch[44] Evaluation metric 'epoch_loss'=3.779395
+2026-10-30 15:52:30,228 - INFO - Epoch[45] Learning rate is 0.001
+2026-10-30 15:52:30,512 - INFO - Epoch[45] Elapsed time 0.283 seconds
+2026-10-30 15:52:30,512 - INFO - Epoch[45] Evaluation metric 'epoch_loss'=3.926256
+2026-10-30 15:52:30,532 - INFO - Epoch[46] Learning rate is 0.001
+2026-10-30 15:52:30,808 - INFO - Epoch[46] Elapsed time 0.276 seconds
+2026-10-30 15:52:30,808 - INFO - Epoch[46] Evaluation metric 'epoch_loss'=3.481960
+2026-10-30 15:52:30,837 - INFO - Epoch[47] Learning rate is 0.001
+2026-10-30 15:52:31,108 - INFO - Epoch[47] Elapsed time 0.270 seconds
+2026-10-30 15:52:31,110 - INFO - Epoch[47] Evaluation metric 'epoch_loss'=3.768857
+2026-10-30 15:52:31,133 - INFO - Epoch[48] Learning rate is 0.001
+2026-10-30 15:52:31,440 - INFO - Epoch[48] Elapsed time 0.306 seconds
+2026-10-30 15:52:31,440 - INFO - Epoch[48] Evaluation metric 'epoch_loss'=3.614396
+2026-10-30 15:52:31,458 - INFO - Epoch[49] Learning rate is 0.001
+2026-10-30 15:52:31,717 - INFO - Epoch[49] Elapsed time 0.259 seconds
+2026-10-30 15:52:31,718 - INFO - Epoch[49] Evaluation metric 'epoch_loss'=3.907135
+2026-10-30 15:52:31,736 - INFO - Epoch[50] Learning rate is 0.001
+2026-10-30 15:52:32,037 - INFO - Epoch[50] Elapsed time 0.301 seconds
+2026-10-30 15:52:32,038 - INFO - Epoch[50] Evaluation metric 'epoch_loss'=3.720124
+2026-10-30 15:52:32,063 - INFO - Epoch[51] Learning rate is 0.001
+2026-10-30 15:52:32,452 - INFO - Epoch[51] Elapsed time 0.389 seconds
+2026-10-30 15:52:32,453 - INFO - Epoch[51] Evaluation metric 'epoch_loss'=3.560180
+2026-10-30 15:52:32,472 - INFO - Epoch[52] Learning rate is 0.001
+2026-10-30 15:52:32,728 - INFO - Epoch[52] Elapsed time 0.255 seconds
+2026-10-30 15:52:32,728 - INFO - Epoch[52] Evaluation metric 'epoch_loss'=3.651422
+2026-10-30 15:52:32,751 - INFO - Epoch[53] Learning rate is 0.001
+2026-10-30 15:52:33,120 - INFO - Epoch[53] Elapsed time 0.368 seconds
+2026-10-30 15:52:33,121 - INFO - Epoch[53] Evaluation metric 'epoch_loss'=3.419205
+2026-10-30 15:52:33,143 - INFO - Epoch[54] Learning rate is 0.001
+2026-10-30 15:52:33,435 - INFO - Epoch[54] Elapsed time 0.291 seconds
+2026-10-30 15:52:33,435 - INFO - Epoch[54] Evaluation metric 'epoch_loss'=3.767282
+2026-10-30 15:52:33,453 - INFO - Epoch[55] Learning rate is 0.001
+2026-10-30 15:52:33,693 - INFO - Epoch[55] Elapsed time 0.240 seconds
+2026-10-30 15:52:33,693 - INFO - Epoch[55] Evaluation metric 'epoch_loss'=3.827766
+2026-10-30 15:52:33,715 - INFO - Epoch[56] Learning rate is 0.001
+2026-10-30 15:52:33,977 - INFO - Epoch[56] Elapsed time 0.261 seconds
+2026-10-30 15:52:33,978 - INFO - Epoch[56] Evaluation metric 'epoch_loss'=3.672641
+2026-10-30 15:52:33,999 - INFO - Epoch[57] Learning rate is 0.001
+2026-10-30 15:52:34,421 - INFO - Epoch[57] Elapsed time 0.421 seconds
+2026-10-30 15:52:34,422 - INFO - Epoch[57] Evaluation metric 'epoch_loss'=3.672784
+2026-10-30 15:52:34,441 - INFO - Epoch[58] Learning rate is 0.001
+2026-10-30 15:52:34,745 - INFO - Epoch[58] Elapsed time 0.303 seconds
+2026-10-30 15:52:34,745 - INFO - Epoch[58] Evaluation metric 'epoch_loss'=3.780734
+2026-10-30 15:52:34,768 - INFO - Epoch[59] Learning rate is 0.001
+2026-10-30 15:52:35,087 - INFO - Epoch[59] Elapsed time 0.319 seconds
+2026-10-30 15:52:35,088 - INFO - Epoch[59] Evaluation metric 'epoch_loss'=3.563127
+2026-10-30 15:52:35,109 - INFO - Epoch[60] Learning rate is 0.001
+2026-10-30 15:52:35,378 - INFO - Epoch[60] Elapsed time 0.269 seconds
+2026-10-30 15:52:35,379 - INFO - Epoch[60] Evaluation metric 'epoch_loss'=3.697237
+2026-10-30 15:52:35,398 - INFO - Epoch[61] Learning rate is 0.001
+2026-10-30 15:52:35,700 - INFO - Epoch[61] Elapsed time 0.301 seconds
+2026-10-30 15:52:35,701 - INFO - Epoch[61] Evaluation metric 'epoch_loss'=3.675252
+2026-10-30 15:52:35,720 - INFO - Epoch[62] Learning rate is 0.001
+2026-10-30 15:52:35,971 - INFO - Epoch[62] Elapsed time 0.250 seconds
+2026-10-30 15:52:35,971 - INFO - Epoch[62] Evaluation metric 'epoch_loss'=3.569796
+2026-10-30 15:52:35,994 - INFO - Epoch[63] Learning rate is 0.001
+2026-10-30 15:52:36,312 - INFO - Epoch[63] Elapsed time 0.319 seconds
+2026-10-30 15:52:36,313 - INFO - Epoch[63] Evaluation metric 'epoch_loss'=3.649963
+2026-10-30 15:52:36,335 - INFO - Epoch[64] Learning rate is 0.0005
+2026-10-30 15:52:36,617 - INFO - Epoch[64] Elapsed time 0.281 seconds
+2026-10-30 15:52:36,617 - INFO - Epoch[64] Evaluation metric 'epoch_loss'=3.754859
+2026-10-30 15:52:36,636 - INFO - Epoch[65] Learning rate is 0.0005
+2026-10-30 15:52:36,897 - INFO - Epoch[65] Elapsed time 0.260 seconds
+2026-10-30 15:52:36,897 - INFO - Epoch[65] Evaluation metric 'epoch_loss'=3.649479
+2026-10-30 15:52:36,917 - INFO - Epoch[66] Learning rate is 0.0005
+2026-10-30 15:52:37,224 - INFO - Epoch[66] Elapsed time 0.307 seconds
+2026-10-30 15:52:37,226 - INFO - Epoch[66] Evaluation metric 'epoch_loss'=3.876210
+2026-10-30 15:52:37,244 - INFO - Epoch[67] Learning rate is 0.0005
+2026-10-30 15:52:37,523 - INFO - Epoch[67] Elapsed time 0.279 seconds
+2026-10-30 15:52:37,523 - INFO - Epoch[67] Evaluation metric 'epoch_loss'=3.746478
+2026-10-30 15:52:37,551 - INFO - Epoch[68] Learning rate is 0.0005
+2026-10-30 15:52:37,803 - INFO - Epoch[68] Elapsed time 0.252 seconds
+2026-10-30 15:52:37,805 - INFO - Epoch[68] Evaluation metric 'epoch_loss'=3.712091
+2026-10-30 15:52:37,823 - INFO - Epoch[69] Learning rate is 0.0005
+2026-10-30 15:52:38,116 - INFO - Epoch[69] Elapsed time 0.292 seconds
+2026-10-30 15:52:38,116 - INFO - Epoch[69] Evaluation metric 'epoch_loss'=3.635249
+2026-10-30 15:52:38,138 - INFO - Epoch[70] Learning rate is 0.0005
+2026-10-30 15:52:38,500 - INFO - Epoch[70] Elapsed time 0.361 seconds
+2026-10-30 15:52:38,500 - INFO - Epoch[70] Evaluation metric 'epoch_loss'=3.503201
+2026-10-30 15:52:38,516 - INFO - Epoch[71] Learning rate is 0.0005
+2026-10-30 15:52:38,818 - INFO - Epoch[71] Elapsed time 0.301 seconds
+2026-10-30 15:52:38,819 - INFO - Epoch[71] Evaluation metric 'epoch_loss'=3.683584
+2026-10-30 15:52:38,839 - INFO - Epoch[72] Learning rate is 0.0005
+2026-10-30 15:52:39,102 - INFO - Epoch[72] Elapsed time 0.262 seconds
+2026-10-30 15:52:39,103 - INFO - Epoch[72] Evaluation metric 'epoch_loss'=3.650334
+2026-10-30 15:52:39,130 - INFO - Epoch[73] Learning rate is 0.0005
+2026-10-30 15:52:39,380 - INFO - Epoch[73] Elapsed time 0.247 seconds
+2026-10-30 15:52:39,383 - INFO - Epoch[73] Evaluation metric 'epoch_loss'=3.603362
+2026-10-30 15:52:39,406 - INFO - Epoch[74] Learning rate is 0.00025
+2026-10-30 15:52:39,759 - INFO - Epoch[74] Elapsed time 0.353 seconds
+2026-10-30 15:52:39,759 - INFO - Epoch[74] Evaluation metric 'epoch_loss'=3.635419
+2026-10-30 15:52:39,784 - INFO - Epoch[75] Learning rate is 0.00025
+2026-10-30 15:52:40,079 - INFO - Epoch[75] Elapsed time 0.295 seconds
+2026-10-30 15:52:40,081 - INFO - Epoch[75] Evaluation metric 'epoch_loss'=3.713051
+2026-10-30 15:52:40,099 - INFO - Epoch[76] Learning rate is 0.00025
+2026-10-30 15:52:40,487 - INFO - Epoch[76] Elapsed time 0.388 seconds
+2026-10-30 15:52:40,488 - INFO - Epoch[76] Evaluation metric 'epoch_loss'=3.547231
+2026-10-30 15:52:40,505 - INFO - Epoch[77] Learning rate is 0.00025
+2026-10-30 15:52:40,899 - INFO - Epoch[77] Elapsed time 0.393 seconds
+2026-10-30 15:52:40,900 - INFO - Epoch[77] Evaluation metric 'epoch_loss'=3.623512
+2026-10-30 15:52:40,918 - INFO - Epoch[78] Learning rate is 0.00025
+2026-10-30 15:52:41,181 - INFO - Epoch[78] Elapsed time 0.262 seconds
+2026-10-30 15:52:41,181 - INFO - Epoch[78] Evaluation metric 'epoch_loss'=3.569079
+2026-10-30 15:52:41,198 - INFO - Epoch[79] Learning rate is 0.00025
+2026-10-30 15:52:41,498 - INFO - Epoch[79] Elapsed time 0.300 seconds
+2026-10-30 15:52:41,499 - INFO - Epoch[79] Evaluation metric 'epoch_loss'=3.571012
+2026-10-30 15:52:41,518 - INFO - Epoch[80] Learning rate is 0.00025
+2026-10-30 15:52:41,846 - INFO - Epoch[80] Elapsed time 0.328 seconds
+2026-10-30 15:52:41,846 - INFO - Epoch[80] Evaluation metric 'epoch_loss'=3.647205
+2026-10-30 15:52:41,865 - INFO - Epoch[81] Learning rate is 0.00025
+2026-10-30 15:52:42,137 - INFO - Epoch[81] Elapsed time 0.271 seconds
+2026-10-30 15:52:42,138 - INFO - Epoch[81] Evaluation metric 'epoch_loss'=3.595300
+2026-10-30 15:52:42,160 - INFO - Epoch[82] Learning rate is 0.00025
+2026-10-30 15:52:42,484 - INFO - Epoch[82] Elapsed time 0.322 seconds
+2026-10-30 15:52:42,484 - INFO - Epoch[82] Evaluation metric 'epoch_loss'=3.340120
+2026-10-30 15:52:42,503 - INFO - Epoch[83] Learning rate is 0.00025
+2026-10-30 15:52:42,853 - INFO - Epoch[83] Elapsed time 0.349 seconds
+2026-10-30 15:52:42,854 - INFO - Epoch[83] Evaluation metric 'epoch_loss'=3.637018
+2026-10-30 15:52:42,874 - INFO - Epoch[84] Learning rate is 0.00025
+2026-10-30 15:52:43,163 - INFO - Epoch[84] Elapsed time 0.288 seconds
+2026-10-30 15:52:43,163 - INFO - Epoch[84] Evaluation metric 'epoch_loss'=3.531544
+2026-10-30 15:52:43,180 - INFO - Epoch[85] Learning rate is 0.00025
+2026-10-30 15:52:43,472 - INFO - Epoch[85] Elapsed time 0.292 seconds
+2026-10-30 15:52:43,473 - INFO - Epoch[85] Evaluation metric 'epoch_loss'=3.617326
+2026-10-30 15:52:43,495 - INFO - Epoch[86] Learning rate is 0.00025
+2026-10-30 15:52:43,750 - INFO - Epoch[86] Elapsed time 0.255 seconds
+2026-10-30 15:52:43,751 - INFO - Epoch[86] Evaluation metric 'epoch_loss'=3.359926
+2026-10-30 15:52:43,772 - INFO - Epoch[87] Learning rate is 0.00025
+2026-10-30 15:52:44,151 - INFO - Epoch[87] Elapsed time 0.378 seconds
+2026-10-30 15:52:44,154 - INFO - Epoch[87] Evaluation metric 'epoch_loss'=3.513495
+2026-10-30 15:52:44,176 - INFO - Epoch[88] Learning rate is 0.00025
+2026-10-30 15:52:44,480 - INFO - Epoch[88] Elapsed time 0.303 seconds
+2026-10-30 15:52:44,480 - INFO - Epoch[88] Evaluation metric 'epoch_loss'=3.720068
+2026-10-30 15:52:44,497 - INFO - Epoch[89] Learning rate is 0.00025
+2026-10-30 15:52:44,784 - INFO - Epoch[89] Elapsed time 0.287 seconds
+2026-10-30 15:52:44,785 - INFO - Epoch[89] Evaluation metric 'epoch_loss'=3.583497
+2026-10-30 15:52:44,805 - INFO - Epoch[90] Learning rate is 0.00025
+2026-10-30 15:52:45,125 - INFO - Epoch[90] Elapsed time 0.320 seconds
+2026-10-30 15:52:45,125 - INFO - Epoch[90] Evaluation metric 'epoch_loss'=3.250600
+2026-10-30 15:52:45,146 - INFO - Epoch[91] Learning rate is 0.00025
+2026-10-30 15:52:45,522 - INFO - Epoch[91] Elapsed time 0.376 seconds
+2026-10-30 15:52:45,523 - INFO - Epoch[91] Evaluation metric 'epoch_loss'=3.627130
+2026-10-30 15:52:45,540 - INFO - Epoch[92] Learning rate is 0.00025
+2026-10-30 15:52:45,893 - INFO - Epoch[92] Elapsed time 0.352 seconds
+2026-10-30 15:52:45,893 - INFO - Epoch[92] Evaluation metric 'epoch_loss'=3.676832
+2026-10-30 15:52:45,913 - INFO - Epoch[93] Learning rate is 0.00025
+2026-10-30 15:52:46,178 - INFO - Epoch[93] Elapsed time 0.264 seconds
+2026-10-30 15:52:46,178 - INFO - Epoch[93] Evaluation metric 'epoch_loss'=3.371797
+2026-10-30 15:52:46,200 - INFO - Epoch[94] Learning rate is 0.00025
+2026-10-30 15:52:46,463 - INFO - Epoch[94] Elapsed time 0.263 seconds
+2026-10-30 15:52:46,463 - INFO - Epoch[94] Evaluation metric 'epoch_loss'=3.500150
+2026-10-30 15:52:46,484 - INFO - Epoch[95] Learning rate is 0.00025
+2026-10-30 15:52:46,852 - INFO - Epoch[95] Elapsed time 0.367 seconds
+2026-10-30 15:52:46,853 - INFO - Epoch[95] Evaluation metric 'epoch_loss'=3.570279
+2026-10-30 15:52:46,872 - INFO - Epoch[96] Learning rate is 0.00025
+2026-10-30 15:52:47,269 - INFO - Epoch[96] Elapsed time 0.397 seconds
+2026-10-30 15:52:47,270 - INFO - Epoch[96] Evaluation metric 'epoch_loss'=3.654246
+2026-10-30 15:52:47,285 - INFO - Epoch[97] Learning rate is 0.00025
+2026-10-30 15:52:47,670 - INFO - Epoch[97] Elapsed time 0.385 seconds
+2026-10-30 15:52:47,671 - INFO - Epoch[97] Evaluation metric 'epoch_loss'=3.446508
+2026-10-30 15:52:47,695 - INFO - Epoch[98] Learning rate is 0.00025
+2026-10-30 15:52:47,999 - INFO - Epoch[98] Elapsed time 0.304 seconds
+2026-10-30 15:52:48,000 - INFO - Epoch[98] Evaluation metric 'epoch_loss'=3.621012
+2026-10-30 15:52:48,017 - INFO - Epoch[99] Learning rate is 0.00025
+2026-10-30 15:52:48,275 - INFO - Epoch[99] Elapsed time 0.258 seconds
+2026-10-30 15:52:48,275 - INFO - Epoch[99] Evaluation metric 'epoch_loss'=3.684304
+2026-10-30 15:52:48,297 - INFO - Computing averaged parameters.
+2026-10-30 15:52:48,307 - INFO - Loading averaged parameters.
+2026-10-30 15:52:48,349 - INFO - End model training
+2026-10-30 15:52:51,640 - INFO - PV_house_1 - MAE: 0.1487, RMSE: 0.1675
+2026-10-30 15:52:52,458 - INFO - Using random seed: 1793375572
+2026-10-30 15:52:52,462 - INFO - Training PV_house_2 model on 8544 samples...
+2026-10-30 15:52:52,464 - WARNING - Multiple 15 does not divide base seasonality 1. Falling back to seasonality 1.
+2026-10-30 15:52:52,465 - INFO - Using dilation depth 9 and receptive field length 512
+2026-10-30 15:52:52,562 - INFO - Start model training
+2026-10-30 15:52:52,569 - INFO - Epoch[0] Learning rate is 0.001
+2026-10-30 15:52:52,872 - INFO - Number of parameters in WaveNetTraining: 93509
+2026-10-30 15:52:52,873 - INFO - Epoch[0] Elapsed time 0.303 seconds
+2026-10-30 15:52:52,874 - INFO - Epoch[0] Evaluation metric 'epoch_loss'=6.757532
+2026-10-30 15:52:52,900 - INFO - Epoch[1] Learning rate is 0.001
+2026-10-30 15:52:53,238 - INFO - Epoch[1] Elapsed time 0.338 seconds
+2026-10-30 15:52:53,240 - INFO - Epoch[1] Evaluation metric 'epoch_loss'=6.628881
+2026-10-30 15:52:53,257 - INFO - Epoch[2] Learning rate is 0.001
+2026-10-30 15:52:53,542 - INFO - Epoch[2] Elapsed time 0.285 seconds
+2026-10-30 15:52:53,543 - INFO - Epoch[2] Evaluation metric 'epoch_loss'=6.494287
+2026-10-30 15:52:53,566 - INFO - Epoch[3] Learning rate is 0.001
+2026-10-30 15:52:53,955 - INFO - Epoch[3] Elapsed time 0.389 seconds
+2026-10-30 15:52:53,955 - INFO - Epoch[3] Evaluation metric 'epoch_loss'=6.393394
+2026-10-30 15:52:53,975 - INFO - Epoch[4] Learning rate is 0.001
+2026-10-30 15:52:54,306 - INFO - Epoch[4] Elapsed time 0.331 seconds
+2026-10-30 15:52:54,307 - INFO - Epoch[4] Evaluation metric 'epoch_loss'=6.258518
+2026-10-30 15:52:54,330 - INFO - Epoch[5] Learning rate is 0.001
+2026-10-30 15:52:54,607 - INFO - Epoch[5] Elapsed time 0.276 seconds
+2026-10-30 15:52:54,610 - INFO - Epoch[5] Evaluation metric 'epoch_loss'=6.132967
+2026-10-30 15:52:54,630 - INFO - Epoch[6] Learning rate is 0.001
+2026-10-30 15:52:54,946 - INFO - Epoch[6] Elapsed time 0.315 seconds
+2026-10-30 15:52:54,946 - INFO - Epoch[6] Evaluation metric 'epoch_loss'=5.965340
+2026-10-30 15:52:54,964 - INFO - Epoch[7] Learning rate is 0.001
+2026-10-30 15:52:55,294 - INFO - Epoch[7] Elapsed time 0.329 seconds
+2026-10-30 15:52:55,295 - INFO - Epoch[7] Evaluation metric 'epoch_loss'=5.831304
+2026-10-30 15:52:55,314 - INFO - Epoch[8] Learning rate is 0.001
+2026-10-30 15:52:55,546 - INFO - Epoch[8] Elapsed time 0.232 seconds
+2026-10-30 15:52:55,547 - INFO - Epoch[8] Evaluation metric 'epoch_loss'=5.648084
+2026-10-30 15:52:55,565 - INFO - Epoch[9] Learning rate is 0.001
+2026-10-30 15:52:55,826 - INFO - Epoch[9] Elapsed time 0.261 seconds
+2026-10-30 15:52:55,827 - INFO - Epoch[9] Evaluation metric 'epoch_loss'=5.497670
+2026-10-30 15:52:55,854 - INFO - Epoch[10] Learning rate is 0.001
+2026-10-30 15:52:56,273 - INFO - Epoch[10] Elapsed time 0.418 seconds
+2026-10-30 15:52:56,274 - INFO - Epoch[10] Evaluation metric 'epoch_loss'=5.330713
+2026-10-30 15:52:56,291 - INFO - Epoch[11] Learning rate is 0.001
+2026-10-30 15:52:56,572 - INFO - Epoch[11] Elapsed time 0.279 seconds
+2026-10-30 15:52:56,574 - INFO - Epoch[11] Evaluation metric 'epoch_loss'=5.035633
+2026-10-30 15:52:56,593 - INFO - Epoch[12] Learning rate is 0.001
+2026-10-30 15:52:56,903 - INFO - Epoch[12] Elapsed time 0.309 seconds
+2026-10-30 15:52:56,904 - INFO - Epoch[12] Evaluation metric 'epoch_loss'=4.808351
+2026-10-30 15:52:56,925 - INFO - Epoch[13] Learning rate is 0.001
+2026-10-30 15:52:57,203 - INFO - Epoch[13] Elapsed time 0.278 seconds
+2026-10-30 15:52:57,206 - INFO - Epoch[13] Evaluation metric 'epoch_loss'=4.597667
+2026-10-30 15:52:57,222 - INFO - Epoch[14] Learning rate is 0.001
+2026-10-30 15:52:57,518 - INFO - Epoch[14] Elapsed time 0.296 seconds
+2026-10-30 15:52:57,522 - INFO - Epoch[14] Evaluation metric 'epoch_loss'=4.529320
+2026-10-30 15:52:57,540 - INFO - Epoch[15] Learning rate is 0.001
+2026-10-30 15:52:58,014 - INFO - Epoch[15] Elapsed time 0.473 seconds
+2026-10-30 15:52:58,015 - INFO - Epoch[15] Evaluation metric 'epoch_loss'=4.181049
+2026-10-30 15:52:58,033 - INFO - Epoch[16] Learning rate is 0.001
+2026-10-30 15:52:58,366 - INFO - Epoch[16] Elapsed time 0.333 seconds
+2026-10-30 15:52:58,369 - INFO - Epoch[16] Evaluation metric 'epoch_loss'=4.023741
+2026-10-30 15:52:58,391 - INFO - Epoch[17] Learning rate is 0.001
+2026-10-30 15:52:58,695 - INFO - Epoch[17] Elapsed time 0.304 seconds
+2026-10-30 15:52:58,696 - INFO - Epoch[17] Evaluation metric 'epoch_loss'=3.700877
+2026-10-30 15:52:58,716 - INFO - Epoch[18] Learning rate is 0.001
+2026-10-30 15:52:59,041 - INFO - Epoch[18] Elapsed time 0.324 seconds
+2026-10-30 15:52:59,042 - INFO - Epoch[18] Evaluation metric 'epoch_loss'=3.882120
+2026-10-30 15:52:59,066 - INFO - Epoch[19] Learning rate is 0.001
+2026-10-30 15:52:59,471 - INFO - Epoch[19] Elapsed time 0.404 seconds
+2026-10-30 15:52:59,472 - INFO - Epoch[19] Evaluation metric 'epoch_loss'=3.696512
+2026-10-30 15:52:59,490 - INFO - Epoch[20] Learning rate is 0.001
+2026-10-30 15:52:59,766 - INFO - Epoch[20] Elapsed time 0.276 seconds
+2026-10-30 15:52:59,766 - INFO - Epoch[20] Evaluation metric 'epoch_loss'=3.571034
+2026-10-30 15:52:59,786 - INFO - Epoch[21] Learning rate is 0.001
+2026-10-30 15:53:00,065 - INFO - Epoch[21] Elapsed time 0.279 seconds
+2026-10-30 15:53:00,066 - INFO - Epoch[21] Evaluation metric 'epoch_loss'=3.750572
+2026-10-30 15:53:00,089 - INFO - Epoch[22] Learning rate is 0.001
+2026-10-30 15:53:00,372 - INFO - Epoch[22] Elapsed time 0.283 seconds
+2026-10-30 15:53:00,373 - INFO - Epoch[22] Evaluation metric 'epoch_loss'=3.936446
+2026-10-30 15:53:00,394 - INFO - Epoch[23] Learning rate is 0.001
+2026-10-30 15:53:00,782 - INFO - Epoch[23] Elapsed time 0.387 seconds
+2026-10-30 15:53:00,784 - INFO - Epoch[23] Evaluation metric 'epoch_loss'=3.668272
+2026-10-30 15:53:00,802 - INFO - Epoch[24] Learning rate is 0.001
+2026-10-30 15:53:01,022 - INFO - Epoch[24] Elapsed time 0.220 seconds
+2026-10-30 15:53:01,023 - INFO - Epoch[24] Evaluation metric 'epoch_loss'=3.682848
+2026-10-30 15:53:01,044 - INFO - Epoch[25] Learning rate is 0.001
+2026-10-30 15:53:01,388 - INFO - Epoch[25] Elapsed time 0.343 seconds
+2026-10-30 15:53:01,388 - INFO - Epoch[25] Evaluation metric 'epoch_loss'=3.673635
+2026-10-30 15:53:01,405 - INFO - Epoch[26] Learning rate is 0.001
+2026-10-30 15:53:01,767 - INFO - Epoch[26] Elapsed time 0.361 seconds
+2026-10-30 15:53:01,768 - INFO - Epoch[26] Evaluation metric 'epoch_loss'=3.748522
+2026-10-30 15:53:01,785 - INFO - Epoch[27] Learning rate is 0.001
+2026-10-30 15:53:02,105 - INFO - Epoch[27] Elapsed time 0.319 seconds
+2026-10-30 15:53:02,105 - INFO - Epoch[27] Evaluation metric 'epoch_loss'=3.736676
+2026-10-30 15:53:02,124 - INFO - Epoch[28] Learning rate is 0.001
+2026-10-30 15:53:02,417 - INFO - Epoch[28] Elapsed time 0.293 seconds
+2026-10-30 15:53:02,418 - INFO - Epoch[28] Evaluation metric 'epoch_loss'=3.723090
+2026-10-30 15:53:02,442 - INFO - Epoch[29] Learning rate is 0.001
+2026-10-30 15:53:02,719 - INFO - Epoch[29] Elapsed time 0.275 seconds
+2026-10-30 15:53:02,720 - INFO - Epoch[29] Evaluation metric 'epoch_loss'=3.487632
+2026-10-30 15:53:02,740 - INFO - Epoch[30] Learning rate is 0.001
+2026-10-30 15:53:03,028 - INFO - Epoch[30] Elapsed time 0.287 seconds
+2026-10-30 15:53:03,029 - INFO - Epoch[30] Evaluation metric 'epoch_loss'=3.508944
+2026-10-30 15:53:03,053 - INFO - Epoch[31] Learning rate is 0.001
+2026-10-30 15:53:03,391 - INFO - Epoch[31] Elapsed time 0.337 seconds
+2026-10-30 15:53:03,392 - INFO - Epoch[31] Evaluation metric 'epoch_loss'=3.548680
+2026-10-30 15:53:03,411 - INFO - Epoch[32] Learning rate is 0.001
+2026-10-30 15:53:03,697 - INFO - Epoch[32] Elapsed time 0.286 seconds
+2026-10-30 15:53:03,698 - INFO - Epoch[32] Evaluation metric 'epoch_loss'=3.498714
+2026-10-30 15:53:03,716 - INFO - Epoch[33] Learning rate is 0.001
+2026-10-30 15:53:03,986 - INFO - Epoch[33] Elapsed time 0.269 seconds
+2026-10-30 15:53:03,987 - INFO - Epoch[33] Evaluation metric 'epoch_loss'=3.432732
+2026-10-30 15:53:04,008 - INFO - Epoch[34] Learning rate is 0.001
+2026-10-30 15:53:04,372 - INFO - Epoch[34] Elapsed time 0.363 seconds
+2026-10-30 15:53:04,372 - INFO - Epoch[34] Evaluation metric 'epoch_loss'=3.416077
+2026-10-30 15:53:04,396 - INFO - Epoch[35] Learning rate is 0.001
+2026-10-30 15:53:04,795 - INFO - Epoch[35] Elapsed time 0.399 seconds
+2026-10-30 15:53:04,796 - INFO - Epoch[35] Evaluation metric 'epoch_loss'=3.513562
+2026-10-30 15:53:04,811 - INFO - Epoch[36] Learning rate is 0.001
+2026-10-30 15:53:05,089 - INFO - Epoch[36] Elapsed time 0.277 seconds
+2026-10-30 15:53:05,090 - INFO - Epoch[36] Evaluation metric 'epoch_loss'=3.514978
+2026-10-30 15:53:05,108 - INFO - Epoch[37] Learning rate is 0.001
+2026-10-30 15:53:05,418 - INFO - Epoch[37] Elapsed time 0.310 seconds
+2026-10-30 15:53:05,419 - INFO - Epoch[37] Evaluation metric 'epoch_loss'=3.440668
+2026-10-30 15:53:05,441 - INFO - Epoch[38] Learning rate is 0.001
+2026-10-30 15:53:05,794 - INFO - Epoch[38] Elapsed time 0.354 seconds
+2026-10-30 15:53:05,795 - INFO - Epoch[38] Evaluation metric 'epoch_loss'=3.491359
+2026-10-30 15:53:05,810 - INFO - Epoch[39] Learning rate is 0.001
+2026-10-30 15:53:06,134 - INFO - Epoch[39] Elapsed time 0.323 seconds
+2026-10-30 15:53:06,135 - INFO - Epoch[39] Evaluation metric 'epoch_loss'=3.360897
+2026-10-30 15:53:06,163 - INFO - Epoch[40] Learning rate is 0.001
+2026-10-30 15:53:06,442 - INFO - Epoch[40] Elapsed time 0.279 seconds
+2026-10-30 15:53:06,442 - INFO - Epoch[40] Evaluation metric 'epoch_loss'=3.420921
+2026-10-30 15:53:06,460 - INFO - Epoch[41] Learning rate is 0.001
+2026-10-30 15:53:06,761 - INFO - Epoch[41] Elapsed time 0.301 seconds
+2026-10-30 15:53:06,762 - INFO - Epoch[41] Evaluation metric 'epoch_loss'=3.461018
+2026-10-30 15:53:06,781 - INFO - Epoch[42] Learning rate is 0.001
+2026-10-30 15:53:07,106 - INFO - Epoch[42] Elapsed time 0.324 seconds
+2026-10-30 15:53:07,108 - INFO - Epoch[42] Evaluation metric 'epoch_loss'=3.514078
+2026-10-30 15:53:07,129 - INFO - Epoch[43] Learning rate is 0.001
+2026-10-30 15:53:07,481 - INFO - Epoch[43] Elapsed time 0.352 seconds
+2026-10-30 15:53:07,482 - INFO - Epoch[43] Evaluation metric 'epoch_loss'=3.232489
+2026-10-30 15:53:07,505 - INFO - Epoch[44] Learning rate is 0.001
+2026-10-30 15:53:07,871 - INFO - Epoch[44] Elapsed time 0.366 seconds
+2026-10-30 15:53:07,873 - INFO - Epoch[44] Evaluation metric 'epoch_loss'=3.281656
+2026-10-30 15:53:07,893 - INFO - Epoch[45] Learning rate is 0.001
+2026-10-30 15:53:08,172 - INFO - Epoch[45] Elapsed time 0.279 seconds
+2026-10-30 15:53:08,173 - INFO - Epoch[45] Evaluation metric 'epoch_loss'=3.283561
+2026-10-30 15:53:08,196 - INFO - Epoch[46] Learning rate is 0.001
+2026-10-30 15:53:08,511 - INFO - Epoch[46] Elapsed time 0.313 seconds
+2026-10-30 15:53:08,512 - INFO - Epoch[46] Evaluation metric 'epoch_loss'=3.382521
+2026-10-30 15:53:08,533 - INFO - Epoch[47] Learning rate is 0.001
+2026-10-30 15:53:08,788 - INFO - Epoch[47] Elapsed time 0.252 seconds
+2026-10-30 15:53:08,790 - INFO - Epoch[47] Evaluation metric 'epoch_loss'=3.409199
+2026-10-30 15:53:08,808 - INFO - Epoch[48] Learning rate is 0.001
+2026-10-30 15:53:09,075 - INFO - Epoch[48] Elapsed time 0.267 seconds
+2026-10-30 15:53:09,076 - INFO - Epoch[48] Evaluation metric 'epoch_loss'=3.084291
+2026-10-30 15:53:09,102 - INFO - Epoch[49] Learning rate is 0.001
+2026-10-30 15:53:09,466 - INFO - Epoch[49] Elapsed time 0.364 seconds
+2026-10-30 15:53:09,467 - INFO - Epoch[49] Evaluation metric 'epoch_loss'=3.359081
+2026-10-30 15:53:09,488 - INFO - Epoch[50] Learning rate is 0.001
+2026-10-30 15:53:09,792 - INFO - Epoch[50] Elapsed time 0.304 seconds
+2026-10-30 15:53:09,793 - INFO - Epoch[50] Evaluation metric 'epoch_loss'=3.276302
+2026-10-30 15:53:09,815 - INFO - Epoch[51] Learning rate is 0.001
+2026-10-30 15:53:10,122 - INFO - Epoch[51] Elapsed time 0.307 seconds
+2026-10-30 15:53:10,123 - INFO - Epoch[51] Evaluation metric 'epoch_loss'=3.366036
+2026-10-30 15:53:10,145 - INFO - Epoch[52] Learning rate is 0.001
+2026-10-30 15:53:10,525 - INFO - Epoch[52] Elapsed time 0.379 seconds
+2026-10-30 15:53:10,525 - INFO - Epoch[52] Evaluation metric 'epoch_loss'=3.349507
+2026-10-30 15:53:10,546 - INFO - Epoch[53] Learning rate is 0.001
+2026-10-30 15:53:10,856 - INFO - Epoch[53] Elapsed time 0.310 seconds
+2026-10-30 15:53:10,857 - INFO - Epoch[53] Evaluation metric 'epoch_loss'=3.290107
+2026-10-30 15:53:10,877 - INFO - Epoch[54] Learning rate is 0.001
+2026-10-30 15:53:11,142 - INFO - Epoch[54] Elapsed time 0.265 seconds
+2026-10-30 15:53:11,143 - INFO - Epoch[54] Evaluation metric 'epoch_loss'=3.204337
+2026-10-30 15:53:11,168 - INFO - Epoch[55] Learning rate is 0.001
+2026-10-30 15:53:11,408 - INFO - Epoch[55] Elapsed time 0.240 seconds
+2026-10-30 15:53:11,408 - INFO - Epoch[55] Evaluation metric 'epoch_loss'=3.219735
+2026-10-30 15:53:11,431 - INFO - Epoch[56] Learning rate is 0.001
+2026-10-30 15:53:11,820 - INFO - Epoch[56] Elapsed time 0.389 seconds
+2026-10-30 15:53:11,820 - INFO - Epoch[56] Evaluation metric 'epoch_loss'=3.175326
+2026-10-30 15:53:11,838 - INFO - Epoch[57] Learning rate is 0.001
+2026-10-30 15:53:12,150 - INFO - Epoch[57] Elapsed time 0.313 seconds
+2026-10-30 15:53:12,151 - INFO - Epoch[57] Evaluation metric 'epoch_loss'=3.299135
+2026-10-30 15:53:12,168 - INFO - Epoch[58] Learning rate is 0.001
+2026-10-30 15:53:12,532 - INFO - Epoch[58] Elapsed time 0.364 seconds
+2026-10-30 15:53:12,533 - INFO - Epoch[58] Evaluation metric 'epoch_loss'=3.164678
+2026-10-30 15:53:12,553 - INFO - Epoch[59] Learning rate is 0.0005
+2026-10-30 15:53:12,987 - INFO - Epoch[59] Elapsed time 0.433 seconds
+2026-10-30 15:53:12,987 - INFO - Epoch[59] Evaluation metric 'epoch_loss'=3.267743
+2026-10-30 15:53:13,003 - INFO - Epoch[60] Learning rate is 0.0005
+2026-10-30 15:53:13,275 - INFO - Epoch[60] Elapsed time 0.272 seconds
+2026-10-30 15:53:13,276 - INFO - Epoch[60] Evaluation metric 'epoch_loss'=3.232971
+2026-10-30 15:53:13,293 - INFO - Epoch[61] Learning rate is 0.0005
+2026-10-30 15:53:13,660 - INFO - Epoch[61] Elapsed time 0.366 seconds
+2026-10-30 15:53:13,661 - INFO - Epoch[61] Evaluation metric 'epoch_loss'=3.236457
+2026-10-30 15:53:13,679 - INFO - Epoch[62] Learning rate is 0.0005
+2026-10-30 15:53:14,041 - INFO - Epoch[62] Elapsed time 0.361 seconds
+2026-10-30 15:53:14,041 - INFO - Epoch[62] Evaluation metric 'epoch_loss'=3.286617
+2026-10-30 15:53:14,058 - INFO - Epoch[63] Learning rate is 0.0005
+2026-10-30 15:53:14,370 - INFO - Epoch[63] Elapsed time 0.311 seconds
+2026-10-30 15:53:14,370 - INFO - Epoch[63] Evaluation metric 'epoch_loss'=3.222915
+2026-10-30 15:53:14,397 - INFO - Epoch[64] Learning rate is 0.0005
+2026-10-30 15:53:14,735 - INFO - Epoch[64] Elapsed time 0.338 seconds
+2026-10-30 15:53:14,735 - INFO - Epoch[64] Evaluation metric 'epoch_loss'=3.140805
+2026-10-30 15:53:14,754 - INFO - Epoch[65] Learning rate is 0.0005
+2026-10-30 15:53:15,076 - INFO - Epoch[65] Elapsed time 0.322 seconds
+2026-10-30 15:53:15,077 - INFO - Epoch[65] Evaluation metric 'epoch_loss'=3.476104
+2026-10-30 15:53:15,100 - INFO - Epoch[66] Learning rate is 0.0005
+2026-10-30 15:53:15,373 - INFO - Epoch[66] Elapsed time 0.273 seconds
+2026-10-30 15:53:15,374 - INFO - Epoch[66] Evaluation metric 'epoch_loss'=3.031686
+2026-10-30 15:53:15,391 - INFO - Epoch[67] Learning rate is 0.0005
+2026-10-30 15:53:15,738 - INFO - Epoch[67] Elapsed time 0.347 seconds
+2026-10-30 15:53:15,739 - INFO - Epoch[67] Evaluation metric 'epoch_loss'=3.261401
+2026-10-30 15:53:15,759 - INFO - Epoch[68] Learning rate is 0.0005
+2026-10-30 15:53:16,137 - INFO - Epoch[68] Elapsed time 0.377 seconds
+2026-10-30 15:53:16,137 - INFO - Epoch[68] Evaluation metric 'epoch_loss'=3.122989
+2026-10-30 15:53:16,153 - INFO - Epoch[69] Learning rate is 0.0005
+2026-10-30 15:53:16,532 - INFO - Epoch[69] Elapsed time 0.378 seconds
+2026-10-30 15:53:16,533 - INFO - Epoch[69] Evaluation metric 'epoch_loss'=3.283443
+2026-10-30 15:53:16,548 - INFO - Epoch[70] Learning rate is 0.0005
+2026-10-30 15:53:16,828 - INFO - Epoch[70] Elapsed time 0.279 seconds
+2026-10-30 15:53:16,828 - INFO - Epoch[70] Evaluation metric 'epoch_loss'=3.268566
+2026-10-30 15:53:16,848 - INFO - Epoch[71] Learning rate is 0.0005
+2026-10-30 15:53:17,245 - INFO - Epoch[71] Elapsed time 0.397 seconds
+2026-10-30 15:53:17,246 - INFO - Epoch[71] Evaluation metric 'epoch_loss'=3.114980
+2026-10-30 15:53:17,267 - INFO - Epoch[72] Learning rate is 0.0005
+2026-10-30 15:53:17,574 - INFO - Epoch[72] Elapsed time 0.307 seconds
+2026-10-30 15:53:17,574 - INFO - Epoch[72] Evaluation metric 'epoch_loss'=3.356289
+2026-10-30 15:53:17,595 - INFO - Epoch[73] Learning rate is 0.0005
+2026-10-30 15:53:17,927 - INFO - Epoch[73] Elapsed time 0.331 seconds
+2026-10-30 15:53:17,927 - INFO - Epoch[73] Evaluation metric 'epoch_loss'=3.398694
+2026-10-30 15:53:17,948 - INFO - Epoch[74] Learning rate is 0.0005
+2026-10-30 15:53:18,211 - INFO - Epoch[74] Elapsed time 0.262 seconds
+2026-10-30 15:53:18,212 - INFO - Epoch[74] Evaluation metric 'epoch_loss'=3.187233
+2026-10-30 15:53:18,228 - INFO - Epoch[75] Learning rate is 0.0005
+2026-10-30 15:53:18,527 - INFO - Epoch[75] Elapsed time 0.298 seconds
+2026-10-30 15:53:18,527 - INFO - Epoch[75] Evaluation metric 'epoch_loss'=3.327001
+2026-10-30 15:53:18,547 - INFO - Epoch[76] Learning rate is 0.0005
+2026-10-30 15:53:18,827 - INFO - Epoch[76] Elapsed time 0.279 seconds
+2026-10-30 15:53:18,827 - INFO - Epoch[76] Evaluation metric 'epoch_loss'=3.126534
+2026-10-30 15:53:18,839 - INFO - Epoch[77] Learning rate is 0.00025
+2026-10-30 15:53:19,264 - INFO - Epoch[77] Elapsed time 0.421 seconds
+2026-10-30 15:53:19,264 - INFO - Epoch[77] Evaluation metric 'epoch_loss'=3.170167
+2026-10-30 15:53:19,282 - INFO - Epoch[78] Learning rate is 0.00025
+2026-10-30 15:53:19,522 - INFO - Epoch[78] Elapsed time 0.240 seconds
+2026-10-30 15:53:19,522 - INFO - Epoch[78] Evaluation metric 'epoch_loss'=3.285378
+2026-10-30 15:53:19,543 - INFO - Epoch[79] Learning rate is 0.00025
+2026-10-30 15:53:19,848 - INFO - Epoch[79] Elapsed time 0.304 seconds
+2026-10-30 15:53:19,848 - INFO - Epoch[79] Evaluation metric 'epoch_loss'=3.226955
+2026-10-30 15:53:19,865 - INFO - Epoch[80] Learning rate is 0.00025
+2026-10-30 15:53:20,151 - INFO - Epoch[80] Elapsed time 0.286 seconds
+2026-10-30 15:53:20,151 - INFO - Epoch[80] Evaluation metric 'epoch_loss'=3.155954
+2026-10-30 15:53:20,174 - INFO - Epoch[81] Learning rate is 0.00025
+2026-10-30 15:53:20,451 - INFO - Epoch[81] Elapsed time 0.276 seconds
+2026-10-30 15:53:20,452 - INFO - Epoch[81] Evaluation metric 'epoch_loss'=3.089493
+2026-10-30 15:53:20,470 - INFO - Epoch[82] Learning rate is 0.00025
+2026-10-30 15:53:20,825 - INFO - Epoch[82] Elapsed time 0.355 seconds
+2026-10-30 15:53:20,826 - INFO - Epoch[82] Evaluation metric 'epoch_loss'=3.193995
+2026-10-30 15:53:20,847 - INFO - Epoch[83] Learning rate is 0.00025
+2026-10-30 15:53:21,164 - INFO - Epoch[83] Elapsed time 0.317 seconds
+2026-10-30 15:53:21,165 - INFO - Epoch[83] Evaluation metric 'epoch_loss'=3.274238
+2026-10-30 15:53:21,187 - INFO - Epoch[84] Learning rate is 0.00025
+2026-10-30 15:53:21,428 - INFO - Epoch[84] Elapsed time 0.241 seconds
+2026-10-30 15:53:21,428 - INFO - Epoch[84] Evaluation metric 'epoch_loss'=3.251987
+2026-10-30 15:53:21,444 - INFO - Epoch[85] Learning rate is 0.00025
+2026-10-30 15:53:21,755 - INFO - Epoch[85] Elapsed time 0.310 seconds
+2026-10-30 15:53:21,756 - INFO - Epoch[85] Evaluation metric 'epoch_loss'=3.197542
+2026-10-30 15:53:21,778 - INFO - Epoch[86] Learning rate is 0.00025
+2026-10-30 15:53:22,176 - INFO - Epoch[86] Elapsed time 0.398 seconds
+2026-10-30 15:53:22,177 - INFO - Epoch[86] Evaluation metric 'epoch_loss'=3.193246
+2026-10-30 15:53:22,199 - INFO - Epoch[87] Learning rate is 0.000125
+2026-10-30 15:53:22,496 - INFO - Epoch[87] Elapsed time 0.297 seconds
+2026-10-30 15:53:22,497 - INFO - Epoch[87] Evaluation metric 'epoch_loss'=3.201436
+2026-10-30 15:53:22,517 - INFO - Epoch[88] Learning rate is 0.000125
+2026-10-30 15:53:22,798 - INFO - Epoch[88] Elapsed time 0.281 seconds
+2026-10-30 15:53:22,799 - INFO - Epoch[88] Evaluation metric 'epoch_loss'=3.078314
+2026-10-30 15:53:22,819 - INFO - Epoch[89] Learning rate is 0.000125
+2026-10-30 15:53:23,200 - INFO - Epoch[89] Elapsed time 0.382 seconds
+2026-10-30 15:53:23,201 - INFO - Epoch[89] Evaluation metric 'epoch_loss'=2.894665
+2026-10-30 15:53:23,220 - INFO - Epoch[90] Learning rate is 0.000125
+2026-10-30 15:53:23,480 - INFO - Epoch[90] Elapsed time 0.260 seconds
+2026-10-30 15:53:23,481 - INFO - Epoch[90] Evaluation metric 'epoch_loss'=3.288012
+2026-10-30 15:53:23,498 - INFO - Epoch[91] Learning rate is 0.000125
+2026-10-30 15:53:23,789 - INFO - Epoch[91] Elapsed time 0.291 seconds
+2026-10-30 15:53:23,790 - INFO - Epoch[91] Evaluation metric 'epoch_loss'=3.216163
+2026-10-30 15:53:23,806 - INFO - Epoch[92] Learning rate is 0.000125
+2026-10-30 15:53:24,021 - INFO - Epoch[92] Elapsed time 0.215 seconds
+2026-10-30 15:53:24,021 - INFO - Epoch[92] Evaluation metric 'epoch_loss'=3.064727
+2026-10-30 15:53:24,038 - INFO - Epoch[93] Learning rate is 0.000125
+2026-10-30 15:53:24,342 - INFO - Epoch[93] Elapsed time 0.303 seconds
+2026-10-30 15:53:24,343 - INFO - Epoch[93] Evaluation metric 'epoch_loss'=3.121318
+2026-10-30 15:53:24,361 - INFO - Epoch[94] Learning rate is 0.000125
+2026-10-30 15:53:24,639 - INFO - Epoch[94] Elapsed time 0.278 seconds
+2026-10-30 15:53:24,640 - INFO - Epoch[94] Evaluation metric 'epoch_loss'=3.300719
+2026-10-30 15:53:24,658 - INFO - Epoch[95] Learning rate is 0.000125
+2026-10-30 15:53:24,928 - INFO - Epoch[95] Elapsed time 0.270 seconds
+2026-10-30 15:53:24,930 - INFO - Epoch[95] Evaluation metric 'epoch_loss'=3.169536
+2026-10-30 15:53:24,955 - INFO - Epoch[96] Learning rate is 0.000125
+2026-10-30 15:53:25,252 - INFO - Epoch[96] Elapsed time 0.297 seconds
+2026-10-30 15:53:25,253 - INFO - Epoch[96] Evaluation metric 'epoch_loss'=3.212120
+2026-10-30 15:53:25,274 - INFO - Epoch[97] Learning rate is 0.000125
+2026-10-30 15:53:25,605 - INFO - Epoch[97] Elapsed time 0.331 seconds
+2026-10-30 15:53:25,606 - INFO - Epoch[97] Evaluation metric 'epoch_loss'=3.151287
+2026-10-30 15:53:25,628 - INFO - Epoch[98] Learning rate is 0.000125
+2026-10-30 15:53:26,044 - INFO - Epoch[98] Elapsed time 0.415 seconds
+2026-10-30 15:53:26,045 - INFO - Epoch[98] Evaluation metric 'epoch_loss'=3.120496
+2026-10-30 15:53:26,061 - INFO - Epoch[99] Learning rate is 0.000125
+2026-10-30 15:53:26,360 - INFO - Epoch[99] Elapsed time 0.298 seconds
+2026-10-30 15:53:26,360 - INFO - Epoch[99] Evaluation metric 'epoch_loss'=3.028900
+2026-10-30 15:53:26,380 - INFO - Computing averaged parameters.
+2026-10-30 15:53:26,389 - INFO - Loading averaged parameters.
+2026-10-30 15:53:26,431 - INFO - End model training
+2026-10-30 15:53:29,659 - INFO - PV_house_2 - MAE: 0.1586, RMSE: 0.1791
+2026-10-30 15:53:30,480 - INFO - Using random seed: 1793375610
+2026-10-30 15:53:30,483 - INFO - Training PV_house_3 model on 8544 samples...
+2026-10-30 15:53:30,485 - WARNING - Multiple 15 does not divide base seasonality 1. Falling back to seasonality 1.
+2026-10-30 15:53:30,486 - INFO - Using dilation depth 9 and receptive field length 512
+2026-10-30 15:53:30,565 - INFO - Start model training
+2026-10-30 15:53:30,569 - INFO - Epoch[0] Learning rate is 0.001
+2026-10-30 15:53:30,861 - INFO - Number of parameters in WaveNetTraining: 93509
+2026-10-30 15:53:30,862 - INFO - Epoch[0] Elapsed time 0.292 seconds
+2026-10-30 15:53:30,863 - INFO - Epoch[0] Evaluation metric 'epoch_loss'=6.963899
+2026-10-30 15:53:30,888 - INFO - Epoch[1] Learning rate is 0.001
+2026-10-30 15:53:31,117 - INFO - Epoch[1] Elapsed time 0.228 seconds
+2026-10-30 15:53:31,119 - INFO - Epoch[1] Evaluation metric 'epoch_loss'=6.868988
+2026-10-30 15:53:31,153 - INFO - Epoch[2] Learning rate is 0.001
+2026-10-30 15:53:31,477 - INFO - Epoch[2] Elapsed time 0.324 seconds
+2026-10-30 15:53:31,478 - INFO - Epoch[2] Evaluation metric 'epoch_loss'=6.766825
+2026-10-30 15:53:31,492 - INFO - Epoch[3] Learning rate is 0.001
+2026-10-30 15:53:31,868 - INFO - Epoch[3] Elapsed time 0.376 seconds
+2026-10-30 15:53:31,873 - INFO - Epoch[3] Evaluation metric 'epoch_loss'=6.703316
+2026-10-30 15:53:31,893 - INFO - Epoch[4] Learning rate is 0.001
+2026-10-30 15:53:32,184 - INFO - Epoch[4] Elapsed time 0.291 seconds
+2026-10-30 15:53:32,184 - INFO - Epoch[4] Evaluation metric 'epoch_loss'=6.621964
+2026-10-30 15:53:32,205 - INFO - Epoch[5] Learning rate is 0.001
+2026-10-30 15:53:32,523 - INFO - Epoch[5] Elapsed time 0.317 seconds
+2026-10-30 15:53:32,524 - INFO - Epoch[5] Evaluation metric 'epoch_loss'=6.505602
+2026-10-30 15:53:32,548 - INFO - Epoch[6] Learning rate is 0.001
+2026-10-30 15:53:32,884 - INFO - Epoch[6] Elapsed time 0.336 seconds
+2026-10-30 15:53:32,884 - INFO - Epoch[6] Evaluation metric 'epoch_loss'=6.414732
+2026-10-30 15:53:32,900 - INFO - Epoch[7] Learning rate is 0.001
+2026-10-30 15:53:33,230 - INFO - Epoch[7] Elapsed time 0.330 seconds
+2026-10-30 15:53:33,230 - INFO - Epoch[7] Evaluation metric 'epoch_loss'=6.325047
+2026-10-30 15:53:33,247 - INFO - Epoch[8] Learning rate is 0.001
+2026-10-30 15:53:33,629 - INFO - Epoch[8] Elapsed time 0.382 seconds
+2026-10-30 15:53:33,629 - INFO - Epoch[8] Evaluation metric 'epoch_loss'=6.217951
+2026-10-30 15:53:33,646 - INFO - Epoch[9] Learning rate is 0.001
+2026-10-30 15:53:33,940 - INFO - Epoch[9] Elapsed time 0.293 seconds
+2026-10-30 15:53:33,942 - INFO - Epoch[9] Evaluation metric 'epoch_loss'=6.139321
+2026-10-30 15:53:33,962 - INFO - Epoch[10] Learning rate is 0.001
+2026-10-30 15:53:34,268 - INFO - Epoch[10] Elapsed time 0.305 seconds
+2026-10-30 15:53:34,269 - INFO - Epoch[10] Evaluation metric 'epoch_loss'=6.158195
+2026-10-30 15:53:34,289 - INFO - Epoch[11] Learning rate is 0.001
+2026-10-30 15:53:34,608 - INFO - Epoch[11] Elapsed time 0.318 seconds
+2026-10-30 15:53:34,609 - INFO - Epoch[11] Evaluation metric 'epoch_loss'=5.890245
+2026-10-30 15:53:34,629 - INFO - Epoch[12] Learning rate is 0.001
+2026-10-30 15:53:34,912 - INFO - Epoch[12] Elapsed time 0.283 seconds
+2026-10-30 15:53:34,914 - INFO - Epoch[12] Evaluation metric 'epoch_loss'=5.800422
+2026-10-30 15:53:34,935 - INFO - Epoch[13] Learning rate is 0.001
+2026-10-30 15:53:35,247 - INFO - Epoch[13] Elapsed time 0.312 seconds
+2026-10-30 15:53:35,248 - INFO - Epoch[13] Evaluation metric 'epoch_loss'=5.712431
+2026-10-30 15:53:35,270 - INFO - Epoch[14] Learning rate is 0.001
+2026-10-30 15:53:35,608 - INFO - Epoch[14] Elapsed time 0.336 seconds
+2026-10-30 15:53:35,609 - INFO - Epoch[14] Evaluation metric 'epoch_loss'=5.507862
+2026-10-30 15:53:35,626 - INFO - Epoch[15] Learning rate is 0.001
+2026-10-30 15:53:35,891 - INFO - Epoch[15] Elapsed time 0.265 seconds
+2026-10-30 15:53:35,891 - INFO - Epoch[15] Evaluation metric 'epoch_loss'=5.341638
+2026-10-30 15:53:35,912 - INFO - Epoch[16] Learning rate is 0.001
+2026-10-30 15:53:36,201 - INFO - Epoch[16] Elapsed time 0.289 seconds
+2026-10-30 15:53:36,203 - INFO - Epoch[16] Evaluation metric 'epoch_loss'=5.254832
+2026-10-30 15:53:36,224 - INFO - Epoch[17] Learning rate is 0.001
+2026-10-30 15:53:36,525 - INFO - Epoch[17] Elapsed time 0.300 seconds
+2026-10-30 15:53:36,525 - INFO - Epoch[17] Evaluation metric 'epoch_loss'=5.107948
+2026-10-30 15:53:36,545 - INFO - Epoch[18] Learning rate is 0.001
+2026-10-30 15:53:36,918 - INFO - Epoch[18] Elapsed time 0.373 seconds
+2026-10-30 15:53:36,918 - INFO - Epoch[18] Evaluation metric 'epoch_loss'=4.858062
+2026-10-30 15:53:36,943 - INFO - Epoch[19] Learning rate is 0.001
+2026-10-30 15:53:37,197 - INFO - Epoch[19] Elapsed time 0.254 seconds
+2026-10-30 15:53:37,197 - INFO - Epoch[19] Evaluation metric 'epoch_loss'=4.882984
+2026-10-30 15:53:37,216 - INFO - Epoch[20] Learning rate is 0.001
+2026-10-30 15:53:37,504 - INFO - Epoch[20] Elapsed time 0.286 seconds
+2026-10-30 15:53:37,505 - INFO - Epoch[20] Evaluation metric 'epoch_loss'=4.536984
+2026-10-30 15:53:37,524 - INFO - Epoch[21] Learning rate is 0.001
+2026-10-30 15:53:37,810 - INFO - Epoch[21] Elapsed time 0.287 seconds
+2026-10-30 15:53:37,811 - INFO - Epoch[21] Evaluation metric 'epoch_loss'=4.317696
+2026-10-30 15:53:37,827 - INFO - Epoch[22] Learning rate is 0.001
+2026-10-30 15:53:38,120 - INFO - Epoch[22] Elapsed time 0.292 seconds
+2026-10-30 15:53:38,120 - INFO - Epoch[22] Evaluation metric 'epoch_loss'=4.225214
+2026-10-30 15:53:38,144 - INFO - Epoch[23] Learning rate is 0.001
+2026-10-30 15:53:38,449 - INFO - Epoch[23] Elapsed time 0.305 seconds
+2026-10-30 15:53:38,450 - INFO - Epoch[23] Evaluation metric 'epoch_loss'=3.901933
+2026-10-30 15:53:38,475 - INFO - Epoch[24] Learning rate is 0.001
+2026-10-30 15:53:38,735 - INFO - Epoch[24] Elapsed time 0.258 seconds
+2026-10-30 15:53:38,735 - INFO - Epoch[24] Evaluation metric 'epoch_loss'=4.135030
+2026-10-30 15:53:38,760 - INFO - Epoch[25] Learning rate is 0.001
+2026-10-30 15:53:39,097 - INFO - Epoch[25] Elapsed time 0.337 seconds
+2026-10-30 15:53:39,097 - INFO - Epoch[25] Evaluation metric 'epoch_loss'=3.724155
+2026-10-30 15:53:39,120 - INFO - Epoch[26] Learning rate is 0.001
+2026-10-30 15:53:39,435 - INFO - Epoch[26] Elapsed time 0.315 seconds
+2026-10-30 15:53:39,436 - INFO - Epoch[26] Evaluation metric 'epoch_loss'=3.607375
+2026-10-30 15:53:39,456 - INFO - Epoch[27] Learning rate is 0.001
+2026-10-30 15:53:39,763 - INFO - Epoch[27] Elapsed time 0.307 seconds
+2026-10-30 15:53:39,764 - INFO - Epoch[27] Evaluation metric 'epoch_loss'=3.417478
+2026-10-30 15:53:39,783 - INFO - Epoch[28] Learning rate is 0.001
+2026-10-30 15:53:40,084 - INFO - Epoch[28] Elapsed time 0.299 seconds
+2026-10-30 15:53:40,085 - INFO - Epoch[28] Evaluation metric 'epoch_loss'=3.483307
+2026-10-30 15:53:40,107 - INFO - Epoch[29] Learning rate is 0.001
+2026-10-30 15:53:40,415 - INFO - Epoch[29] Elapsed time 0.307 seconds
+2026-10-30 15:53:40,415 - INFO - Epoch[29] Evaluation metric 'epoch_loss'=3.155007
+2026-10-30 15:53:40,435 - INFO - Epoch[30] Learning rate is 0.001
+2026-10-30 15:53:40,800 - INFO - Epoch[30] Elapsed time 0.364 seconds
+2026-10-30 15:53:40,800 - INFO - Epoch[30] Evaluation metric 'epoch_loss'=3.746617
+2026-10-30 15:53:40,820 - INFO - Epoch[31] Learning rate is 0.001
+2026-10-30 15:53:41,081 - INFO - Epoch[31] Elapsed time 0.261 seconds
+2026-10-30 15:53:41,082 - INFO - Epoch[31] Evaluation metric 'epoch_loss'=3.631575
+2026-10-30 15:53:41,106 - INFO - Epoch[32] Learning rate is 0.001
+2026-10-30 15:53:41,454 - INFO - Epoch[32] Elapsed time 0.347 seconds
+2026-10-30 15:53:41,455 - INFO - Epoch[32] Evaluation metric 'epoch_loss'=3.465866
+2026-10-30 15:53:41,475 - INFO - Epoch[33] Learning rate is 0.001
+2026-10-30 15:53:41,840 - INFO - Epoch[33] Elapsed time 0.365 seconds
+2026-10-30 15:53:41,840 - INFO - Epoch[33] Evaluation metric 'epoch_loss'=3.455832
+2026-10-30 15:53:41,860 - INFO - Epoch[34] Learning rate is 0.001
+2026-10-30 15:53:42,156 - INFO - Epoch[34] Elapsed time 0.295 seconds
+2026-10-30 15:53:42,156 - INFO - Epoch[34] Evaluation metric 'epoch_loss'=3.312142
+2026-10-30 15:53:42,178 - INFO - Epoch[35] Learning rate is 0.001
+2026-10-30 15:53:42,502 - INFO - Epoch[35] Elapsed time 0.323 seconds
+2026-10-30 15:53:42,503 - INFO - Epoch[35] Evaluation metric 'epoch_loss'=3.630858
+2026-10-30 15:53:42,520 - INFO - Epoch[36] Learning rate is 0.001
+2026-10-30 15:53:42,833 - INFO - Epoch[36] Elapsed time 0.313 seconds
+2026-10-30 15:53:42,835 - INFO - Epoch[36] Evaluation metric 'epoch_loss'=3.434109
+2026-10-30 15:53:42,855 - INFO - Epoch[37] Learning rate is 0.001
+2026-10-30 15:53:43,130 - INFO - Epoch[37] Elapsed time 0.275 seconds
+2026-10-30 15:53:43,132 - INFO - Epoch[37] Evaluation metric 'epoch_loss'=3.385872
+2026-10-30 15:53:43,155 - INFO - Epoch[38] Learning rate is 0.001
+2026-10-30 15:53:43,598 - INFO - Epoch[38] Elapsed time 0.443 seconds
+2026-10-30 15:53:43,598 - INFO - Epoch[38] Evaluation metric 'epoch_loss'=3.272248
+2026-10-30 15:53:43,615 - INFO - Epoch[39] Learning rate is 0.001
+2026-10-30 15:53:43,937 - INFO - Epoch[39] Elapsed time 0.321 seconds
+2026-10-30 15:53:43,938 - INFO - Epoch[39] Evaluation metric 'epoch_loss'=3.192393
+2026-10-30 15:53:43,957 - INFO - Epoch[40] Learning rate is 0.0005
+2026-10-30 15:53:44,385 - INFO - Epoch[40] Elapsed time 0.428 seconds
+2026-10-30 15:53:44,387 - INFO - Epoch[40] Evaluation metric 'epoch_loss'=3.188711
+2026-10-30 15:53:44,407 - INFO - Epoch[41] Learning rate is 0.0005
+2026-10-30 15:53:44,715 - INFO - Epoch[41] Elapsed time 0.308 seconds
+2026-10-30 15:53:44,718 - INFO - Epoch[41] Evaluation metric 'epoch_loss'=3.229051
+2026-10-30 15:53:44,743 - INFO - Epoch[42] Learning rate is 0.0005
+2026-10-30 15:53:45,021 - INFO - Epoch[42] Elapsed time 0.276 seconds
+2026-10-30 15:53:45,021 - INFO - Epoch[42] Evaluation metric 'epoch_loss'=3.299903
+2026-10-30 15:53:45,041 - INFO - Epoch[43] Learning rate is 0.0005
+2026-10-30 15:53:45,304 - INFO - Epoch[43] Elapsed time 0.263 seconds
+2026-10-30 15:53:45,305 - INFO - Epoch[43] Evaluation metric 'epoch_loss'=3.766963
+2026-10-30 15:53:45,323 - INFO - Epoch[44] Learning rate is 0.0005
+2026-10-30 15:53:45,582 - INFO - Epoch[44] Elapsed time 0.258 seconds
+2026-10-30 15:53:45,582 - INFO - Epoch[44] Evaluation metric 'epoch_loss'=3.406753
+2026-10-30 15:53:45,602 - INFO - Epoch[45] Learning rate is 0.0005
+2026-10-30 15:53:45,903 - INFO - Epoch[45] Elapsed time 0.299 seconds
+2026-10-30 15:53:45,904 - INFO - Epoch[45] Evaluation metric 'epoch_loss'=3.326229
+2026-10-30 15:53:45,924 - INFO - Epoch[46] Learning rate is 0.0005
+2026-10-30 15:53:46,222 - INFO - Epoch[46] Elapsed time 0.298 seconds
+2026-10-30 15:53:46,222 - INFO - Epoch[46] Evaluation metric 'epoch_loss'=3.332904
+2026-10-30 15:53:46,242 - INFO - Epoch[47] Learning rate is 0.0005
+2026-10-30 15:53:46,545 - INFO - Epoch[47] Elapsed time 0.302 seconds
+2026-10-30 15:53:46,546 - INFO - Epoch[47] Evaluation metric 'epoch_loss'=3.528329
+2026-10-30 15:53:46,564 - INFO - Epoch[48] Learning rate is 0.0005
+2026-10-30 15:53:46,853 - INFO - Epoch[48] Elapsed time 0.287 seconds
+2026-10-30 15:53:46,853 - INFO - Epoch[48] Evaluation metric 'epoch_loss'=3.430424
+2026-10-30 15:53:46,877 - INFO - Epoch[49] Learning rate is 0.0005
+2026-10-30 15:53:47,132 - INFO - Epoch[49] Elapsed time 0.255 seconds
+2026-10-30 15:53:47,132 - INFO - Epoch[49] Evaluation metric 'epoch_loss'=3.172436
+2026-10-30 15:53:47,151 - INFO - Epoch[50] Learning rate is 0.00025
+2026-10-30 15:53:47,521 - INFO - Epoch[50] Elapsed time 0.370 seconds
+2026-10-30 15:53:47,522 - INFO - Epoch[50] Evaluation metric 'epoch_loss'=3.142615
+2026-10-30 15:53:47,542 - INFO - Epoch[51] Learning rate is 0.00025
+2026-10-30 15:53:47,869 - INFO - Epoch[51] Elapsed time 0.326 seconds
+2026-10-30 15:53:47,870 - INFO - Epoch[51] Evaluation metric 'epoch_loss'=3.322157
+2026-10-30 15:53:47,895 - INFO - Epoch[52] Learning rate is 0.00025
+2026-10-30 15:53:48,212 - INFO - Epoch[52] Elapsed time 0.315 seconds
+2026-10-30 15:53:48,213 - INFO - Epoch[52] Evaluation metric 'epoch_loss'=3.129277
+2026-10-30 15:53:48,231 - INFO - Epoch[53] Learning rate is 0.00025
+2026-10-30 15:53:48,563 - INFO - Epoch[53] Elapsed time 0.330 seconds
+2026-10-30 15:53:48,564 - INFO - Epoch[53] Evaluation metric 'epoch_loss'=3.219509
+2026-10-30 15:53:48,584 - INFO - Epoch[54] Learning rate is 0.00025
+2026-10-30 15:53:48,836 - INFO - Epoch[54] Elapsed time 0.252 seconds
+2026-10-30 15:53:48,837 - INFO - Epoch[54] Evaluation metric 'epoch_loss'=3.297213
+2026-10-30 15:53:48,859 - INFO - Epoch[55] Learning rate is 0.00025
+2026-10-30 15:53:49,148 - INFO - Epoch[55] Elapsed time 0.289 seconds
+2026-10-30 15:53:49,150 - INFO - Epoch[55] Evaluation metric 'epoch_loss'=3.573602
+2026-10-30 15:53:49,170 - INFO - Epoch[56] Learning rate is 0.00025
+2026-10-30 15:53:49,496 - INFO - Epoch[56] Elapsed time 0.326 seconds
+2026-10-30 15:53:49,497 - INFO - Epoch[56] Evaluation metric 'epoch_loss'=3.615371
+2026-10-30 15:53:49,515 - INFO - Epoch[57] Learning rate is 0.00025
+2026-10-30 15:53:49,811 - INFO - Epoch[57] Elapsed time 0.296 seconds
+2026-10-30 15:53:49,813 - INFO - Epoch[57] Evaluation metric 'epoch_loss'=3.315110
+2026-10-30 15:53:49,836 - INFO - Epoch[58] Learning rate is 0.00025
+2026-10-30 15:53:50,188 - INFO - Epoch[58] Elapsed time 0.351 seconds
+2026-10-30 15:53:50,189 - INFO - Epoch[58] Evaluation metric 'epoch_loss'=3.165163
+2026-10-30 15:53:50,209 - INFO - Epoch[59] Learning rate is 0.00025
+2026-10-30 15:53:50,525 - INFO - Epoch[59] Elapsed time 0.316 seconds
+2026-10-30 15:53:50,526 - INFO - Epoch[59] Evaluation metric 'epoch_loss'=3.140115
+2026-10-30 15:53:50,549 - INFO - Epoch[60] Learning rate is 0.00025
+2026-10-30 15:53:50,915 - INFO - Epoch[60] Elapsed time 0.366 seconds
+2026-10-30 15:53:50,916 - INFO - Epoch[60] Evaluation metric 'epoch_loss'=3.240315
+2026-10-30 15:53:50,937 - INFO - Epoch[61] Learning rate is 0.00025
+2026-10-30 15:53:51,201 - INFO - Epoch[61] Elapsed time 0.263 seconds
+2026-10-30 15:53:51,201 - INFO - Epoch[61] Evaluation metric 'epoch_loss'=3.375585
+2026-10-30 15:53:51,220 - INFO - Epoch[62] Learning rate is 0.00025
+2026-10-30 15:53:51,538 - INFO - Epoch[62] Elapsed time 0.317 seconds
+2026-10-30 15:53:51,538 - INFO - Epoch[62] Evaluation metric 'epoch_loss'=3.177881
+2026-10-30 15:53:51,556 - INFO - Epoch[63] Learning rate is 0.000125
+2026-10-30 15:53:51,872 - INFO - Epoch[63] Elapsed time 0.315 seconds
+2026-10-30 15:53:51,872 - INFO - Epoch[63] Evaluation metric 'epoch_loss'=3.322366
+2026-10-30 15:53:51,891 - INFO - Epoch[64] Learning rate is 0.000125
+2026-10-30 15:53:52,161 - INFO - Epoch[64] Elapsed time 0.270 seconds
+2026-10-30 15:53:52,162 - INFO - Epoch[64] Evaluation metric 'epoch_loss'=3.331765
+2026-10-30 15:53:52,190 - INFO - Epoch[65] Learning rate is 0.000125
+2026-10-30 15:53:52,516 - INFO - Epoch[65] Elapsed time 0.326 seconds
+2026-10-30 15:53:52,516 - INFO - Epoch[65] Evaluation metric 'epoch_loss'=3.300147
+2026-10-30 15:53:52,536 - INFO - Epoch[66] Learning rate is 0.000125
+2026-10-30 15:53:52,859 - INFO - Epoch[66] Elapsed time 0.323 seconds
+2026-10-30 15:53:52,860 - INFO - Epoch[66] Evaluation metric 'epoch_loss'=3.088738
+2026-10-30 15:53:52,882 - INFO - Epoch[67] Learning rate is 0.000125
+2026-10-30 15:53:53,174 - INFO - Epoch[67] Elapsed time 0.292 seconds
+2026-10-30 15:53:53,175 - INFO - Epoch[67] Evaluation metric 'epoch_loss'=3.089229
+2026-10-30 15:53:53,204 - INFO - Epoch[68] Learning rate is 0.000125
+2026-10-30 15:53:53,499 - INFO - Epoch[68] Elapsed time 0.295 seconds
+2026-10-30 15:53:53,500 - INFO - Epoch[68] Evaluation metric 'epoch_loss'=3.213638
+2026-10-30 15:53:53,523 - INFO - Epoch[69] Learning rate is 0.000125
+2026-10-30 15:53:53,893 - INFO - Epoch[69] Elapsed time 0.370 seconds
+2026-10-30 15:53:53,894 - INFO - Epoch[69] Evaluation metric 'epoch_loss'=3.331058
+2026-10-30 15:53:53,914 - INFO - Epoch[70] Learning rate is 0.000125
+2026-10-30 15:53:54,321 - INFO - Epoch[70] Elapsed time 0.406 seconds
+2026-10-30 15:53:54,322 - INFO - Epoch[70] Evaluation metric 'epoch_loss'=3.198270
+2026-10-30 15:53:54,345 - INFO - Epoch[71] Learning rate is 0.000125
+2026-10-30 15:53:54,647 - INFO - Epoch[71] Elapsed time 0.301 seconds
+2026-10-30 15:53:54,648 - INFO - Epoch[71] Evaluation metric 'epoch_loss'=3.298316
+2026-10-30 15:53:54,668 - INFO - Epoch[72] Learning rate is 0.000125
+2026-10-30 15:53:55,026 - INFO - Epoch[72] Elapsed time 0.357 seconds
+2026-10-30 15:53:55,028 - INFO - Epoch[72] Evaluation metric 'epoch_loss'=2.935181
+2026-10-30 15:53:55,044 - INFO - Epoch[73] Learning rate is 0.000125
+2026-10-30 15:53:55,329 - INFO - Epoch[73] Elapsed time 0.285 seconds
+2026-10-30 15:53:55,330 - INFO - Epoch[73] Evaluation metric 'epoch_loss'=3.574014
+2026-10-30 15:53:55,356 - INFO - Epoch[74] Learning rate is 0.000125
+2026-10-30 15:53:55,677 - INFO - Epoch[74] Elapsed time 0.321 seconds
+2026-10-30 15:53:55,678 - INFO - Epoch[74] Evaluation metric 'epoch_loss'=3.055146
+2026-10-30 15:53:55,696 - INFO - Epoch[75] Learning rate is 0.000125
+2026-10-30 15:53:56,062 - INFO - Epoch[75] Elapsed time 0.366 seconds
+2026-10-30 15:53:56,063 - INFO - Epoch[75] Evaluation metric 'epoch_loss'=3.387267
+2026-10-30 15:53:56,081 - INFO - Epoch[76] Learning rate is 0.000125
+2026-10-30 15:53:56,375 - INFO - Epoch[76] Elapsed time 0.294 seconds
+2026-10-30 15:53:56,376 - INFO - Epoch[76] Evaluation metric 'epoch_loss'=3.262369
+2026-10-30 15:53:56,398 - INFO - Epoch[77] Learning rate is 0.000125
+2026-10-30 15:53:56,650 - INFO - Epoch[77] Elapsed time 0.251 seconds
+2026-10-30 15:53:56,650 - INFO - Epoch[77] Evaluation metric 'epoch_loss'=3.185636
+2026-10-30 15:53:56,672 - INFO - Epoch[78] Learning rate is 0.000125
+2026-10-30 15:53:56,997 - INFO - Epoch[78] Elapsed time 0.324 seconds
+2026-10-30 15:53:56,998 - INFO - Epoch[78] Evaluation metric 'epoch_loss'=3.257921
+2026-10-30 15:53:57,027 - INFO - Epoch[79] Learning rate is 0.000125
+2026-10-30 15:53:57,453 - INFO - Epoch[79] Elapsed time 0.424 seconds
+2026-10-30 15:53:57,454 - INFO - Epoch[79] Evaluation metric 'epoch_loss'=3.228854
+2026-10-30 15:53:57,475 - INFO - Epoch[80] Learning rate is 0.000125
+2026-10-30 15:53:57,775 - INFO - Epoch[80] Elapsed time 0.300 seconds
+2026-10-30 15:53:57,776 - INFO - Epoch[80] Evaluation metric 'epoch_loss'=3.087993
+2026-10-30 15:53:57,797 - INFO - Epoch[81] Learning rate is 0.000125
+2026-10-30 15:53:58,110 - INFO - Epoch[81] Elapsed time 0.313 seconds
+2026-10-30 15:53:58,111 - INFO - Epoch[81] Evaluation metric 'epoch_loss'=3.024705
+2026-10-30 15:53:58,134 - INFO - Epoch[82] Learning rate is 0.000125
+2026-10-30 15:53:58,418 - INFO - Epoch[82] Elapsed time 0.283 seconds
+2026-10-30 15:53:58,421 - INFO - Epoch[82] Evaluation metric 'epoch_loss'=3.189361
+2026-10-30 15:53:58,439 - INFO - Epoch[83] Learning rate is 6.25e-05
+2026-10-30 15:53:58,715 - INFO - Epoch[83] Elapsed time 0.274 seconds
+2026-10-30 15:53:58,715 - INFO - Epoch[83] Evaluation metric 'epoch_loss'=3.535113
+2026-10-30 15:53:58,736 - INFO - Epoch[84] Learning rate is 6.25e-05
+2026-10-30 15:53:59,078 - INFO - Epoch[84] Elapsed time 0.342 seconds
+2026-10-30 15:53:59,079 - INFO - Epoch[84] Evaluation metric 'epoch_loss'=3.108708
+2026-10-30 15:53:59,098 - INFO - Epoch[85] Learning rate is 6.25e-05
+2026-10-30 15:53:59,362 - INFO - Epoch[85] Elapsed time 0.264 seconds
+2026-10-30 15:53:59,363 - INFO - Epoch[85] Evaluation metric 'epoch_loss'=3.070465
+2026-10-30 15:53:59,383 - INFO - Epoch[86] Learning rate is 6.25e-05
+2026-10-30 15:53:59,734 - INFO - Epoch[86] Elapsed time 0.351 seconds
+2026-10-30 15:53:59,735 - INFO - Epoch[86] Evaluation metric 'epoch_loss'=3.026334
+2026-10-30 15:53:59,757 - INFO - Epoch[87] Learning rate is 6.25e-05
+2026-10-30 15:54:00,085 - INFO - Epoch[87] Elapsed time 0.328 seconds
+2026-10-30 15:54:00,085 - INFO - Epoch[87] Evaluation metric 'epoch_loss'=3.089103
+2026-10-30 15:54:00,106 - INFO - Epoch[88] Learning rate is 6.25e-05
+2026-10-30 15:54:00,351 - INFO - Epoch[88] Elapsed time 0.245 seconds
+2026-10-30 15:54:00,352 - INFO - Epoch[88] Evaluation metric 'epoch_loss'=3.253443
+2026-10-30 15:54:00,371 - INFO - Epoch[89] Learning rate is 6.25e-05
+2026-10-30 15:54:00,695 - INFO - Epoch[89] Elapsed time 0.324 seconds
+2026-10-30 15:54:00,695 - INFO - Epoch[89] Evaluation metric 'epoch_loss'=2.900042
+2026-10-30 15:54:00,714 - INFO - Epoch[90] Learning rate is 6.25e-05
+2026-10-30 15:54:01,000 - INFO - Epoch[90] Elapsed time 0.285 seconds
+2026-10-30 15:54:01,000 - INFO - Epoch[90] Evaluation metric 'epoch_loss'=3.292482
+2026-10-30 15:54:01,025 - INFO - Epoch[91] Learning rate is 6.25e-05
+2026-10-30 15:54:01,305 - INFO - Epoch[91] Elapsed time 0.280 seconds
+2026-10-30 15:54:01,306 - INFO - Epoch[91] Evaluation metric 'epoch_loss'=3.158248
+2026-10-30 15:54:01,330 - INFO - Epoch[92] Learning rate is 6.25e-05
+2026-10-30 15:54:01,775 - INFO - Epoch[92] Elapsed time 0.445 seconds
+2026-10-30 15:54:01,776 - INFO - Epoch[92] Evaluation metric 'epoch_loss'=3.010834
+2026-10-30 15:54:01,796 - INFO - Epoch[93] Learning rate is 6.25e-05
+2026-10-30 15:54:02,148 - INFO - Epoch[93] Elapsed time 0.351 seconds
+2026-10-30 15:54:02,148 - INFO - Epoch[93] Evaluation metric 'epoch_loss'=3.293595
+2026-10-30 15:54:02,164 - INFO - Epoch[94] Learning rate is 6.25e-05
+2026-10-30 15:54:02,391 - INFO - Epoch[94] Elapsed time 0.226 seconds
+2026-10-30 15:54:02,392 - INFO - Epoch[94] Evaluation metric 'epoch_loss'=2.957486
+2026-10-30 15:54:02,407 - INFO - Epoch[95] Learning rate is 6.25e-05
+2026-10-30 15:54:02,714 - INFO - Epoch[95] Elapsed time 0.306 seconds
+2026-10-30 15:54:02,714 - INFO - Epoch[95] Evaluation metric 'epoch_loss'=3.182299
+2026-10-30 15:54:02,729 - INFO - Epoch[96] Learning rate is 6.25e-05
+2026-10-30 15:54:03,005 - INFO - Epoch[96] Elapsed time 0.275 seconds
+2026-10-30 15:54:03,005 - INFO - Epoch[96] Evaluation metric 'epoch_loss'=3.153173
+2026-10-30 15:54:03,024 - INFO - Epoch[97] Learning rate is 6.25e-05
+2026-10-30 15:54:03,395 - INFO - Epoch[97] Elapsed time 0.370 seconds
+2026-10-30 15:54:03,396 - INFO - Epoch[97] Evaluation metric 'epoch_loss'=3.515174
+2026-10-30 15:54:03,417 - INFO - Epoch[98] Learning rate is 6.25e-05
+2026-10-30 15:54:03,677 - INFO - Epoch[98] Elapsed time 0.259 seconds
+2026-10-30 15:54:03,677 - INFO - Epoch[98] Evaluation metric 'epoch_loss'=3.293160
+2026-10-30 15:54:03,694 - INFO - Epoch[99] Learning rate is 6.25e-05
+2026-10-30 15:54:04,186 - INFO - Epoch[99] Elapsed time 0.492 seconds
+2026-10-30 15:54:04,187 - INFO - Epoch[99] Evaluation metric 'epoch_loss'=3.099055
+2026-10-30 15:54:04,206 - INFO - Computing averaged parameters.
+2026-10-30 15:54:04,215 - INFO - Loading averaged parameters.
+2026-10-30 15:54:04,257 - INFO - End model training
+2026-10-30 15:54:07,445 - INFO - PV_house_3 - MAE: 0.1760, RMSE: 0.1962
+2026-10-30 15:54:08,250 - INFO - Using random seed: 1793375648
+2026-10-30 15:54:08,252 - INFO - Training PV_house_4 model on 8544 samples...
+2026-10-30 15:54:08,254 - WARNING - Multiple 15 does not divide base seasonality 1. Falling back to seasonality 1.
+2026-10-30 15:54:08,254 - INFO - Using dilation depth 9 and receptive field length 512
+2026-10-30 15:54:08,333 - INFO - Start model training
+2026-10-30 15:54:08,338 - INFO - Epoch[0] Learning rate is 0.001
+2026-10-30 15:54:08,650 - INFO - Number of parameters in WaveNetTraining: 93509
+2026-10-30 15:54:08,651 - INFO - Epoch[0] Elapsed time 0.312 seconds
+2026-10-30 15:54:08,651 - INFO - Epoch[0] Evaluation metric 'epoch_loss'=7.040946
+2026-10-30 15:54:08,675 - INFO - Epoch[1] Learning rate is 0.001
+2026-10-30 15:54:08,937 - INFO - Epoch[1] Elapsed time 0.262 seconds
+2026-10-30 15:54:08,939 - INFO - Epoch[1] Evaluation metric 'epoch_loss'=6.958481
+2026-10-30 15:54:08,957 - INFO - Epoch[2] Learning rate is 0.001
+2026-10-30 15:54:09,206 - INFO - Epoch[2] Elapsed time 0.248 seconds
+2026-10-30 15:54:09,206 - INFO - Epoch[2] Evaluation metric 'epoch_loss'=6.866014
+2026-10-30 15:54:09,226 - INFO - Epoch[3] Learning rate is 0.001
+2026-10-30 15:54:09,518 - INFO - Epoch[3] Elapsed time 0.291 seconds
+2026-10-30 15:54:09,520 - INFO - Epoch[3] Evaluation metric 'epoch_loss'=6.780130
+2026-10-30 15:54:09,541 - INFO - Epoch[4] Learning rate is 0.001
+2026-10-30 15:54:09,855 - INFO - Epoch[4] Elapsed time 0.313 seconds
+2026-10-30 15:54:09,857 - INFO - Epoch[4] Evaluation metric 'epoch_loss'=6.702548
+2026-10-30 15:54:09,881 - INFO - Epoch[5] Learning rate is 0.001
+2026-10-30 15:54:10,185 - INFO - Epoch[5] Elapsed time 0.304 seconds
+2026-10-30 15:54:10,187 - INFO - Epoch[5] Evaluation metric 'epoch_loss'=6.611837
+2026-10-30 15:54:10,209 - INFO - Epoch[6] Learning rate is 0.001
+2026-10-30 15:54:10,520 - INFO - Epoch[6] Elapsed time 0.310 seconds
+2026-10-30 15:54:10,521 - INFO - Epoch[6] Evaluation metric 'epoch_loss'=6.512177
+2026-10-30 15:54:10,540 - INFO - Epoch[7] Learning rate is 0.001
+2026-10-30 15:54:10,788 - INFO - Epoch[7] Elapsed time 0.247 seconds
+2026-10-30 15:54:10,788 - INFO - Epoch[7] Evaluation metric 'epoch_loss'=6.427054
+2026-10-30 15:54:10,808 - INFO - Epoch[8] Learning rate is 0.001
+2026-10-30 15:54:11,153 - INFO - Epoch[8] Elapsed time 0.344 seconds
+2026-10-30 15:54:11,154 - INFO - Epoch[8] Evaluation metric 'epoch_loss'=6.258964
+2026-10-30 15:54:11,176 - INFO - Epoch[9] Learning rate is 0.001
+2026-10-30 15:54:11,460 - INFO - Epoch[9] Elapsed time 0.283 seconds
+2026-10-30 15:54:11,465 - INFO - Epoch[9] Evaluation metric 'epoch_loss'=6.167049
+2026-10-30 15:54:11,484 - INFO - Epoch[10] Learning rate is 0.001
+2026-10-30 15:54:11,798 - INFO - Epoch[10] Elapsed time 0.314 seconds
+2026-10-30 15:54:11,798 - INFO - Epoch[10] Evaluation metric 'epoch_loss'=6.027821
+2026-10-30 15:54:11,814 - INFO - Epoch[11] Learning rate is 0.001
+2026-10-30 15:54:12,131 - INFO - Epoch[11] Elapsed time 0.317 seconds
+2026-10-30 15:54:12,131 - INFO - Epoch[11] Evaluation metric 'epoch_loss'=5.896940
+2026-10-30 15:54:12,154 - INFO - Epoch[12] Learning rate is 0.001
+2026-10-30 15:54:12,475 - INFO - Epoch[12] Elapsed time 0.320 seconds
+2026-10-30 15:54:12,476 - INFO - Epoch[12] Evaluation metric 'epoch_loss'=5.750867
+2026-10-30 15:54:12,496 - INFO - Epoch[13] Learning rate is 0.001
+2026-10-30 15:54:12,773 - INFO - Epoch[13] Elapsed time 0.277 seconds
+2026-10-30 15:54:12,774 - INFO - Epoch[13] Evaluation metric 'epoch_loss'=5.511720
+2026-10-30 15:54:12,795 - INFO - Epoch[14] Learning rate is 0.001
+2026-10-30 15:54:13,161 - INFO - Epoch[14] Elapsed time 0.365 seconds
+2026-10-30 15:54:13,163 - INFO - Epoch[14] Evaluation metric 'epoch_loss'=5.292977
+2026-10-30 15:54:13,183 - INFO - Epoch[15] Learning rate is 0.001
+2026-10-30 15:54:13,509 - INFO - Epoch[15] Elapsed time 0.325 seconds
+2026-10-30 15:54:13,510 - INFO - Epoch[15] Evaluation metric 'epoch_loss'=5.273303
+2026-10-30 15:54:13,530 - INFO - Epoch[16] Learning rate is 0.001
+2026-10-30 15:54:13,801 - INFO - Epoch[16] Elapsed time 0.270 seconds
+2026-10-30 15:54:13,802 - INFO - Epoch[16] Evaluation metric 'epoch_loss'=4.992896
+2026-10-30 15:54:13,817 - INFO - Epoch[17] Learning rate is 0.001
+2026-10-30 15:54:14,342 - INFO - Epoch[17] Elapsed time 0.523 seconds
+2026-10-30 15:54:14,343 - INFO - Epoch[17] Evaluation metric 'epoch_loss'=4.631058
+2026-10-30 15:54:14,363 - INFO - Epoch[18] Learning rate is 0.001
+2026-10-30 15:54:14,621 - INFO - Epoch[18] Elapsed time 0.257 seconds
+2026-10-30 15:54:14,622 - INFO - Epoch[18] Evaluation metric 'epoch_loss'=4.499301
+2026-10-30 15:54:14,648 - INFO - Epoch[19] Learning rate is 0.001
+2026-10-30 15:54:14,925 - INFO - Epoch[19] Elapsed time 0.277 seconds
+2026-10-30 15:54:14,927 - INFO - Epoch[19] Evaluation metric 'epoch_loss'=4.266729
+2026-10-30 15:54:14,949 - INFO - Epoch[20] Learning rate is 0.001
+2026-10-30 15:54:15,255 - INFO - Epoch[20] Elapsed time 0.306 seconds
+2026-10-30 15:54:15,255 - INFO - Epoch[20] Evaluation metric 'epoch_loss'=3.896564
+2026-10-30 15:54:15,278 - INFO - Epoch[21] Learning rate is 0.001
+2026-10-30 15:54:15,591 - INFO - Epoch[21] Elapsed time 0.314 seconds
+2026-10-30 15:54:15,592 - INFO - Epoch[21] Evaluation metric 'epoch_loss'=3.517692
+2026-10-30 15:54:15,614 - INFO - Epoch[22] Learning rate is 0.001
+2026-10-30 15:54:15,907 - INFO - Epoch[22] Elapsed time 0.292 seconds
+2026-10-30 15:54:15,907 - INFO - Epoch[22] Evaluation metric 'epoch_loss'=3.734076
+2026-10-30 15:54:15,926 - INFO - Epoch[23] Learning rate is 0.001
+2026-10-30 15:54:16,170 - INFO - Epoch[23] Elapsed time 0.243 seconds
+2026-10-30 15:54:16,171 - INFO - Epoch[23] Evaluation metric 'epoch_loss'=3.598080
+2026-10-30 15:54:16,194 - INFO - Epoch[24] Learning rate is 0.001
+2026-10-30 15:54:16,538 - INFO - Epoch[24] Elapsed time 0.342 seconds
+2026-10-30 15:54:16,539 - INFO - Epoch[24] Evaluation metric 'epoch_loss'=3.677608
+2026-10-30 15:54:16,559 - INFO - Epoch[25] Learning rate is 0.001
+2026-10-30 15:54:16,882 - INFO - Epoch[25] Elapsed time 0.323 seconds
+2026-10-30 15:54:16,882 - INFO - Epoch[25] Evaluation metric 'epoch_loss'=3.581529
+2026-10-30 15:54:16,902 - INFO - Epoch[26] Learning rate is 0.001
+2026-10-30 15:54:17,250 - INFO - Epoch[26] Elapsed time 0.348 seconds
+2026-10-30 15:54:17,251 - INFO - Epoch[26] Evaluation metric 'epoch_loss'=3.604276
+2026-10-30 15:54:17,271 - INFO - Epoch[27] Learning rate is 0.001
+2026-10-30 15:54:17,542 - INFO - Epoch[27] Elapsed time 0.269 seconds
+2026-10-30 15:54:17,543 - INFO - Epoch[27] Evaluation metric 'epoch_loss'=3.876616
+2026-10-30 15:54:17,568 - INFO - Epoch[28] Learning rate is 0.001
+2026-10-30 15:54:17,865 - INFO - Epoch[28] Elapsed time 0.297 seconds
+2026-10-30 15:54:17,867 - INFO - Epoch[28] Evaluation metric 'epoch_loss'=3.538918
+2026-10-30 15:54:17,885 - INFO - Epoch[29] Learning rate is 0.001
+2026-10-30 15:54:18,243 - INFO - Epoch[29] Elapsed time 0.358 seconds
+2026-10-30 15:54:18,244 - INFO - Epoch[29] Evaluation metric 'epoch_loss'=3.397577
+2026-10-30 15:54:18,262 - INFO - Epoch[30] Learning rate is 0.001
+2026-10-30 15:54:18,596 - INFO - Epoch[30] Elapsed time 0.334 seconds
+2026-10-30 15:54:18,596 - INFO - Epoch[30] Evaluation metric 'epoch_loss'=3.500939
+2026-10-30 15:54:18,615 - INFO - Epoch[31] Learning rate is 0.001
+2026-10-30 15:54:18,932 - INFO - Epoch[31] Elapsed time 0.317 seconds
+2026-10-30 15:54:18,932 - INFO - Epoch[31] Evaluation metric 'epoch_loss'=3.783489
+2026-10-30 15:54:18,952 - INFO - Epoch[32] Learning rate is 0.001
+2026-10-30 15:54:19,277 - INFO - Epoch[32] Elapsed time 0.325 seconds
+2026-10-30 15:54:19,278 - INFO - Epoch[32] Evaluation metric 'epoch_loss'=3.474532
+2026-10-30 15:54:19,295 - INFO - Epoch[33] Learning rate is 0.001
+2026-10-30 15:54:19,628 - INFO - Epoch[33] Elapsed time 0.332 seconds
+2026-10-30 15:54:19,629 - INFO - Epoch[33] Evaluation metric 'epoch_loss'=3.156088
+2026-10-30 15:54:19,648 - INFO - Epoch[34] Learning rate is 0.001
+2026-10-30 15:54:19,912 - INFO - Epoch[34] Elapsed time 0.264 seconds
+2026-10-30 15:54:19,913 - INFO - Epoch[34] Evaluation metric 'epoch_loss'=3.246011
+2026-10-30 15:54:19,933 - INFO - Epoch[35] Learning rate is 0.001
+2026-10-30 15:54:20,232 - INFO - Epoch[35] Elapsed time 0.299 seconds
+2026-10-30 15:54:20,232 - INFO - Epoch[35] Evaluation metric 'epoch_loss'=3.326068
+2026-10-30 15:54:20,247 - INFO - Epoch[36] Learning rate is 0.001
+2026-10-30 15:54:20,608 - INFO - Epoch[36] Elapsed time 0.361 seconds
+2026-10-30 15:54:20,609 - INFO - Epoch[36] Evaluation metric 'epoch_loss'=3.313081
+2026-10-30 15:54:20,628 - INFO - Epoch[37] Learning rate is 0.001
+2026-10-30 15:54:20,930 - INFO - Epoch[37] Elapsed time 0.301 seconds
+2026-10-30 15:54:20,931 - INFO - Epoch[37] Evaluation metric 'epoch_loss'=3.285832
+2026-10-30 15:54:20,950 - INFO - Epoch[38] Learning rate is 0.001
+2026-10-30 15:54:21,309 - INFO - Epoch[38] Elapsed time 0.359 seconds
+2026-10-30 15:54:21,310 - INFO - Epoch[38] Evaluation metric 'epoch_loss'=3.231304
+2026-10-30 15:54:21,332 - INFO - Epoch[39] Learning rate is 0.001
+2026-10-30 15:54:21,622 - INFO - Epoch[39] Elapsed time 0.290 seconds
+2026-10-30 15:54:21,623 - INFO - Epoch[39] Evaluation metric 'epoch_loss'=3.360230
+2026-10-30 15:54:21,642 - INFO - Epoch[40] Learning rate is 0.001
+2026-10-30 15:54:21,920 - INFO - Epoch[40] Elapsed time 0.277 seconds
+2026-10-30 15:54:21,921 - INFO - Epoch[40] Evaluation metric 'epoch_loss'=3.261477
+2026-10-30 15:54:21,939 - INFO - Epoch[41] Learning rate is 0.001
+2026-10-30 15:54:22,239 - INFO - Epoch[41] Elapsed time 0.300 seconds
+2026-10-30 15:54:22,240 - INFO - Epoch[41] Evaluation metric 'epoch_loss'=3.142756
+2026-10-30 15:54:22,261 - INFO - Epoch[42] Learning rate is 0.001
+2026-10-30 15:54:22,623 - INFO - Epoch[42] Elapsed time 0.362 seconds
+2026-10-30 15:54:22,624 - INFO - Epoch[42] Evaluation metric 'epoch_loss'=3.148374
+2026-10-30 15:54:22,643 - INFO - Epoch[43] Learning rate is 0.001
+2026-10-30 15:54:22,959 - INFO - Epoch[43] Elapsed time 0.315 seconds
+2026-10-30 15:54:22,959 - INFO - Epoch[43] Evaluation metric 'epoch_loss'=3.287882
+2026-10-30 15:54:22,978 - INFO - Epoch[44] Learning rate is 0.001
+2026-10-30 15:54:23,309 - INFO - Epoch[44] Elapsed time 0.330 seconds
+2026-10-30 15:54:23,310 - INFO - Epoch[44] Evaluation metric 'epoch_loss'=3.213082
+2026-10-30 15:54:23,331 - INFO - Epoch[45] Learning rate is 0.001
+2026-10-30 15:54:23,581 - INFO - Epoch[45] Elapsed time 0.249 seconds
+2026-10-30 15:54:23,581 - INFO - Epoch[45] Evaluation metric 'epoch_loss'=3.305500
+2026-10-30 15:54:23,603 - INFO - Epoch[46] Learning rate is 0.001
+2026-10-30 15:54:23,906 - INFO - Epoch[46] Elapsed time 0.302 seconds
+2026-10-30 15:54:23,906 - INFO - Epoch[46] Evaluation metric 'epoch_loss'=2.979517
+2026-10-30 15:54:23,926 - INFO - Epoch[47] Learning rate is 0.001
+2026-10-30 15:54:24,187 - INFO - Epoch[47] Elapsed time 0.260 seconds
+2026-10-30 15:54:24,187 - INFO - Epoch[47] Evaluation metric 'epoch_loss'=3.273601
+2026-10-30 15:54:24,205 - INFO - Epoch[48] Learning rate is 0.001
+2026-10-30 15:54:24,609 - INFO - Epoch[48] Elapsed time 0.404 seconds
+2026-10-30 15:54:24,609 - INFO - Epoch[48] Evaluation metric 'epoch_loss'=3.170972
+2026-10-30 15:54:24,630 - INFO - Epoch[49] Learning rate is 0.001
+2026-10-30 15:54:24,889 - INFO - Epoch[49] Elapsed time 0.258 seconds
+2026-10-30 15:54:24,889 - INFO - Epoch[49] Evaluation metric 'epoch_loss'=2.987991
+2026-10-30 15:54:24,906 - INFO - Epoch[50] Learning rate is 0.001
+2026-10-30 15:54:25,171 - INFO - Epoch[50] Elapsed time 0.265 seconds
+2026-10-30 15:54:25,172 - INFO - Epoch[50] Evaluation metric 'epoch_loss'=2.898845
+2026-10-30 15:54:25,196 - INFO - Epoch[51] Learning rate is 0.001
+2026-10-30 15:54:25,455 - INFO - Epoch[51] Elapsed time 0.258 seconds
+2026-10-30 15:54:25,455 - INFO - Epoch[51] Evaluation metric 'epoch_loss'=3.149392
+2026-10-30 15:54:25,475 - INFO - Epoch[52] Learning rate is 0.001
+2026-10-30 15:54:25,742 - INFO - Epoch[52] Elapsed time 0.267 seconds
+2026-10-30 15:54:25,743 - INFO - Epoch[52] Evaluation metric 'epoch_loss'=3.193800
+2026-10-30 15:54:25,764 - INFO - Epoch[53] Learning rate is 0.001
+2026-10-30 15:54:26,037 - INFO - Epoch[53] Elapsed time 0.272 seconds
+2026-10-30 15:54:26,037 - INFO - Epoch[53] Evaluation metric 'epoch_loss'=3.051818
+2026-10-30 15:54:26,057 - INFO - Epoch[54] Learning rate is 0.001
+2026-10-30 15:54:26,303 - INFO - Epoch[54] Elapsed time 0.246 seconds
+2026-10-30 15:54:26,304 - INFO - Epoch[54] Evaluation metric 'epoch_loss'=3.294028
+2026-10-30 15:54:26,323 - INFO - Epoch[55] Learning rate is 0.001
+2026-10-30 15:54:26,698 - INFO - Epoch[55] Elapsed time 0.375 seconds
+2026-10-30 15:54:26,699 - INFO - Epoch[55] Evaluation metric 'epoch_loss'=3.280223
+2026-10-30 15:54:26,714 - INFO - Epoch[56] Learning rate is 0.001
+2026-10-30 15:54:27,095 - INFO - Epoch[56] Elapsed time 0.380 seconds
+2026-10-30 15:54:27,095 - INFO - Epoch[56] Evaluation metric 'epoch_loss'=3.119580
+2026-10-30 15:54:27,113 - INFO - Epoch[57] Learning rate is 0.001
+2026-10-30 15:54:27,433 - INFO - Epoch[57] Elapsed time 0.319 seconds
+2026-10-30 15:54:27,434 - INFO - Epoch[57] Evaluation metric 'epoch_loss'=2.817821
+2026-10-30 15:54:27,450 - INFO - Epoch[58] Learning rate is 0.001
+2026-10-30 15:54:27,757 - INFO - Epoch[58] Elapsed time 0.307 seconds
+2026-10-30 15:54:27,760 - INFO - Epoch[58] Evaluation metric 'epoch_loss'=2.995967
+2026-10-30 15:54:27,780 - INFO - Epoch[59] Learning rate is 0.001
+2026-10-30 15:54:28,140 - INFO - Epoch[59] Elapsed time 0.360 seconds
+2026-10-30 15:54:28,141 - INFO - Epoch[59] Evaluation metric 'epoch_loss'=3.149955
+2026-10-30 15:54:28,160 - INFO - Epoch[60] Learning rate is 0.001
+2026-10-30 15:54:28,491 - INFO - Epoch[60] Elapsed time 0.330 seconds
+2026-10-30 15:54:28,491 - INFO - Epoch[60] Evaluation metric 'epoch_loss'=3.037084
+2026-10-30 15:54:28,509 - INFO - Epoch[61] Learning rate is 0.001
+2026-10-30 15:54:28,759 - INFO - Epoch[61] Elapsed time 0.249 seconds
+2026-10-30 15:54:28,760 - INFO - Epoch[61] Evaluation metric 'epoch_loss'=3.121222
+2026-10-30 15:54:28,778 - INFO - Epoch[62] Learning rate is 0.001
+2026-10-30 15:54:29,099 - INFO - Epoch[62] Elapsed time 0.320 seconds
+2026-10-30 15:54:29,099 - INFO - Epoch[62] Evaluation metric 'epoch_loss'=3.203723
+2026-10-30 15:54:29,114 - INFO - Epoch[63] Learning rate is 0.001
+2026-10-30 15:54:29,484 - INFO - Epoch[63] Elapsed time 0.369 seconds
+2026-10-30 15:54:29,484 - INFO - Epoch[63] Evaluation metric 'epoch_loss'=3.083888
+2026-10-30 15:54:29,502 - INFO - Epoch[64] Learning rate is 0.001
+2026-10-30 15:54:29,845 - INFO - Epoch[64] Elapsed time 0.342 seconds
+2026-10-30 15:54:29,846 - INFO - Epoch[64] Evaluation metric 'epoch_loss'=3.079750
+2026-10-30 15:54:29,867 - INFO - Epoch[65] Learning rate is 0.001
+2026-10-30 15:54:30,078 - INFO - Epoch[65] Elapsed time 0.210 seconds
+2026-10-30 15:54:30,078 - INFO - Epoch[65] Evaluation metric 'epoch_loss'=3.248689
+2026-10-30 15:54:30,097 - INFO - Epoch[66] Learning rate is 0.001
+2026-10-30 15:54:30,399 - INFO - Epoch[66] Elapsed time 0.302 seconds
+2026-10-30 15:54:30,400 - INFO - Epoch[66] Evaluation metric 'epoch_loss'=3.180650
+2026-10-30 15:54:30,423 - INFO - Epoch[67] Learning rate is 0.001
+2026-10-30 15:54:30,842 - INFO - Epoch[67] Elapsed time 0.418 seconds
+2026-10-30 15:54:30,842 - INFO - Epoch[67] Evaluation metric 'epoch_loss'=2.969247
+2026-10-30 15:54:30,862 - INFO - Epoch[68] Learning rate is 0.0005
+2026-10-30 15:54:31,145 - INFO - Epoch[68] Elapsed time 0.283 seconds
+2026-10-30 15:54:31,146 - INFO - Epoch[68] Evaluation metric 'epoch_loss'=3.101042
+2026-10-30 15:54:31,168 - INFO - Epoch[69] Learning rate is 0.0005
+2026-10-30 15:54:31,453 - INFO - Epoch[69] Elapsed time 0.284 seconds
+2026-10-30 15:54:31,453 - INFO - Epoch[69] Evaluation metric 'epoch_loss'=3.114413
+2026-10-30 15:54:31,469 - INFO - Epoch[70] Learning rate is 0.0005
+2026-10-30 15:54:31,820 - INFO - Epoch[70] Elapsed time 0.350 seconds
+2026-10-30 15:54:31,820 - INFO - Epoch[70] Evaluation metric 'epoch_loss'=3.010409
+2026-10-30 15:54:31,837 - INFO - Epoch[71] Learning rate is 0.0005
+2026-10-30 15:54:32,087 - INFO - Epoch[71] Elapsed time 0.249 seconds
+2026-10-30 15:54:32,087 - INFO - Epoch[71] Evaluation metric 'epoch_loss'=3.114994
+2026-10-30 15:54:32,108 - INFO - Epoch[72] Learning rate is 0.0005
+2026-10-30 15:54:32,448 - INFO - Epoch[72] Elapsed time 0.340 seconds
+2026-10-30 15:54:32,449 - INFO - Epoch[72] Evaluation metric 'epoch_loss'=3.131717
+2026-10-30 15:54:32,469 - INFO - Epoch[73] Learning rate is 0.0005
+2026-10-30 15:54:32,764 - INFO - Epoch[73] Elapsed time 0.295 seconds
+2026-10-30 15:54:32,767 - INFO - Epoch[73] Evaluation metric 'epoch_loss'=2.931209
+2026-10-30 15:54:32,796 - INFO - Epoch[74] Learning rate is 0.0005
+2026-10-30 15:54:33,094 - INFO - Epoch[74] Elapsed time 0.295 seconds
+2026-10-30 15:54:33,095 - INFO - Epoch[74] Evaluation metric 'epoch_loss'=3.144880
+2026-10-30 15:54:33,116 - INFO - Epoch[75] Learning rate is 0.0005
+2026-10-30 15:54:33,356 - INFO - Epoch[75] Elapsed time 0.240 seconds
+2026-10-30 15:54:33,356 - INFO - Epoch[75] Evaluation metric 'epoch_loss'=2.999881
+2026-10-30 15:54:33,377 - INFO - Epoch[76] Learning rate is 0.0005
+2026-10-30 15:54:33,807 - INFO - Epoch[76] Elapsed time 0.426 seconds
+2026-10-30 15:54:33,808 - INFO - Epoch[76] Evaluation metric 'epoch_loss'=3.106605
+2026-10-30 15:54:33,826 - INFO - Epoch[77] Learning rate is 0.0005
+2026-10-30 15:54:34,075 - INFO - Epoch[77] Elapsed time 0.247 seconds
+2026-10-30 15:54:34,075 - INFO - Epoch[77] Evaluation metric 'epoch_loss'=3.001706
+2026-10-30 15:54:34,097 - INFO - Epoch[78] Learning rate is 0.00025
+2026-10-30 15:54:34,368 - INFO - Epoch[78] Elapsed time 0.270 seconds
+2026-10-30 15:54:34,371 - INFO - Epoch[78] Evaluation metric 'epoch_loss'=3.004071
+2026-10-30 15:54:34,399 - INFO - Epoch[79] Learning rate is 0.00025
+2026-10-30 15:54:34,675 - INFO - Epoch[79] Elapsed time 0.276 seconds
+2026-10-30 15:54:34,677 - INFO - Epoch[79] Evaluation metric 'epoch_loss'=2.982574
+2026-10-30 15:54:34,697 - INFO - Epoch[80] Learning rate is 0.00025
+2026-10-30 15:54:34,978 - INFO - Epoch[80] Elapsed time 0.281 seconds
+2026-10-30 15:54:34,979 - INFO - Epoch[80] Evaluation metric 'epoch_loss'=3.130853
+2026-10-30 15:54:34,995 - INFO - Epoch[81] Learning rate is 0.00025
+2026-10-30 15:54:35,289 - INFO - Epoch[81] Elapsed time 0.293 seconds
+2026-10-30 15:54:35,289 - INFO - Epoch[81] Evaluation metric 'epoch_loss'=3.024911
+2026-10-30 15:54:35,311 - INFO - Epoch[82] Learning rate is 0.00025
+2026-10-30 15:54:35,593 - INFO - Epoch[82] Elapsed time 0.281 seconds
+2026-10-30 15:54:35,593 - INFO - Epoch[82] Evaluation metric 'epoch_loss'=2.732612
+2026-10-30 15:54:35,613 - INFO - Epoch[83] Learning rate is 0.00025
+2026-10-30 15:54:35,896 - INFO - Epoch[83] Elapsed time 0.283 seconds
+2026-10-30 15:54:35,897 - INFO - Epoch[83] Evaluation metric 'epoch_loss'=2.990443
+2026-10-30 15:54:35,926 - INFO - Epoch[84] Learning rate is 0.00025
+2026-10-30 15:54:36,257 - INFO - Epoch[84] Elapsed time 0.330 seconds
+2026-10-30 15:54:36,257 - INFO - Epoch[84] Evaluation metric 'epoch_loss'=2.924677
+2026-10-30 15:54:36,273 - INFO - Epoch[85] Learning rate is 0.00025
+2026-10-30 15:54:36,574 - INFO - Epoch[85] Elapsed time 0.301 seconds
+2026-10-30 15:54:36,575 - INFO - Epoch[85] Evaluation metric 'epoch_loss'=2.721358
+2026-10-30 15:54:36,597 - INFO - Epoch[86] Learning rate is 0.00025
+2026-10-30 15:54:36,912 - INFO - Epoch[86] Elapsed time 0.314 seconds
+2026-10-30 15:54:36,913 - INFO - Epoch[86] Evaluation metric 'epoch_loss'=2.907700
+2026-10-30 15:54:36,933 - INFO - Epoch[87] Learning rate is 0.00025
+2026-10-30 15:54:37,199 - INFO - Epoch[87] Elapsed time 0.266 seconds
+2026-10-30 15:54:37,200 - INFO - Epoch[87] Evaluation metric 'epoch_loss'=3.014483
+2026-10-30 15:54:37,219 - INFO - Epoch[88] Learning rate is 0.00025
+2026-10-30 15:54:37,591 - INFO - Epoch[88] Elapsed time 0.371 seconds
+2026-10-30 15:54:37,591 - INFO - Epoch[88] Evaluation metric 'epoch_loss'=2.969244
+2026-10-30 15:54:37,615 - INFO - Epoch[89] Learning rate is 0.00025
+2026-10-30 15:54:37,875 - INFO - Epoch[89] Elapsed time 0.259 seconds
+2026-10-30 15:54:37,876 - INFO - Epoch[89] Evaluation metric 'epoch_loss'=3.012577
+2026-10-30 15:54:37,898 - INFO - Epoch[90] Learning rate is 0.00025
+2026-10-30 15:54:38,165 - INFO - Epoch[90] Elapsed time 0.266 seconds
+2026-10-30 15:54:38,166 - INFO - Epoch[90] Evaluation metric 'epoch_loss'=2.941678
+2026-10-30 15:54:38,189 - INFO - Epoch[91] Learning rate is 0.00025
+2026-10-30 15:54:38,428 - INFO - Epoch[91] Elapsed time 0.238 seconds
+2026-10-30 15:54:38,429 - INFO - Epoch[91] Evaluation metric 'epoch_loss'=2.932734
+2026-10-30 15:54:38,448 - INFO - Epoch[92] Learning rate is 0.00025
+2026-10-30 15:54:38,731 - INFO - Epoch[92] Elapsed time 0.283 seconds
+2026-10-30 15:54:38,732 - INFO - Epoch[92] Evaluation metric 'epoch_loss'=2.915342
+2026-10-30 15:54:38,752 - INFO - Epoch[93] Learning rate is 0.00025
+2026-10-30 15:54:39,087 - INFO - Epoch[93] Elapsed time 0.335 seconds
+2026-10-30 15:54:39,087 - INFO - Epoch[93] Evaluation metric 'epoch_loss'=3.020097
+2026-10-30 15:54:39,105 - INFO - Epoch[94] Learning rate is 0.00025
+2026-10-30 15:54:39,397 - INFO - Epoch[94] Elapsed time 0.292 seconds
+2026-10-30 15:54:39,397 - INFO - Epoch[94] Evaluation metric 'epoch_loss'=2.936755
+2026-10-30 15:54:39,418 - INFO - Epoch[95] Learning rate is 0.00025
+2026-10-30 15:54:39,653 - INFO - Epoch[95] Elapsed time 0.233 seconds
+2026-10-30 15:54:39,654 - INFO - Epoch[95] Evaluation metric 'epoch_loss'=3.019235
+2026-10-30 15:54:39,681 - INFO - Epoch[96] Learning rate is 0.000125
+2026-10-30 15:54:40,072 - INFO - Epoch[96] Elapsed time 0.391 seconds
+2026-10-30 15:54:40,074 - INFO - Epoch[96] Evaluation metric 'epoch_loss'=2.981214
+2026-10-30 15:54:40,100 - INFO - Epoch[97] Learning rate is 0.000125
+2026-10-30 15:54:40,433 - INFO - Epoch[97] Elapsed time 0.332 seconds
+2026-10-30 15:54:40,433 - INFO - Epoch[97] Evaluation metric 'epoch_loss'=2.989851
+2026-10-30 15:54:40,453 - INFO - Epoch[98] Learning rate is 0.000125
+2026-10-30 15:54:40,783 - INFO - Epoch[98] Elapsed time 0.330 seconds
+2026-10-30 15:54:40,784 - INFO - Epoch[98] Evaluation metric 'epoch_loss'=2.912969
+2026-10-30 15:54:40,803 - INFO - Epoch[99] Learning rate is 0.000125
+2026-10-30 15:54:41,170 - INFO - Epoch[99] Elapsed time 0.366 seconds
+2026-10-30 15:54:41,171 - INFO - Epoch[99] Evaluation metric 'epoch_loss'=3.003600
+2026-10-30 15:54:41,193 - INFO - Computing averaged parameters.
+2026-10-30 15:54:41,203 - INFO - Loading averaged parameters.
+2026-10-30 15:54:41,247 - INFO - End model training
+2026-10-30 15:54:44,489 - INFO - PV_house_4 - MAE: 0.1438, RMSE: 0.1629
+2026-10-30 15:54:45,303 - INFO - Training BESS models
+2026-10-30 15:54:45,371 - INFO - Using random seed: 1793375685
+2026-10-30 15:54:45,373 - INFO - Training BESS_house_1 model on 8544 samples...
+2026-10-30 15:54:45,376 - WARNING - Multiple 15 does not divide base seasonality 1. Falling back to seasonality 1.
+2026-10-30 15:54:45,377 - INFO - Using dilation depth 9 and receptive field length 512
+2026-10-30 15:54:45,458 - INFO - Start model training
+2026-10-30 15:54:45,462 - INFO - Epoch[0] Learning rate is 0.001
+2026-10-30 15:54:45,852 - INFO - Number of parameters in WaveNetTraining: 93509
+2026-10-30 15:54:45,853 - INFO - Epoch[0] Elapsed time 0.390 seconds
+2026-10-30 15:54:45,854 - INFO - Epoch[0] Evaluation metric 'epoch_loss'=6.922877
+2026-10-30 15:54:45,874 - INFO - Epoch[1] Learning rate is 0.001
+2026-10-30 15:54:46,219 - INFO - Epoch[1] Elapsed time 0.345 seconds
+2026-10-30 15:54:46,221 - INFO - Epoch[1] Evaluation metric 'epoch_loss'=6.849939
+2026-10-30 15:54:46,245 - INFO - Epoch[2] Learning rate is 0.001
+2026-10-30 15:54:46,524 - INFO - Epoch[2] Elapsed time 0.279 seconds
+2026-10-30 15:54:46,525 - INFO - Epoch[2] Evaluation metric 'epoch_loss'=6.790036
+2026-10-30 15:54:46,543 - INFO - Epoch[3] Learning rate is 0.001
+2026-10-30 15:54:46,850 - INFO - Epoch[3] Elapsed time 0.305 seconds
+2026-10-30 15:54:46,851 - INFO - Epoch[3] Evaluation metric 'epoch_loss'=6.746973
+2026-10-30 15:54:46,868 - INFO - Epoch[4] Learning rate is 0.001
+2026-10-30 15:54:47,149 - INFO - Epoch[4] Elapsed time 0.280 seconds
+2026-10-30 15:54:47,151 - INFO - Epoch[4] Evaluation metric 'epoch_loss'=6.697442
+2026-10-30 15:54:47,170 - INFO - Epoch[5] Learning rate is 0.001
+2026-10-30 15:54:47,478 - INFO - Epoch[5] Elapsed time 0.307 seconds
+2026-10-30 15:54:47,479 - INFO - Epoch[5] Evaluation metric 'epoch_loss'=6.607336
+2026-10-30 15:54:47,497 - INFO - Epoch[6] Learning rate is 0.001
+2026-10-30 15:54:47,795 - INFO - Epoch[6] Elapsed time 0.297 seconds
+2026-10-30 15:54:47,796 - INFO - Epoch[6] Evaluation metric 'epoch_loss'=6.560255
+2026-10-30 15:54:47,820 - INFO - Epoch[7] Learning rate is 0.001
+2026-10-30 15:54:48,103 - INFO - Epoch[7] Elapsed time 0.283 seconds
+2026-10-30 15:54:48,103 - INFO - Epoch[7] Evaluation metric 'epoch_loss'=6.489207
+2026-10-30 15:54:48,124 - INFO - Epoch[8] Learning rate is 0.001
+2026-10-30 15:54:48,392 - INFO - Epoch[8] Elapsed time 0.265 seconds
+2026-10-30 15:54:48,393 - INFO - Epoch[8] Evaluation metric 'epoch_loss'=6.415483
+2026-10-30 15:54:48,416 - INFO - Epoch[9] Learning rate is 0.001
+2026-10-30 15:54:48,761 - INFO - Epoch[9] Elapsed time 0.344 seconds
+2026-10-30 15:54:48,761 - INFO - Epoch[9] Evaluation metric 'epoch_loss'=6.320205
+2026-10-30 15:54:48,777 - INFO - Epoch[10] Learning rate is 0.001
+2026-10-30 15:54:49,016 - INFO - Epoch[10] Elapsed time 0.238 seconds
+2026-10-30 15:54:49,016 - INFO - Epoch[10] Evaluation metric 'epoch_loss'=6.316157
+2026-10-30 15:54:49,039 - INFO - Epoch[11] Learning rate is 0.001
+2026-10-30 15:54:49,374 - INFO - Epoch[11] Elapsed time 0.333 seconds
+2026-10-30 15:54:49,375 - INFO - Epoch[11] Evaluation metric 'epoch_loss'=6.096262
+2026-10-30 15:54:49,392 - INFO - Epoch[12] Learning rate is 0.001
+2026-10-30 15:54:49,691 - INFO - Epoch[12] Elapsed time 0.299 seconds
+2026-10-30 15:54:49,691 - INFO - Epoch[12] Evaluation metric 'epoch_loss'=5.960375
+2026-10-30 15:54:49,707 - INFO - Epoch[13] Learning rate is 0.001
+2026-10-30 15:54:49,990 - INFO - Epoch[13] Elapsed time 0.281 seconds
+2026-10-30 15:54:49,991 - INFO - Epoch[13] Evaluation metric 'epoch_loss'=5.843945
+2026-10-30 15:54:50,008 - INFO - Epoch[14] Learning rate is 0.001
+2026-10-30 15:54:50,396 - INFO - Epoch[14] Elapsed time 0.387 seconds
+2026-10-30 15:54:50,397 - INFO - Epoch[14] Evaluation metric 'epoch_loss'=5.730107
+2026-10-30 15:54:50,419 - INFO - Epoch[15] Learning rate is 0.001
+2026-10-30 15:54:50,753 - INFO - Epoch[15] Elapsed time 0.334 seconds
+2026-10-30 15:54:50,755 - INFO - Epoch[15] Evaluation metric 'epoch_loss'=5.599751
+2026-10-30 15:54:50,773 - INFO - Epoch[16] Learning rate is 0.001
+2026-10-30 15:54:51,038 - INFO - Epoch[16] Elapsed time 0.264 seconds
+2026-10-30 15:54:51,039 - INFO - Epoch[16] Evaluation metric 'epoch_loss'=5.436856
+2026-10-30 15:54:51,055 - INFO - Epoch[17] Learning rate is 0.001
+2026-10-30 15:54:51,324 - INFO - Epoch[17] Elapsed time 0.268 seconds
+2026-10-30 15:54:51,324 - INFO - Epoch[17] Evaluation metric 'epoch_loss'=5.346265
+2026-10-30 15:54:51,341 - INFO - Epoch[18] Learning rate is 0.001
+2026-10-30 15:54:51,657 - INFO - Epoch[18] Elapsed time 0.316 seconds
+2026-10-30 15:54:51,658 - INFO - Epoch[18] Evaluation metric 'epoch_loss'=5.182825
+2026-10-30 15:54:51,682 - INFO - Epoch[19] Learning rate is 0.001
+2026-10-30 15:54:51,990 - INFO - Epoch[19] Elapsed time 0.308 seconds
+2026-10-30 15:54:51,990 - INFO - Epoch[19] Evaluation metric 'epoch_loss'=5.169857
+2026-10-30 15:54:52,016 - INFO - Epoch[20] Learning rate is 0.001
+2026-10-30 15:54:52,293 - INFO - Epoch[20] Elapsed time 0.276 seconds
+2026-10-30 15:54:52,296 - INFO - Epoch[20] Evaluation metric 'epoch_loss'=4.821335
+2026-10-30 15:54:52,319 - INFO - Epoch[21] Learning rate is 0.001
+2026-10-30 15:54:52,578 - INFO - Epoch[21] Elapsed time 0.258 seconds
+2026-10-30 15:54:52,580 - INFO - Epoch[21] Evaluation metric 'epoch_loss'=4.462547
+2026-10-30 15:54:52,602 - INFO - Epoch[22] Learning rate is 0.001
+2026-10-30 15:54:52,862 - INFO - Epoch[22] Elapsed time 0.260 seconds
+2026-10-30 15:54:52,863 - INFO - Epoch[22] Evaluation metric 'epoch_loss'=4.648401
+2026-10-30 15:54:52,883 - INFO - Epoch[23] Learning rate is 0.001
+2026-10-30 15:54:53,153 - INFO - Epoch[23] Elapsed time 0.270 seconds
+2026-10-30 15:54:53,153 - INFO - Epoch[23] Evaluation metric 'epoch_loss'=4.521263
+2026-10-30 15:54:53,176 - INFO - Epoch[24] Learning rate is 0.001
+2026-10-30 15:54:53,476 - INFO - Epoch[24] Elapsed time 0.298 seconds
+2026-10-30 15:54:53,477 - INFO - Epoch[24] Evaluation metric 'epoch_loss'=4.541109
+2026-10-30 15:54:53,494 - INFO - Epoch[25] Learning rate is 0.001
+2026-10-30 15:54:53,811 - INFO - Epoch[25] Elapsed time 0.317 seconds
+2026-10-30 15:54:53,812 - INFO - Epoch[25] Evaluation metric 'epoch_loss'=4.084497
+2026-10-30 15:54:53,830 - INFO - Epoch[26] Learning rate is 0.001
+2026-10-30 15:54:54,162 - INFO - Epoch[26] Elapsed time 0.332 seconds
+2026-10-30 15:54:54,164 - INFO - Epoch[26] Evaluation metric 'epoch_loss'=4.495177
+2026-10-30 15:54:54,187 - INFO - Epoch[27] Learning rate is 0.001
+2026-10-30 15:54:54,476 - INFO - Epoch[27] Elapsed time 0.287 seconds
+2026-10-30 15:54:54,477 - INFO - Epoch[27] Evaluation metric 'epoch_loss'=4.228762
+2026-10-30 15:54:54,493 - INFO - Epoch[28] Learning rate is 0.001
+2026-10-30 15:54:54,911 - INFO - Epoch[28] Elapsed time 0.418 seconds
+2026-10-30 15:54:54,911 - INFO - Epoch[28] Evaluation metric 'epoch_loss'=3.807250
+2026-10-30 15:54:54,929 - INFO - Epoch[29] Learning rate is 0.001
+2026-10-30 15:54:55,234 - INFO - Epoch[29] Elapsed time 0.305 seconds
+2026-10-30 15:54:55,236 - INFO - Epoch[29] Evaluation metric 'epoch_loss'=3.924145
+2026-10-30 15:54:55,255 - INFO - Epoch[30] Learning rate is 0.001
+2026-10-30 15:54:55,567 - INFO - Epoch[30] Elapsed time 0.312 seconds
+2026-10-30 15:54:55,568 - INFO - Epoch[30] Evaluation metric 'epoch_loss'=3.591353
+2026-10-30 15:54:55,586 - INFO - Epoch[31] Learning rate is 0.001
+2026-10-30 15:54:55,860 - INFO - Epoch[31] Elapsed time 0.274 seconds
+2026-10-30 15:54:55,861 - INFO - Epoch[31] Evaluation metric 'epoch_loss'=3.844062
+2026-10-30 15:54:55,881 - INFO - Epoch[32] Learning rate is 0.001
+2026-10-30 15:54:56,233 - INFO - Epoch[32] Elapsed time 0.352 seconds
+2026-10-30 15:54:56,234 - INFO - Epoch[32] Evaluation metric 'epoch_loss'=3.761801
+2026-10-30 15:54:56,251 - INFO - Epoch[33] Learning rate is 0.001
+2026-10-30 15:54:56,575 - INFO - Epoch[33] Elapsed time 0.324 seconds
+2026-10-30 15:54:56,575 - INFO - Epoch[33] Evaluation metric 'epoch_loss'=4.015124
+2026-10-30 15:54:56,595 - INFO - Epoch[34] Learning rate is 0.001
+2026-10-30 15:54:56,990 - INFO - Epoch[34] Elapsed time 0.394 seconds
+2026-10-30 15:54:56,991 - INFO - Epoch[34] Evaluation metric 'epoch_loss'=3.734623
+2026-10-30 15:54:57,011 - INFO - Epoch[35] Learning rate is 0.001
+2026-10-30 15:54:57,314 - INFO - Epoch[35] Elapsed time 0.303 seconds
+2026-10-30 15:54:57,315 - INFO - Epoch[35] Evaluation metric 'epoch_loss'=3.688497
+2026-10-30 15:54:57,340 - INFO - Epoch[36] Learning rate is 0.001
+2026-10-30 15:54:57,556 - INFO - Epoch[36] Elapsed time 0.215 seconds
+2026-10-30 15:54:57,556 - INFO - Epoch[36] Evaluation metric 'epoch_loss'=4.027288
+2026-10-30 15:54:57,576 - INFO - Epoch[37] Learning rate is 0.001
+2026-10-30 15:54:57,828 - INFO - Epoch[37] Elapsed time 0.251 seconds
+2026-10-30 15:54:57,829 - INFO - Epoch[37] Evaluation metric 'epoch_loss'=3.742955
+2026-10-30 15:54:57,856 - INFO - Epoch[38] Learning rate is 0.001
+2026-10-30 15:54:58,077 - INFO - Epoch[38] Elapsed time 0.221 seconds
+2026-10-30 15:54:58,078 - INFO - Epoch[38] Evaluation metric 'epoch_loss'=3.859174
+2026-10-30 15:54:58,095 - INFO - Epoch[39] Learning rate is 0.001
+2026-10-30 15:54:58,343 - INFO - Epoch[39] Elapsed time 0.248 seconds
+2026-10-30 15:54:58,344 - INFO - Epoch[39] Evaluation metric 'epoch_loss'=3.791562
+2026-10-30 15:54:58,365 - INFO - Epoch[40] Learning rate is 0.001
+2026-10-30 15:54:58,677 - INFO - Epoch[40] Elapsed time 0.312 seconds
+2026-10-30 15:54:58,677 - INFO - Epoch[40] Evaluation metric 'epoch_loss'=3.498393
+2026-10-30 15:54:58,698 - INFO - Epoch[41] Learning rate is 0.001
+2026-10-30 15:54:59,016 - INFO - Epoch[41] Elapsed time 0.317 seconds
+2026-10-30 15:54:59,016 - INFO - Epoch[41] Evaluation metric 'epoch_loss'=3.723574
+2026-10-30 15:54:59,040 - INFO - Epoch[42] Learning rate is 0.001
+2026-10-30 15:54:59,341 - INFO - Epoch[42] Elapsed time 0.300 seconds
+2026-10-30 15:54:59,342 - INFO - Epoch[42] Evaluation metric 'epoch_loss'=3.518723
+2026-10-30 15:54:59,360 - INFO - Epoch[43] Learning rate is 0.001
+2026-10-30 15:54:59,612 - INFO - Epoch[43] Elapsed time 0.252 seconds
+2026-10-30 15:54:59,613 - INFO - Epoch[43] Evaluation metric 'epoch_loss'=3.990846
+2026-10-30 15:54:59,632 - INFO - Epoch[44] Learning rate is 0.001
+2026-10-30 15:54:59,911 - INFO - Epoch[44] Elapsed time 0.279 seconds
+2026-10-30 15:54:59,911 - INFO - Epoch[44] Evaluation metric 'epoch_loss'=3.769349
+2026-10-30 15:54:59,936 - INFO - Epoch[45] Learning rate is 0.001
+2026-10-30 15:55:00,226 - INFO - Epoch[45] Elapsed time 0.287 seconds
+2026-10-30 15:55:00,227 - INFO - Epoch[45] Evaluation metric 'epoch_loss'=3.764307
+2026-10-30 15:55:00,244 - INFO - Epoch[46] Learning rate is 0.001
+2026-10-30 15:55:00,505 - INFO - Epoch[46] Elapsed time 0.261 seconds
+2026-10-30 15:55:00,506 - INFO - Epoch[46] Evaluation metric 'epoch_loss'=3.578261
+2026-10-30 15:55:00,525 - INFO - Epoch[47] Learning rate is 0.001
+2026-10-30 15:55:00,811 - INFO - Epoch[47] Elapsed time 0.285 seconds
+2026-10-30 15:55:00,811 - INFO - Epoch[47] Evaluation metric 'epoch_loss'=3.765049
+2026-10-30 15:55:00,832 - INFO - Epoch[48] Learning rate is 0.001
+2026-10-30 15:55:01,139 - INFO - Epoch[48] Elapsed time 0.307 seconds
+2026-10-30 15:55:01,140 - INFO - Epoch[48] Evaluation metric 'epoch_loss'=3.930837
+2026-10-30 15:55:01,162 - INFO - Epoch[49] Learning rate is 0.001
+2026-10-30 15:55:01,403 - INFO - Epoch[49] Elapsed time 0.240 seconds
+2026-10-30 15:55:01,403 - INFO - Epoch[49] Evaluation metric 'epoch_loss'=3.706335
+2026-10-30 15:55:01,422 - INFO - Epoch[50] Learning rate is 0.001
+2026-10-30 15:55:01,697 - INFO - Epoch[50] Elapsed time 0.275 seconds
+2026-10-30 15:55:01,698 - INFO - Epoch[50] Evaluation metric 'epoch_loss'=3.180753
+2026-10-30 15:55:01,718 - INFO - Epoch[51] Learning rate is 0.001
+2026-10-30 15:55:02,022 - INFO - Epoch[51] Elapsed time 0.303 seconds
+2026-10-30 15:55:02,022 - INFO - Epoch[51] Evaluation metric 'epoch_loss'=3.826509
+2026-10-30 15:55:02,046 - INFO - Epoch[52] Learning rate is 0.001
+2026-10-30 15:55:02,405 - INFO - Epoch[52] Elapsed time 0.359 seconds
+2026-10-30 15:55:02,406 - INFO - Epoch[52] Evaluation metric 'epoch_loss'=3.543446
+2026-10-30 15:55:02,427 - INFO - Epoch[53] Learning rate is 0.001
+2026-10-30 15:55:02,805 - INFO - Epoch[53] Elapsed time 0.378 seconds
+2026-10-30 15:55:02,806 - INFO - Epoch[53] Evaluation metric 'epoch_loss'=3.783785
+2026-10-30 15:55:02,823 - INFO - Epoch[54] Learning rate is 0.001
+2026-10-30 15:55:03,209 - INFO - Epoch[54] Elapsed time 0.386 seconds
+2026-10-30 15:55:03,210 - INFO - Epoch[54] Evaluation metric 'epoch_loss'=3.536362
+2026-10-30 15:55:03,228 - INFO - Epoch[55] Learning rate is 0.001
+2026-10-30 15:55:03,549 - INFO - Epoch[55] Elapsed time 0.321 seconds
+2026-10-30 15:55:03,550 - INFO - Epoch[55] Evaluation metric 'epoch_loss'=3.914501
+2026-10-30 15:55:03,573 - INFO - Epoch[56] Learning rate is 0.001
+2026-10-30 15:55:03,946 - INFO - Epoch[56] Elapsed time 0.373 seconds
+2026-10-30 15:55:03,947 - INFO - Epoch[56] Evaluation metric 'epoch_loss'=3.358483
+2026-10-30 15:55:03,965 - INFO - Epoch[57] Learning rate is 0.001
+2026-10-30 15:55:04,275 - INFO - Epoch[57] Elapsed time 0.310 seconds
+2026-10-30 15:55:04,276 - INFO - Epoch[57] Evaluation metric 'epoch_loss'=4.023497
+2026-10-30 15:55:04,297 - INFO - Epoch[58] Learning rate is 0.001
+2026-10-30 15:55:04,598 - INFO - Epoch[58] Elapsed time 0.301 seconds
+2026-10-30 15:55:04,599 - INFO - Epoch[58] Evaluation metric 'epoch_loss'=3.278709
+2026-10-30 15:55:04,619 - INFO - Epoch[59] Learning rate is 0.001
+2026-10-30 15:55:04,969 - INFO - Epoch[59] Elapsed time 0.350 seconds
+2026-10-30 15:55:04,970 - INFO - Epoch[59] Evaluation metric 'epoch_loss'=3.402644
+2026-10-30 15:55:04,987 - INFO - Epoch[60] Learning rate is 0.001
+2026-10-30 15:55:05,278 - INFO - Epoch[60] Elapsed time 0.291 seconds
+2026-10-30 15:55:05,279 - INFO - Epoch[60] Evaluation metric 'epoch_loss'=3.115591
+2026-10-30 15:55:05,296 - INFO - Epoch[61] Learning rate is 0.001
+2026-10-30 15:55:05,608 - INFO - Epoch[61] Elapsed time 0.312 seconds
+2026-10-30 15:55:05,609 - INFO - Epoch[61] Evaluation metric 'epoch_loss'=3.691838
+2026-10-30 15:55:05,624 - INFO - Epoch[62] Learning rate is 0.001
+2026-10-30 15:55:05,880 - INFO - Epoch[62] Elapsed time 0.255 seconds
+2026-10-30 15:55:05,881 - INFO - Epoch[62] Evaluation metric 'epoch_loss'=4.003896
+2026-10-30 15:55:05,900 - INFO - Epoch[63] Learning rate is 0.001
+2026-10-30 15:55:06,197 - INFO - Epoch[63] Elapsed time 0.297 seconds
+2026-10-30 15:55:06,198 - INFO - Epoch[63] Evaluation metric 'epoch_loss'=3.691806
+2026-10-30 15:55:06,217 - INFO - Epoch[64] Learning rate is 0.001
+2026-10-30 15:55:06,482 - INFO - Epoch[64] Elapsed time 0.263 seconds
+2026-10-30 15:55:06,482 - INFO - Epoch[64] Evaluation metric 'epoch_loss'=3.572264
+2026-10-30 15:55:06,499 - INFO - Epoch[65] Learning rate is 0.001
+2026-10-30 15:55:06,899 - INFO - Epoch[65] Elapsed time 0.399 seconds
+2026-10-30 15:55:06,899 - INFO - Epoch[65] Evaluation metric 'epoch_loss'=3.566505
+2026-10-30 15:55:06,918 - INFO - Epoch[66] Learning rate is 0.001
+2026-10-30 15:55:07,138 - INFO - Epoch[66] Elapsed time 0.220 seconds
+2026-10-30 15:55:07,139 - INFO - Epoch[66] Evaluation metric 'epoch_loss'=3.601005
+2026-10-30 15:55:07,157 - INFO - Epoch[67] Learning rate is 0.001
+2026-10-30 15:55:07,544 - INFO - Epoch[67] Elapsed time 0.387 seconds
+2026-10-30 15:55:07,545 - INFO - Epoch[67] Evaluation metric 'epoch_loss'=4.291357
+2026-10-30 15:55:07,566 - INFO - Epoch[68] Learning rate is 0.001
+2026-10-30 15:55:07,876 - INFO - Epoch[68] Elapsed time 0.309 seconds
+2026-10-30 15:55:07,877 - INFO - Epoch[68] Evaluation metric 'epoch_loss'=3.702484
+2026-10-30 15:55:07,900 - INFO - Epoch[69] Learning rate is 0.001
+2026-10-30 15:55:08,212 - INFO - Epoch[69] Elapsed time 0.312 seconds
+2026-10-30 15:55:08,212 - INFO - Epoch[69] Evaluation metric 'epoch_loss'=3.388168
+2026-10-30 15:55:08,232 - INFO - Epoch[70] Learning rate is 0.001
+2026-10-30 15:55:08,539 - INFO - Epoch[70] Elapsed time 0.305 seconds
+2026-10-30 15:55:08,539 - INFO - Epoch[70] Evaluation metric 'epoch_loss'=3.435819
+2026-10-30 15:55:08,558 - INFO - Epoch[71] Learning rate is 0.0005
+2026-10-30 15:55:08,831 - INFO - Epoch[71] Elapsed time 0.272 seconds
+2026-10-30 15:55:08,833 - INFO - Epoch[71] Evaluation metric 'epoch_loss'=3.490367
+2026-10-30 15:55:08,852 - INFO - Epoch[72] Learning rate is 0.0005
+2026-10-30 15:55:09,150 - INFO - Epoch[72] Elapsed time 0.297 seconds
+2026-10-30 15:55:09,151 - INFO - Epoch[72] Evaluation metric 'epoch_loss'=3.338251
+2026-10-30 15:55:09,173 - INFO - Epoch[73] Learning rate is 0.0005
+2026-10-30 15:55:09,490 - INFO - Epoch[73] Elapsed time 0.316 seconds
+2026-10-30 15:55:09,491 - INFO - Epoch[73] Evaluation metric 'epoch_loss'=4.157993
+2026-10-30 15:55:09,506 - INFO - Epoch[74] Learning rate is 0.0005
+2026-10-30 15:55:09,812 - INFO - Epoch[74] Elapsed time 0.305 seconds
+2026-10-30 15:55:09,812 - INFO - Epoch[74] Evaluation metric 'epoch_loss'=3.534000
+2026-10-30 15:55:09,832 - INFO - Epoch[75] Learning rate is 0.0005
+2026-10-30 15:55:10,099 - INFO - Epoch[75] Elapsed time 0.267 seconds
+2026-10-30 15:55:10,101 - INFO - Epoch[75] Evaluation metric 'epoch_loss'=3.696216
+2026-10-30 15:55:10,118 - INFO - Epoch[76] Learning rate is 0.0005
+2026-10-30 15:55:10,455 - INFO - Epoch[76] Elapsed time 0.336 seconds
+2026-10-30 15:55:10,455 - INFO - Epoch[76] Evaluation metric 'epoch_loss'=3.204528
+2026-10-30 15:55:10,475 - INFO - Epoch[77] Learning rate is 0.0005
+2026-10-30 15:55:10,790 - INFO - Epoch[77] Elapsed time 0.315 seconds
+2026-10-30 15:55:10,793 - INFO - Epoch[77] Evaluation metric 'epoch_loss'=3.370058
+2026-10-30 15:55:10,813 - INFO - Epoch[78] Learning rate is 0.0005
+2026-10-30 15:55:11,234 - INFO - Epoch[78] Elapsed time 0.420 seconds
+2026-10-30 15:55:11,235 - INFO - Epoch[78] Evaluation metric 'epoch_loss'=3.851243
+2026-10-30 15:55:11,251 - INFO - Epoch[79] Learning rate is 0.0005
+2026-10-30 15:55:11,566 - INFO - Epoch[79] Elapsed time 0.314 seconds
+2026-10-30 15:55:11,567 - INFO - Epoch[79] Evaluation metric 'epoch_loss'=3.941693
+2026-10-30 15:55:11,586 - INFO - Epoch[80] Learning rate is 0.0005
+2026-10-30 15:55:12,022 - INFO - Epoch[80] Elapsed time 0.435 seconds
+2026-10-30 15:55:12,022 - INFO - Epoch[80] Evaluation metric 'epoch_loss'=3.785625
+2026-10-30 15:55:12,037 - INFO - Epoch[81] Learning rate is 0.00025
+2026-10-30 15:55:12,369 - INFO - Epoch[81] Elapsed time 0.330 seconds
+2026-10-30 15:55:12,369 - INFO - Epoch[81] Evaluation metric 'epoch_loss'=3.409551
+2026-10-30 15:55:12,390 - INFO - Epoch[82] Learning rate is 0.00025
+2026-10-30 15:55:12,706 - INFO - Epoch[82] Elapsed time 0.316 seconds
+2026-10-30 15:55:12,707 - INFO - Epoch[82] Evaluation metric 'epoch_loss'=3.261126
+2026-10-30 15:55:12,726 - INFO - Epoch[83] Learning rate is 0.00025
+2026-10-30 15:55:13,122 - INFO - Epoch[83] Elapsed time 0.396 seconds
+2026-10-30 15:55:13,123 - INFO - Epoch[83] Evaluation metric 'epoch_loss'=3.777365
+2026-10-30 15:55:13,147 - INFO - Epoch[84] Learning rate is 0.00025
+2026-10-30 15:55:13,561 - INFO - Epoch[84] Elapsed time 0.413 seconds
+2026-10-30 15:55:13,561 - INFO - Epoch[84] Evaluation metric 'epoch_loss'=3.616981
+2026-10-30 15:55:13,576 - INFO - Epoch[85] Learning rate is 0.00025
+2026-10-30 15:55:13,828 - INFO - Epoch[85] Elapsed time 0.252 seconds
+2026-10-30 15:55:13,829 - INFO - Epoch[85] Evaluation metric 'epoch_loss'=3.695780
+2026-10-30 15:55:13,850 - INFO - Epoch[86] Learning rate is 0.00025
+2026-10-30 15:55:14,189 - INFO - Epoch[86] Elapsed time 0.339 seconds
+2026-10-30 15:55:14,190 - INFO - Epoch[86] Evaluation metric 'epoch_loss'=3.500921
+2026-10-30 15:55:14,208 - INFO - Epoch[87] Learning rate is 0.00025
+2026-10-30 15:55:14,482 - INFO - Epoch[87] Elapsed time 0.273 seconds
+2026-10-30 15:55:14,482 - INFO - Epoch[87] Evaluation metric 'epoch_loss'=3.471024
+2026-10-30 15:55:14,501 - INFO - Epoch[88] Learning rate is 0.00025
+2026-10-30 15:55:14,912 - INFO - Epoch[88] Elapsed time 0.410 seconds
+2026-10-30 15:55:14,914 - INFO - Epoch[88] Evaluation metric 'epoch_loss'=3.190634
+2026-10-30 15:55:14,944 - INFO - Epoch[89] Learning rate is 0.00025
+2026-10-30 15:55:15,219 - INFO - Epoch[89] Elapsed time 0.273 seconds
+2026-10-30 15:55:15,219 - INFO - Epoch[89] Evaluation metric 'epoch_loss'=3.680551
+2026-10-30 15:55:15,237 - INFO - Epoch[90] Learning rate is 0.00025
+2026-10-30 15:55:15,506 - INFO - Epoch[90] Elapsed time 0.269 seconds
+2026-10-30 15:55:15,507 - INFO - Epoch[90] Evaluation metric 'epoch_loss'=3.664821
+2026-10-30 15:55:15,526 - INFO - Epoch[91] Learning rate is 0.000125
+2026-10-30 15:55:15,779 - INFO - Epoch[91] Elapsed time 0.252 seconds
+2026-10-30 15:55:15,780 - INFO - Epoch[91] Evaluation metric 'epoch_loss'=3.717412
+2026-10-30 15:55:15,801 - INFO - Epoch[92] Learning rate is 0.000125
+2026-10-30 15:55:16,089 - INFO - Epoch[92] Elapsed time 0.287 seconds
+2026-10-30 15:55:16,089 - INFO - Epoch[92] Evaluation metric 'epoch_loss'=3.751074
+2026-10-30 15:55:16,108 - INFO - Epoch[93] Learning rate is 0.000125
+2026-10-30 15:55:16,341 - INFO - Epoch[93] Elapsed time 0.232 seconds
+2026-10-30 15:55:16,343 - INFO - Epoch[93] Evaluation metric 'epoch_loss'=3.703206
+2026-10-30 15:55:16,361 - INFO - Epoch[94] Learning rate is 0.000125
+2026-10-30 15:55:16,625 - INFO - Epoch[94] Elapsed time 0.264 seconds
+2026-10-30 15:55:16,630 - INFO - Epoch[94] Evaluation metric 'epoch_loss'=3.830099
+2026-10-30 15:55:16,649 - INFO - Epoch[95] Learning rate is 0.000125
+2026-10-30 15:55:17,036 - INFO - Epoch[95] Elapsed time 0.383 seconds
+2026-10-30 15:55:17,036 - INFO - Epoch[95] Evaluation metric 'epoch_loss'=3.756594
+2026-10-30 15:55:17,055 - INFO - Epoch[96] Learning rate is 0.000125
+2026-10-30 15:55:17,435 - INFO - Epoch[96] Elapsed time 0.379 seconds
+2026-10-30 15:55:17,435 - INFO - Epoch[96] Evaluation metric 'epoch_loss'=3.524993
+2026-10-30 15:55:17,458 - INFO - Epoch[97] Learning rate is 0.000125
+2026-10-30 15:55:17,800 - INFO - Epoch[97] Elapsed time 0.341 seconds
+2026-10-30 15:55:17,800 - INFO - Epoch[97] Evaluation metric 'epoch_loss'=3.826781
+2026-10-30 15:55:17,820 - INFO - Epoch[98] Learning rate is 0.000125
+2026-10-30 15:55:18,056 - INFO - Epoch[98] Elapsed time 0.235 seconds
+2026-10-30 15:55:18,059 - INFO - Epoch[98] Evaluation metric 'epoch_loss'=3.265243
+2026-10-30 15:55:18,080 - INFO - Epoch[99] Learning rate is 0.000125
+2026-10-30 15:55:18,338 - INFO - Epoch[99] Elapsed time 0.258 seconds
+2026-10-30 15:55:18,338 - INFO - Epoch[99] Evaluation metric 'epoch_loss'=3.471093
+2026-10-30 15:55:18,360 - INFO - Computing averaged parameters.
+2026-10-30 15:55:18,368 - INFO - Loading averaged parameters.
+2026-10-30 15:55:18,410 - INFO - End model training
+2026-10-30 15:55:21,629 - INFO - BESS_house_1 - MAE: 0.1406, RMSE: 0.1809
+2026-10-30 15:55:22,469 - INFO - Using random seed: 1793375722
+2026-10-30 15:55:22,471 - INFO - Training BESS_house_2 model on 8544 samples...
+2026-10-30 15:55:22,474 - WARNING - Multiple 15 does not divide base seasonality 1. Falling back to seasonality 1.
+2026-10-30 15:55:22,475 - INFO - Using dilation depth 9 and receptive field length 512
+2026-10-30 15:55:22,558 - INFO - Start model training
+2026-10-30 15:55:22,565 - INFO - Epoch[0] Learning rate is 0.001
+2026-10-30 15:55:22,880 - INFO - Number of parameters in WaveNetTraining: 93509
+2026-10-30 15:55:22,882 - INFO - Epoch[0] Elapsed time 0.316 seconds
+2026-10-30 15:55:22,883 - INFO - Epoch[0] Evaluation metric 'epoch_loss'=6.984408
+2026-10-30 15:55:22,912 - INFO - Epoch[1] Learning rate is 0.001
+2026-10-30 15:55:23,257 - INFO - Epoch[1] Elapsed time 0.342 seconds
+2026-10-30 15:55:23,258 - INFO - Epoch[1] Evaluation metric 'epoch_loss'=6.956807
+2026-10-30 15:55:23,278 - INFO - Epoch[2] Learning rate is 0.001
+2026-10-30 15:55:23,527 - INFO - Epoch[2] Elapsed time 0.248 seconds
+2026-10-30 15:55:23,527 - INFO - Epoch[2] Evaluation metric 'epoch_loss'=6.892011
+2026-10-30 15:55:23,547 - INFO - Epoch[3] Learning rate is 0.001
+2026-10-30 15:55:23,827 - INFO - Epoch[3] Elapsed time 0.281 seconds
+2026-10-30 15:55:23,829 - INFO - Epoch[3] Evaluation metric 'epoch_loss'=6.872938
+2026-10-30 15:55:23,849 - INFO - Epoch[4] Learning rate is 0.001
+2026-10-30 15:55:24,231 - INFO - Epoch[4] Elapsed time 0.382 seconds
+2026-10-30 15:55:24,232 - INFO - Epoch[4] Evaluation metric 'epoch_loss'=6.828412
+2026-10-30 15:55:24,249 - INFO - Epoch[5] Learning rate is 0.001
+2026-10-30 15:55:24,624 - INFO - Epoch[5] Elapsed time 0.374 seconds
+2026-10-30 15:55:24,625 - INFO - Epoch[5] Evaluation metric 'epoch_loss'=6.822576
+2026-10-30 15:55:24,649 - INFO - Epoch[6] Learning rate is 0.001
+2026-10-30 15:55:24,987 - INFO - Epoch[6] Elapsed time 0.338 seconds
+2026-10-30 15:55:24,989 - INFO - Epoch[6] Evaluation metric 'epoch_loss'=6.750087
+2026-10-30 15:55:25,003 - INFO - Epoch[7] Learning rate is 0.001
+2026-10-30 15:55:25,323 - INFO - Epoch[7] Elapsed time 0.318 seconds
+2026-10-30 15:55:25,324 - INFO - Epoch[7] Evaluation metric 'epoch_loss'=6.710706
+2026-10-30 15:55:25,346 - INFO - Epoch[8] Learning rate is 0.001
+2026-10-30 15:55:25,634 - INFO - Epoch[8] Elapsed time 0.285 seconds
+2026-10-30 15:55:25,635 - INFO - Epoch[8] Evaluation metric 'epoch_loss'=6.761022
+2026-10-30 15:55:25,654 - INFO - Epoch[9] Learning rate is 0.001
+2026-10-30 15:55:25,975 - INFO - Epoch[9] Elapsed time 0.319 seconds
+2026-10-30 15:55:25,975 - INFO - Epoch[9] Evaluation metric 'epoch_loss'=6.598380
+2026-10-30 15:55:25,998 - INFO - Epoch[10] Learning rate is 0.001
+2026-10-30 15:55:26,286 - INFO - Epoch[10] Elapsed time 0.287 seconds
+2026-10-30 15:55:26,289 - INFO - Epoch[10] Evaluation metric 'epoch_loss'=6.623025
+2026-10-30 15:55:26,310 - INFO - Epoch[11] Learning rate is 0.001
+2026-10-30 15:55:26,699 - INFO - Epoch[11] Elapsed time 0.387 seconds
+2026-10-30 15:55:26,699 - INFO - Epoch[11] Evaluation metric 'epoch_loss'=6.606388
+2026-10-30 15:55:26,717 - INFO - Epoch[12] Learning rate is 0.001
+2026-10-30 15:55:27,018 - INFO - Epoch[12] Elapsed time 0.301 seconds
+2026-10-30 15:55:27,019 - INFO - Epoch[12] Evaluation metric 'epoch_loss'=6.525307
+2026-10-30 15:55:27,041 - INFO - Epoch[13] Learning rate is 0.001
+2026-10-30 15:55:27,371 - INFO - Epoch[13] Elapsed time 0.330 seconds
+2026-10-30 15:55:27,372 - INFO - Epoch[13] Evaluation metric 'epoch_loss'=6.399185
+2026-10-30 15:55:27,395 - INFO - Epoch[14] Learning rate is 0.001
+2026-10-30 15:55:27,736 - INFO - Epoch[14] Elapsed time 0.341 seconds
+2026-10-30 15:55:27,737 - INFO - Epoch[14] Evaluation metric 'epoch_loss'=6.312646
+2026-10-30 15:55:27,758 - INFO - Epoch[15] Learning rate is 0.001
+2026-10-30 15:55:28,010 - INFO - Epoch[15] Elapsed time 0.252 seconds
+2026-10-30 15:55:28,010 - INFO - Epoch[15] Evaluation metric 'epoch_loss'=6.286880
+2026-10-30 15:55:28,026 - INFO - Epoch[16] Learning rate is 0.001
+2026-10-30 15:55:28,312 - INFO - Epoch[16] Elapsed time 0.285 seconds
+2026-10-30 15:55:28,312 - INFO - Epoch[16] Evaluation metric 'epoch_loss'=6.304389
+2026-10-30 15:55:28,332 - INFO - Epoch[17] Learning rate is 0.001
+2026-10-30 15:55:28,596 - INFO - Epoch[17] Elapsed time 0.264 seconds
+2026-10-30 15:55:28,596 - INFO - Epoch[17] Evaluation metric 'epoch_loss'=6.243823
+2026-10-30 15:55:28,614 - INFO - Epoch[18] Learning rate is 0.001
+2026-10-30 15:55:28,901 - INFO - Epoch[18] Elapsed time 0.287 seconds
+2026-10-30 15:55:28,902 - INFO - Epoch[18] Evaluation metric 'epoch_loss'=6.149929
+2026-10-30 15:55:28,922 - INFO - Epoch[19] Learning rate is 0.001
+2026-10-30 15:55:29,276 - INFO - Epoch[19] Elapsed time 0.354 seconds
+2026-10-30 15:55:29,276 - INFO - Epoch[19] Evaluation metric 'epoch_loss'=6.152148
+2026-10-30 15:55:29,293 - INFO - Epoch[20] Learning rate is 0.001
+2026-10-30 15:55:29,533 - INFO - Epoch[20] Elapsed time 0.239 seconds
+2026-10-30 15:55:29,533 - INFO - Epoch[20] Evaluation metric 'epoch_loss'=6.156358
+2026-10-30 15:55:29,558 - INFO - Epoch[21] Learning rate is 0.001
+2026-10-30 15:55:29,964 - INFO - Epoch[21] Elapsed time 0.406 seconds
+2026-10-30 15:55:29,965 - INFO - Epoch[21] Evaluation metric 'epoch_loss'=5.870050
+2026-10-30 15:55:29,988 - INFO - Epoch[22] Learning rate is 0.001
+2026-10-30 15:55:30,312 - INFO - Epoch[22] Elapsed time 0.324 seconds
+2026-10-30 15:55:30,313 - INFO - Epoch[22] Evaluation metric 'epoch_loss'=5.666882
+2026-10-30 15:55:30,331 - INFO - Epoch[23] Learning rate is 0.001
+2026-10-30 15:55:30,705 - INFO - Epoch[23] Elapsed time 0.373 seconds
+2026-10-30 15:55:30,705 - INFO - Epoch[23] Evaluation metric 'epoch_loss'=5.690357
+2026-10-30 15:55:30,722 - INFO - Epoch[24] Learning rate is 0.001
+2026-10-30 15:55:31,062 - INFO - Epoch[24] Elapsed time 0.340 seconds
+2026-10-30 15:55:31,062 - INFO - Epoch[24] Evaluation metric 'epoch_loss'=5.661624
+2026-10-30 15:55:31,084 - INFO - Epoch[25] Learning rate is 0.001
+2026-10-30 15:55:31,416 - INFO - Epoch[25] Elapsed time 0.331 seconds
+2026-10-30 15:55:31,416 - INFO - Epoch[25] Evaluation metric 'epoch_loss'=5.461442
+2026-10-30 15:55:31,436 - INFO - Epoch[26] Learning rate is 0.001
+2026-10-30 15:55:31,718 - INFO - Epoch[26] Elapsed time 0.282 seconds
+2026-10-30 15:55:31,718 - INFO - Epoch[26] Evaluation metric 'epoch_loss'=5.374982
+2026-10-30 15:55:31,734 - INFO - Epoch[27] Learning rate is 0.001
+2026-10-30 15:55:32,031 - INFO - Epoch[27] Elapsed time 0.296 seconds
+2026-10-30 15:55:32,032 - INFO - Epoch[27] Evaluation metric 'epoch_loss'=5.239628
+2026-10-30 15:55:32,054 - INFO - Epoch[28] Learning rate is 0.001
+2026-10-30 15:55:32,329 - INFO - Epoch[28] Elapsed time 0.274 seconds
+2026-10-30 15:55:32,329 - INFO - Epoch[28] Evaluation metric 'epoch_loss'=5.246621
+2026-10-30 15:55:32,349 - INFO - Epoch[29] Learning rate is 0.001
+2026-10-30 15:55:32,690 - INFO - Epoch[29] Elapsed time 0.341 seconds
+2026-10-30 15:55:32,690 - INFO - Epoch[29] Evaluation metric 'epoch_loss'=5.433956
+2026-10-30 15:55:32,712 - INFO - Epoch[30] Learning rate is 0.001
+2026-10-30 15:55:32,985 - INFO - Epoch[30] Elapsed time 0.273 seconds
+2026-10-30 15:55:32,986 - INFO - Epoch[30] Evaluation metric 'epoch_loss'=5.208956
+2026-10-30 15:55:33,004 - INFO - Epoch[31] Learning rate is 0.001
+2026-10-30 15:55:33,327 - INFO - Epoch[31] Elapsed time 0.323 seconds
+2026-10-30 15:55:33,328 - INFO - Epoch[31] Evaluation metric 'epoch_loss'=4.994456
+2026-10-30 15:55:33,339 - INFO - Epoch[32] Learning rate is 0.001
+2026-10-30 15:55:33,616 - INFO - Epoch[32] Elapsed time 0.276 seconds
+2026-10-30 15:55:33,616 - INFO - Epoch[32] Evaluation metric 'epoch_loss'=4.939985
+2026-10-30 15:55:33,633 - INFO - Epoch[33] Learning rate is 0.001
+2026-10-30 15:55:33,928 - INFO - Epoch[33] Elapsed time 0.294 seconds
+2026-10-30 15:55:33,928 - INFO - Epoch[33] Evaluation metric 'epoch_loss'=4.969136
+2026-10-30 15:55:33,949 - INFO - Epoch[34] Learning rate is 0.001
+2026-10-30 15:55:34,334 - INFO - Epoch[34] Elapsed time 0.384 seconds
+2026-10-30 15:55:34,335 - INFO - Epoch[34] Evaluation metric 'epoch_loss'=4.763500
+2026-10-30 15:55:34,356 - INFO - Epoch[35] Learning rate is 0.001
+2026-10-30 15:55:34,695 - INFO - Epoch[35] Elapsed time 0.337 seconds
+2026-10-30 15:55:34,695 - INFO - Epoch[35] Evaluation metric 'epoch_loss'=5.185663
+2026-10-30 15:55:34,713 - INFO - Epoch[36] Learning rate is 0.001
+2026-10-30 15:55:35,024 - INFO - Epoch[36] Elapsed time 0.310 seconds
+2026-10-30 15:55:35,024 - INFO - Epoch[36] Evaluation metric 'epoch_loss'=4.839241
+2026-10-30 15:55:35,045 - INFO - Epoch[37] Learning rate is 0.001
+2026-10-30 15:55:35,368 - INFO - Epoch[37] Elapsed time 0.323 seconds
+2026-10-30 15:55:35,369 - INFO - Epoch[37] Evaluation metric 'epoch_loss'=4.789662
+2026-10-30 15:55:35,404 - INFO - Epoch[38] Learning rate is 0.001
+2026-10-30 15:55:35,711 - INFO - Epoch[38] Elapsed time 0.304 seconds
+2026-10-30 15:55:35,712 - INFO - Epoch[38] Evaluation metric 'epoch_loss'=4.748690
+2026-10-30 15:55:35,731 - INFO - Epoch[39] Learning rate is 0.001
+2026-10-30 15:55:36,044 - INFO - Epoch[39] Elapsed time 0.312 seconds
+2026-10-30 15:55:36,045 - INFO - Epoch[39] Evaluation metric 'epoch_loss'=4.500379
+2026-10-30 15:55:36,065 - INFO - Epoch[40] Learning rate is 0.001
+2026-10-30 15:55:36,307 - INFO - Epoch[40] Elapsed time 0.242 seconds
+2026-10-30 15:55:36,307 - INFO - Epoch[40] Evaluation metric 'epoch_loss'=4.562235
+2026-10-30 15:55:36,327 - INFO - Epoch[41] Learning rate is 0.001
+2026-10-30 15:55:36,653 - INFO - Epoch[41] Elapsed time 0.324 seconds
+2026-10-30 15:55:36,653 - INFO - Epoch[41] Evaluation metric 'epoch_loss'=4.284645
+2026-10-30 15:55:36,673 - INFO - Epoch[42] Learning rate is 0.001
+2026-10-30 15:55:36,993 - INFO - Epoch[42] Elapsed time 0.320 seconds
+2026-10-30 15:55:36,994 - INFO - Epoch[42] Evaluation metric 'epoch_loss'=4.618544
+2026-10-30 15:55:37,009 - INFO - Epoch[43] Learning rate is 0.001
+2026-10-30 15:55:37,279 - INFO - Epoch[43] Elapsed time 0.270 seconds
+2026-10-30 15:55:37,280 - INFO - Epoch[43] Evaluation metric 'epoch_loss'=4.358044
+2026-10-30 15:55:37,297 - INFO - Epoch[44] Learning rate is 0.001
+2026-10-30 15:55:37,539 - INFO - Epoch[44] Elapsed time 0.241 seconds
+2026-10-30 15:55:37,539 - INFO - Epoch[44] Evaluation metric 'epoch_loss'=4.162624
+2026-10-30 15:55:37,561 - INFO - Epoch[45] Learning rate is 0.001
+2026-10-30 15:55:37,942 - INFO - Epoch[45] Elapsed time 0.381 seconds
+2026-10-30 15:55:37,942 - INFO - Epoch[45] Evaluation metric 'epoch_loss'=4.580935
+2026-10-30 15:55:37,960 - INFO - Epoch[46] Learning rate is 0.001
+2026-10-30 15:55:38,266 - INFO - Epoch[46] Elapsed time 0.306 seconds
+2026-10-30 15:55:38,267 - INFO - Epoch[46] Evaluation metric 'epoch_loss'=4.521604
+2026-10-30 15:55:38,288 - INFO - Epoch[47] Learning rate is 0.001
+2026-10-30 15:55:38,562 - INFO - Epoch[47] Elapsed time 0.274 seconds
+2026-10-30 15:55:38,563 - INFO - Epoch[47] Evaluation metric 'epoch_loss'=4.556009
+2026-10-30 15:55:38,585 - INFO - Epoch[48] Learning rate is 0.001
+2026-10-30 15:55:38,859 - INFO - Epoch[48] Elapsed time 0.274 seconds
+2026-10-30 15:55:38,860 - INFO - Epoch[48] Evaluation metric 'epoch_loss'=4.265345
+2026-10-30 15:55:38,877 - INFO - Epoch[49] Learning rate is 0.001
+2026-10-30 15:55:39,221 - INFO - Epoch[49] Elapsed time 0.343 seconds
+2026-10-30 15:55:39,222 - INFO - Epoch[49] Evaluation metric 'epoch_loss'=4.313541
+2026-10-30 15:55:39,239 - INFO - Epoch[50] Learning rate is 0.001
+2026-10-30 15:55:39,524 - INFO - Epoch[50] Elapsed time 0.284 seconds
+2026-10-30 15:55:39,526 - INFO - Epoch[50] Evaluation metric 'epoch_loss'=4.288669
+2026-10-30 15:55:39,557 - INFO - Epoch[51] Learning rate is 0.001
+2026-10-30 15:55:39,854 - INFO - Epoch[51] Elapsed time 0.296 seconds
+2026-10-30 15:55:39,854 - INFO - Epoch[51] Evaluation metric 'epoch_loss'=4.069098
+2026-10-30 15:55:39,872 - INFO - Epoch[52] Learning rate is 0.001
+2026-10-30 15:55:40,173 - INFO - Epoch[52] Elapsed time 0.301 seconds
+2026-10-30 15:55:40,174 - INFO - Epoch[52] Evaluation metric 'epoch_loss'=4.351210
+2026-10-30 15:55:40,196 - INFO - Epoch[53] Learning rate is 0.001
+2026-10-30 15:55:40,528 - INFO - Epoch[53] Elapsed time 0.331 seconds
+2026-10-30 15:55:40,528 - INFO - Epoch[53] Evaluation metric 'epoch_loss'=4.777410
+2026-10-30 15:55:40,552 - INFO - Epoch[54] Learning rate is 0.001
+2026-10-30 15:55:40,923 - INFO - Epoch[54] Elapsed time 0.369 seconds
+2026-10-30 15:55:40,923 - INFO - Epoch[54] Evaluation metric 'epoch_loss'=4.235071
+2026-10-30 15:55:40,941 - INFO - Epoch[55] Learning rate is 0.001
+2026-10-30 15:55:41,219 - INFO - Epoch[55] Elapsed time 0.277 seconds
+2026-10-30 15:55:41,219 - INFO - Epoch[55] Evaluation metric 'epoch_loss'=4.273533
+2026-10-30 15:55:41,240 - INFO - Epoch[56] Learning rate is 0.001
+2026-10-30 15:55:41,524 - INFO - Epoch[56] Elapsed time 0.284 seconds
+2026-10-30 15:55:41,525 - INFO - Epoch[56] Evaluation metric 'epoch_loss'=4.151570
+2026-10-30 15:55:41,544 - INFO - Epoch[57] Learning rate is 0.001
+2026-10-30 15:55:41,769 - INFO - Epoch[57] Elapsed time 0.225 seconds
+2026-10-30 15:55:41,770 - INFO - Epoch[57] Evaluation metric 'epoch_loss'=3.745410
+2026-10-30 15:55:41,787 - INFO - Epoch[58] Learning rate is 0.001
+2026-10-30 15:55:42,060 - INFO - Epoch[58] Elapsed time 0.272 seconds
+2026-10-30 15:55:42,061 - INFO - Epoch[58] Evaluation metric 'epoch_loss'=3.765595
+2026-10-30 15:55:42,081 - INFO - Epoch[59] Learning rate is 0.001
+2026-10-30 15:55:42,413 - INFO - Epoch[59] Elapsed time 0.331 seconds
+2026-10-30 15:55:42,413 - INFO - Epoch[59] Evaluation metric 'epoch_loss'=4.162554
+2026-10-30 15:55:42,431 - INFO - Epoch[60] Learning rate is 0.001
+2026-10-30 15:55:42,779 - INFO - Epoch[60] Elapsed time 0.348 seconds
+2026-10-30 15:55:42,779 - INFO - Epoch[60] Evaluation metric 'epoch_loss'=4.218164
+2026-10-30 15:55:42,800 - INFO - Epoch[61] Learning rate is 0.001
+2026-10-30 15:55:43,029 - INFO - Epoch[61] Elapsed time 0.228 seconds
+2026-10-30 15:55:43,029 - INFO - Epoch[61] Evaluation metric 'epoch_loss'=4.518661
+2026-10-30 15:55:43,052 - INFO - Epoch[62] Learning rate is 0.001
+2026-10-30 15:55:43,284 - INFO - Epoch[62] Elapsed time 0.232 seconds
+2026-10-30 15:55:43,286 - INFO - Epoch[62] Evaluation metric 'epoch_loss'=4.389979
+2026-10-30 15:55:43,308 - INFO - Epoch[63] Learning rate is 0.001
+2026-10-30 15:55:43,578 - INFO - Epoch[63] Elapsed time 0.270 seconds
+2026-10-30 15:55:43,579 - INFO - Epoch[63] Evaluation metric 'epoch_loss'=3.963267
+2026-10-30 15:55:43,600 - INFO - Epoch[64] Learning rate is 0.001
+2026-10-30 15:55:43,921 - INFO - Epoch[64] Elapsed time 0.320 seconds
+2026-10-30 15:55:43,922 - INFO - Epoch[64] Evaluation metric 'epoch_loss'=4.580906
+2026-10-30 15:55:43,943 - INFO - Epoch[65] Learning rate is 0.001
+2026-10-30 15:55:44,228 - INFO - Epoch[65] Elapsed time 0.284 seconds
+2026-10-30 15:55:44,229 - INFO - Epoch[65] Evaluation metric 'epoch_loss'=4.663641
+2026-10-30 15:55:44,252 - INFO - Epoch[66] Learning rate is 0.001
+2026-10-30 15:55:44,535 - INFO - Epoch[66] Elapsed time 0.282 seconds
+2026-10-30 15:55:44,537 - INFO - Epoch[66] Evaluation metric 'epoch_loss'=4.087558
+2026-10-30 15:55:44,558 - INFO - Epoch[67] Learning rate is 0.001
+2026-10-30 15:55:44,855 - INFO - Epoch[67] Elapsed time 0.297 seconds
+2026-10-30 15:55:44,856 - INFO - Epoch[67] Evaluation metric 'epoch_loss'=3.878224
+2026-10-30 15:55:44,874 - INFO - Epoch[68] Learning rate is 0.0005
+2026-10-30 15:55:45,218 - INFO - Epoch[68] Elapsed time 0.344 seconds
+2026-10-30 15:55:45,219 - INFO - Epoch[68] Evaluation metric 'epoch_loss'=3.765145
+2026-10-30 15:55:45,236 - INFO - Epoch[69] Learning rate is 0.0005
+2026-10-30 15:55:45,512 - INFO - Epoch[69] Elapsed time 0.275 seconds
+2026-10-30 15:55:45,512 - INFO - Epoch[69] Evaluation metric 'epoch_loss'=4.472433
+2026-10-30 15:55:45,536 - INFO - Epoch[70] Learning rate is 0.0005
+2026-10-30 15:55:45,819 - INFO - Epoch[70] Elapsed time 0.282 seconds
+2026-10-30 15:55:45,819 - INFO - Epoch[70] Evaluation metric 'epoch_loss'=3.894423
+2026-10-30 15:55:45,841 - INFO - Epoch[71] Learning rate is 0.0005
+2026-10-30 15:55:46,086 - INFO - Epoch[71] Elapsed time 0.244 seconds
+2026-10-30 15:55:46,086 - INFO - Epoch[71] Evaluation metric 'epoch_loss'=3.872152
+2026-10-30 15:55:46,108 - INFO - Epoch[72] Learning rate is 0.0005
+2026-10-30 15:55:46,435 - INFO - Epoch[72] Elapsed time 0.327 seconds
+2026-10-30 15:55:46,435 - INFO - Epoch[72] Evaluation metric 'epoch_loss'=4.443735
+2026-10-30 15:55:46,453 - INFO - Epoch[73] Learning rate is 0.0005
+2026-10-30 15:55:46,763 - INFO - Epoch[73] Elapsed time 0.309 seconds
+2026-10-30 15:55:46,763 - INFO - Epoch[73] Evaluation metric 'epoch_loss'=4.415560
+2026-10-30 15:55:46,780 - INFO - Epoch[74] Learning rate is 0.0005
+2026-10-30 15:55:47,195 - INFO - Epoch[74] Elapsed time 0.414 seconds
+2026-10-30 15:55:47,196 - INFO - Epoch[74] Evaluation metric 'epoch_loss'=4.078921
+2026-10-30 15:55:47,221 - INFO - Epoch[75] Learning rate is 0.0005
+2026-10-30 15:55:47,671 - INFO - Epoch[75] Elapsed time 0.448 seconds
+2026-10-30 15:55:47,671 - INFO - Epoch[75] Evaluation metric 'epoch_loss'=4.080606
+2026-10-30 15:55:47,695 - INFO - Epoch[76] Learning rate is 0.0005
+2026-10-30 15:55:47,935 - INFO - Epoch[76] Elapsed time 0.238 seconds
+2026-10-30 15:55:47,935 - INFO - Epoch[76] Evaluation metric 'epoch_loss'=3.983502
+2026-10-30 15:55:47,955 - INFO - Epoch[77] Learning rate is 0.0005
+2026-10-30 15:55:48,290 - INFO - Epoch[77] Elapsed time 0.335 seconds
+2026-10-30 15:55:48,291 - INFO - Epoch[77] Evaluation metric 'epoch_loss'=4.160170
+2026-10-30 15:55:48,316 - INFO - Epoch[78] Learning rate is 0.00025
+2026-10-30 15:55:48,587 - INFO - Epoch[78] Elapsed time 0.270 seconds
+2026-10-30 15:55:48,587 - INFO - Epoch[78] Evaluation metric 'epoch_loss'=4.257884
+2026-10-30 15:55:48,610 - INFO - Epoch[79] Learning rate is 0.00025
+2026-10-30 15:55:48,941 - INFO - Epoch[79] Elapsed time 0.329 seconds
+2026-10-30 15:55:48,942 - INFO - Epoch[79] Evaluation metric 'epoch_loss'=4.575607
+2026-10-30 15:55:48,959 - INFO - Epoch[80] Learning rate is 0.00025
+2026-10-30 15:55:49,227 - INFO - Epoch[80] Elapsed time 0.268 seconds
+2026-10-30 15:55:49,227 - INFO - Epoch[80] Evaluation metric 'epoch_loss'=4.064576
+2026-10-30 15:55:49,248 - INFO - Epoch[81] Learning rate is 0.00025
+2026-10-30 15:55:49,570 - INFO - Epoch[81] Elapsed time 0.322 seconds
+2026-10-30 15:55:49,571 - INFO - Epoch[81] Evaluation metric 'epoch_loss'=4.126503
+2026-10-30 15:55:49,590 - INFO - Epoch[82] Learning rate is 0.00025
+2026-10-30 15:55:49,901 - INFO - Epoch[82] Elapsed time 0.310 seconds
+2026-10-30 15:55:49,901 - INFO - Epoch[82] Evaluation metric 'epoch_loss'=4.312407
+2026-10-30 15:55:49,925 - INFO - Epoch[83] Learning rate is 0.00025
+2026-10-30 15:55:50,193 - INFO - Epoch[83] Elapsed time 0.268 seconds
+2026-10-30 15:55:50,193 - INFO - Epoch[83] Evaluation metric 'epoch_loss'=4.509996
+2026-10-30 15:55:50,214 - INFO - Epoch[84] Learning rate is 0.00025
+2026-10-30 15:55:50,473 - INFO - Epoch[84] Elapsed time 0.258 seconds
+2026-10-30 15:55:50,473 - INFO - Epoch[84] Evaluation metric 'epoch_loss'=4.237304
+2026-10-30 15:55:50,496 - INFO - Epoch[85] Learning rate is 0.00025
+2026-10-30 15:55:50,841 - INFO - Epoch[85] Elapsed time 0.344 seconds
+2026-10-30 15:55:50,842 - INFO - Epoch[85] Evaluation metric 'epoch_loss'=3.929857
+2026-10-30 15:55:50,863 - INFO - Epoch[86] Learning rate is 0.00025
+2026-10-30 15:55:51,135 - INFO - Epoch[86] Elapsed time 0.272 seconds
+2026-10-30 15:55:51,136 - INFO - Epoch[86] Evaluation metric 'epoch_loss'=4.191889
+2026-10-30 15:55:51,155 - INFO - Epoch[87] Learning rate is 0.00025
+2026-10-30 15:55:51,504 - INFO - Epoch[87] Elapsed time 0.348 seconds
+2026-10-30 15:55:51,505 - INFO - Epoch[87] Evaluation metric 'epoch_loss'=4.052698
+2026-10-30 15:55:51,521 - INFO - Epoch[88] Learning rate is 0.000125
+2026-10-30 15:55:51,809 - INFO - Epoch[88] Elapsed time 0.287 seconds
+2026-10-30 15:55:51,809 - INFO - Epoch[88] Evaluation metric 'epoch_loss'=4.312555
+2026-10-30 15:55:51,828 - INFO - Epoch[89] Learning rate is 0.000125
+2026-10-30 15:55:52,130 - INFO - Epoch[89] Elapsed time 0.301 seconds
+2026-10-30 15:55:52,130 - INFO - Epoch[89] Evaluation metric 'epoch_loss'=3.928388
+2026-10-30 15:55:52,151 - INFO - Epoch[90] Learning rate is 0.000125
+2026-10-30 15:55:52,446 - INFO - Epoch[90] Elapsed time 0.295 seconds
+2026-10-30 15:55:52,447 - INFO - Epoch[90] Evaluation metric 'epoch_loss'=3.987718
+2026-10-30 15:55:52,466 - INFO - Epoch[91] Learning rate is 0.000125
+2026-10-30 15:55:52,833 - INFO - Epoch[91] Elapsed time 0.366 seconds
+2026-10-30 15:55:52,835 - INFO - Epoch[91] Evaluation metric 'epoch_loss'=4.081204
+2026-10-30 15:55:52,852 - INFO - Epoch[92] Learning rate is 0.000125
+2026-10-30 15:55:53,118 - INFO - Epoch[92] Elapsed time 0.265 seconds
+2026-10-30 15:55:53,119 - INFO - Epoch[92] Evaluation metric 'epoch_loss'=4.275919
+2026-10-30 15:55:53,141 - INFO - Epoch[93] Learning rate is 0.000125
+2026-10-30 15:55:53,533 - INFO - Epoch[93] Elapsed time 0.392 seconds
+2026-10-30 15:55:53,533 - INFO - Epoch[93] Evaluation metric 'epoch_loss'=4.692736
+2026-10-30 15:55:53,555 - INFO - Epoch[94] Learning rate is 0.000125
+2026-10-30 15:55:53,850 - INFO - Epoch[94] Elapsed time 0.294 seconds
+2026-10-30 15:55:53,851 - INFO - Epoch[94] Evaluation metric 'epoch_loss'=3.703176
+2026-10-30 15:55:53,869 - INFO - Epoch[95] Learning rate is 0.000125
+2026-10-30 15:55:54,271 - INFO - Epoch[95] Elapsed time 0.401 seconds
+2026-10-30 15:55:54,272 - INFO - Epoch[95] Evaluation metric 'epoch_loss'=4.391054
+2026-10-30 15:55:54,288 - INFO - Epoch[96] Learning rate is 0.000125
+2026-10-30 15:55:54,587 - INFO - Epoch[96] Elapsed time 0.298 seconds
+2026-10-30 15:55:54,587 - INFO - Epoch[96] Evaluation metric 'epoch_loss'=3.918682
+2026-10-30 15:55:54,609 - INFO - Epoch[97] Learning rate is 0.000125
+2026-10-30 15:55:54,892 - INFO - Epoch[97] Elapsed time 0.283 seconds
+2026-10-30 15:55:54,893 - INFO - Epoch[97] Evaluation metric 'epoch_loss'=4.070215
+2026-10-30 15:55:54,910 - INFO - Epoch[98] Learning rate is 0.000125
+2026-10-30 15:55:55,268 - INFO - Epoch[98] Elapsed time 0.358 seconds
+2026-10-30 15:55:55,269 - INFO - Epoch[98] Evaluation metric 'epoch_loss'=4.587408
+2026-10-30 15:55:55,288 - INFO - Epoch[99] Learning rate is 0.000125
+2026-10-30 15:55:55,703 - INFO - Epoch[99] Elapsed time 0.415 seconds
+2026-10-30 15:55:55,704 - INFO - Epoch[99] Evaluation metric 'epoch_loss'=4.578033
+2026-10-30 15:55:55,725 - INFO - Computing averaged parameters.
+2026-10-30 15:55:55,735 - INFO - Loading averaged parameters.
+2026-10-30 15:55:55,776 - INFO - End model training
+2026-10-30 15:55:59,007 - INFO - BESS_house_2 - MAE: 0.1684, RMSE: 0.2250
+2026-10-30 15:55:59,837 - INFO - Using random seed: 1793375759
+2026-10-30 15:55:59,839 - INFO - Training BESS_house_3 model on 8544 samples...
+2026-10-30 15:55:59,843 - WARNING - Multiple 15 does not divide base seasonality 1. Falling back to seasonality 1.
+2026-10-30 15:55:59,843 - INFO - Using dilation depth 9 and receptive field length 512
+2026-10-30 15:55:59,922 - INFO - Start model training
+2026-10-30 15:55:59,927 - INFO - Epoch[0] Learning rate is 0.001
+2026-10-30 15:56:00,272 - INFO - Number of parameters in WaveNetTraining: 93509
+2026-10-30 15:56:00,273 - INFO - Epoch[0] Elapsed time 0.345 seconds
+2026-10-30 15:56:00,274 - INFO - Epoch[0] Evaluation metric 'epoch_loss'=6.967125
+2026-10-30 15:56:00,297 - INFO - Epoch[1] Learning rate is 0.001
+2026-10-30 15:56:00,592 - INFO - Epoch[1] Elapsed time 0.295 seconds
+2026-10-30 15:56:00,592 - INFO - Epoch[1] Evaluation metric 'epoch_loss'=6.930964
+2026-10-30 15:56:00,613 - INFO - Epoch[2] Learning rate is 0.001
+2026-10-30 15:56:00,922 - INFO - Epoch[2] Elapsed time 0.309 seconds
+2026-10-30 15:56:00,923 - INFO - Epoch[2] Evaluation metric 'epoch_loss'=6.848128
+2026-10-30 15:56:00,951 - INFO - Epoch[3] Learning rate is 0.001
+2026-10-30 15:56:01,213 - INFO - Epoch[3] Elapsed time 0.262 seconds
+2026-10-30 15:56:01,214 - INFO - Epoch[3] Evaluation metric 'epoch_loss'=6.846156
+2026-10-30 15:56:01,239 - INFO - Epoch[4] Learning rate is 0.001
+2026-10-30 15:56:01,550 - INFO - Epoch[4] Elapsed time 0.310 seconds
+2026-10-30 15:56:01,551 - INFO - Epoch[4] Evaluation metric 'epoch_loss'=6.827639
+2026-10-30 15:56:01,570 - INFO - Epoch[5] Learning rate is 0.001
+2026-10-30 15:56:01,865 - INFO - Epoch[5] Elapsed time 0.293 seconds
+2026-10-30 15:56:01,865 - INFO - Epoch[5] Evaluation metric 'epoch_loss'=6.803186
+2026-10-30 15:56:01,888 - INFO - Epoch[6] Learning rate is 0.001
+2026-10-30 15:56:02,212 - INFO - Epoch[6] Elapsed time 0.324 seconds
+2026-10-30 15:56:02,212 - INFO - Epoch[6] Evaluation metric 'epoch_loss'=6.764524
+2026-10-30 15:56:02,229 - INFO - Epoch[7] Learning rate is 0.001
+2026-10-30 15:56:02,505 - INFO - Epoch[7] Elapsed time 0.275 seconds
+2026-10-30 15:56:02,507 - INFO - Epoch[7] Evaluation metric 'epoch_loss'=6.685039
+2026-10-30 15:56:02,530 - INFO - Epoch[8] Learning rate is 0.001
+2026-10-30 15:56:02,849 - INFO - Epoch[8] Elapsed time 0.318 seconds
+2026-10-30 15:56:02,850 - INFO - Epoch[8] Evaluation metric 'epoch_loss'=6.679342
+2026-10-30 15:56:02,874 - INFO - Epoch[9] Learning rate is 0.001
+2026-10-30 15:56:03,144 - INFO - Epoch[9] Elapsed time 0.269 seconds
+2026-10-30 15:56:03,145 - INFO - Epoch[9] Evaluation metric 'epoch_loss'=6.580234
+2026-10-30 15:56:03,165 - INFO - Epoch[10] Learning rate is 0.001
+2026-10-30 15:56:03,480 - INFO - Epoch[10] Elapsed time 0.315 seconds
+2026-10-30 15:56:03,480 - INFO - Epoch[10] Evaluation metric 'epoch_loss'=6.642094
+2026-10-30 15:56:03,501 - INFO - Epoch[11] Learning rate is 0.001
+2026-10-30 15:56:03,767 - INFO - Epoch[11] Elapsed time 0.266 seconds
+2026-10-30 15:56:03,769 - INFO - Epoch[11] Evaluation metric 'epoch_loss'=6.501080
+2026-10-30 15:56:03,792 - INFO - Epoch[12] Learning rate is 0.001
+2026-10-30 15:56:04,085 - INFO - Epoch[12] Elapsed time 0.293 seconds
+2026-10-30 15:56:04,088 - INFO - Epoch[12] Evaluation metric 'epoch_loss'=6.545773
+2026-10-30 15:56:04,110 - INFO - Epoch[13] Learning rate is 0.001
+2026-10-30 15:56:04,465 - INFO - Epoch[13] Elapsed time 0.354 seconds
+2026-10-30 15:56:04,465 - INFO - Epoch[13] Evaluation metric 'epoch_loss'=6.387003
+2026-10-30 15:56:04,484 - INFO - Epoch[14] Learning rate is 0.001
+2026-10-30 15:56:04,909 - INFO - Epoch[14] Elapsed time 0.420 seconds
+2026-10-30 15:56:04,910 - INFO - Epoch[14] Evaluation metric 'epoch_loss'=6.315697
+2026-10-30 15:56:04,929 - INFO - Epoch[15] Learning rate is 0.001
+2026-10-30 15:56:05,199 - INFO - Epoch[15] Elapsed time 0.270 seconds
+2026-10-30 15:56:05,200 - INFO - Epoch[15] Evaluation metric 'epoch_loss'=6.264452
+2026-10-30 15:56:05,218 - INFO - Epoch[16] Learning rate is 0.001
+2026-10-30 15:56:05,509 - INFO - Epoch[16] Elapsed time 0.291 seconds
+2026-10-30 15:56:05,512 - INFO - Epoch[16] Evaluation metric 'epoch_loss'=6.268232
+2026-10-30 15:56:05,532 - INFO - Epoch[17] Learning rate is 0.001
+2026-10-30 15:56:05,936 - INFO - Epoch[17] Elapsed time 0.403 seconds
+2026-10-30 15:56:05,937 - INFO - Epoch[17] Evaluation metric 'epoch_loss'=6.183548
+2026-10-30 15:56:05,959 - INFO - Epoch[18] Learning rate is 0.001
+2026-10-30 15:56:06,220 - INFO - Epoch[18] Elapsed time 0.261 seconds
+2026-10-30 15:56:06,221 - INFO - Epoch[18] Evaluation metric 'epoch_loss'=5.770611
+2026-10-30 15:56:06,243 - INFO - Epoch[19] Learning rate is 0.001
+2026-10-30 15:56:06,580 - INFO - Epoch[19] Elapsed time 0.336 seconds
+2026-10-30 15:56:06,581 - INFO - Epoch[19] Evaluation metric 'epoch_loss'=5.739611
+2026-10-30 15:56:06,602 - INFO - Epoch[20] Learning rate is 0.001
+2026-10-30 15:56:06,944 - INFO - Epoch[20] Elapsed time 0.342 seconds
+2026-10-30 15:56:06,945 - INFO - Epoch[20] Evaluation metric 'epoch_loss'=5.715351
+2026-10-30 15:56:06,967 - INFO - Epoch[21] Learning rate is 0.001
+2026-10-30 15:56:07,313 - INFO - Epoch[21] Elapsed time 0.345 seconds
+2026-10-30 15:56:07,313 - INFO - Epoch[21] Evaluation metric 'epoch_loss'=5.862062
+2026-10-30 15:56:07,337 - INFO - Epoch[22] Learning rate is 0.001
+2026-10-30 15:56:07,625 - INFO - Epoch[22] Elapsed time 0.287 seconds
+2026-10-30 15:56:07,626 - INFO - Epoch[22] Evaluation metric 'epoch_loss'=5.286537
+2026-10-30 15:56:07,644 - INFO - Epoch[23] Learning rate is 0.001
+2026-10-30 15:56:07,985 - INFO - Epoch[23] Elapsed time 0.341 seconds
+2026-10-30 15:56:07,986 - INFO - Epoch[23] Evaluation metric 'epoch_loss'=5.493906
+2026-10-30 15:56:08,005 - INFO - Epoch[24] Learning rate is 0.001
+2026-10-30 15:56:08,292 - INFO - Epoch[24] Elapsed time 0.286 seconds
+2026-10-30 15:56:08,292 - INFO - Epoch[24] Evaluation metric 'epoch_loss'=5.239024
+2026-10-30 15:56:08,312 - INFO - Epoch[25] Learning rate is 0.001
+2026-10-30 15:56:08,656 - INFO - Epoch[25] Elapsed time 0.344 seconds
+2026-10-30 15:56:08,657 - INFO - Epoch[25] Evaluation metric 'epoch_loss'=5.298088
+2026-10-30 15:56:08,673 - INFO - Epoch[26] Learning rate is 0.001
+2026-10-30 15:56:08,979 - INFO - Epoch[26] Elapsed time 0.305 seconds
+2026-10-30 15:56:08,979 - INFO - Epoch[26] Evaluation metric 'epoch_loss'=5.253811
+2026-10-30 15:56:09,001 - INFO - Epoch[27] Learning rate is 0.001
+2026-10-30 15:56:09,319 - INFO - Epoch[27] Elapsed time 0.318 seconds
+2026-10-30 15:56:09,320 - INFO - Epoch[27] Evaluation metric 'epoch_loss'=5.119279
+2026-10-30 15:56:09,342 - INFO - Epoch[28] Learning rate is 0.001
+2026-10-30 15:56:09,718 - INFO - Epoch[28] Elapsed time 0.374 seconds
+2026-10-30 15:56:09,719 - INFO - Epoch[28] Evaluation metric 'epoch_loss'=5.326741
+2026-10-30 15:56:09,738 - INFO - Epoch[29] Learning rate is 0.001
+2026-10-30 15:56:10,091 - INFO - Epoch[29] Elapsed time 0.351 seconds
+2026-10-30 15:56:10,092 - INFO - Epoch[29] Evaluation metric 'epoch_loss'=4.984366
+2026-10-30 15:56:10,110 - INFO - Epoch[30] Learning rate is 0.001
+2026-10-30 15:56:10,392 - INFO - Epoch[30] Elapsed time 0.282 seconds
+2026-10-30 15:56:10,393 - INFO - Epoch[30] Evaluation metric 'epoch_loss'=4.881322
+2026-10-30 15:56:10,413 - INFO - Epoch[31] Learning rate is 0.001
+2026-10-30 15:56:10,745 - INFO - Epoch[31] Elapsed time 0.332 seconds
+2026-10-30 15:56:10,746 - INFO - Epoch[31] Evaluation metric 'epoch_loss'=4.404255
+2026-10-30 15:56:10,769 - INFO - Epoch[32] Learning rate is 0.001
+2026-10-30 15:56:11,108 - INFO - Epoch[32] Elapsed time 0.339 seconds
+2026-10-30 15:56:11,109 - INFO - Epoch[32] Evaluation metric 'epoch_loss'=4.982385
+2026-10-30 15:56:11,135 - INFO - Epoch[33] Learning rate is 0.001
+2026-10-30 15:56:11,412 - INFO - Epoch[33] Elapsed time 0.276 seconds
+2026-10-30 15:56:11,413 - INFO - Epoch[33] Evaluation metric 'epoch_loss'=5.007627
+2026-10-30 15:56:11,434 - INFO - Epoch[34] Learning rate is 0.001
+2026-10-30 15:56:11,825 - INFO - Epoch[34] Elapsed time 0.391 seconds
+2026-10-30 15:56:11,826 - INFO - Epoch[34] Evaluation metric 'epoch_loss'=4.556400
+2026-10-30 15:56:11,846 - INFO - Epoch[35] Learning rate is 0.001
+2026-10-30 15:56:12,144 - INFO - Epoch[35] Elapsed time 0.296 seconds
+2026-10-30 15:56:12,145 - INFO - Epoch[35] Evaluation metric 'epoch_loss'=4.710302
+2026-10-30 15:56:12,169 - INFO - Epoch[36] Learning rate is 0.001
+2026-10-30 15:56:12,418 - INFO - Epoch[36] Elapsed time 0.249 seconds
+2026-10-30 15:56:12,419 - INFO - Epoch[36] Evaluation metric 'epoch_loss'=4.439665
+2026-10-30 15:56:12,442 - INFO - Epoch[37] Learning rate is 0.001
+2026-10-30 15:56:12,718 - INFO - Epoch[37] Elapsed time 0.275 seconds
+2026-10-30 15:56:12,718 - INFO - Epoch[37] Evaluation metric 'epoch_loss'=4.580324
+2026-10-30 15:56:12,740 - INFO - Epoch[38] Learning rate is 0.001
+2026-10-30 15:56:13,039 - INFO - Epoch[38] Elapsed time 0.297 seconds
+2026-10-30 15:56:13,039 - INFO - Epoch[38] Evaluation metric 'epoch_loss'=4.820109
+2026-10-30 15:56:13,054 - INFO - Epoch[39] Learning rate is 0.001
+2026-10-30 15:56:13,405 - INFO - Epoch[39] Elapsed time 0.350 seconds
+2026-10-30 15:56:13,405 - INFO - Epoch[39] Evaluation metric 'epoch_loss'=4.130677
+2026-10-30 15:56:13,421 - INFO - Epoch[40] Learning rate is 0.001
+2026-10-30 15:56:13,717 - INFO - Epoch[40] Elapsed time 0.296 seconds
+2026-10-30 15:56:13,718 - INFO - Epoch[40] Evaluation metric 'epoch_loss'=4.471021
+2026-10-30 15:56:13,737 - INFO - Epoch[41] Learning rate is 0.001
+2026-10-30 15:56:14,072 - INFO - Epoch[41] Elapsed time 0.334 seconds
+2026-10-30 15:56:14,073 - INFO - Epoch[41] Evaluation metric 'epoch_loss'=4.274127
+2026-10-30 15:56:14,089 - INFO - Epoch[42] Learning rate is 0.001
+2026-10-30 15:56:14,430 - INFO - Epoch[42] Elapsed time 0.340 seconds
+2026-10-30 15:56:14,431 - INFO - Epoch[42] Evaluation metric 'epoch_loss'=4.372791
+2026-10-30 15:56:14,455 - INFO - Epoch[43] Learning rate is 0.001
+2026-10-30 15:56:14,740 - INFO - Epoch[43] Elapsed time 0.285 seconds
+2026-10-30 15:56:14,741 - INFO - Epoch[43] Evaluation metric 'epoch_loss'=4.330335
+2026-10-30 15:56:14,760 - INFO - Epoch[44] Learning rate is 0.001
+2026-10-30 15:56:15,013 - INFO - Epoch[44] Elapsed time 0.253 seconds
+2026-10-30 15:56:15,014 - INFO - Epoch[44] Evaluation metric 'epoch_loss'=4.210375
+2026-10-30 15:56:15,038 - INFO - Epoch[45] Learning rate is 0.001
+2026-10-30 15:56:15,296 - INFO - Epoch[45] Elapsed time 0.258 seconds
+2026-10-30 15:56:15,297 - INFO - Epoch[45] Evaluation metric 'epoch_loss'=4.046898
+2026-10-30 15:56:15,316 - INFO - Epoch[46] Learning rate is 0.001
+2026-10-30 15:56:15,634 - INFO - Epoch[46] Elapsed time 0.318 seconds
+2026-10-30 15:56:15,635 - INFO - Epoch[46] Evaluation metric 'epoch_loss'=4.202744
+2026-10-30 15:56:15,657 - INFO - Epoch[47] Learning rate is 0.001
+2026-10-30 15:56:15,966 - INFO - Epoch[47] Elapsed time 0.309 seconds
+2026-10-30 15:56:15,967 - INFO - Epoch[47] Evaluation metric 'epoch_loss'=3.886706
+2026-10-30 15:56:15,985 - INFO - Epoch[48] Learning rate is 0.001
+2026-10-30 15:56:16,263 - INFO - Epoch[48] Elapsed time 0.277 seconds
+2026-10-30 15:56:16,264 - INFO - Epoch[48] Evaluation metric 'epoch_loss'=4.233665
+2026-10-30 15:56:16,281 - INFO - Epoch[49] Learning rate is 0.001
+2026-10-30 15:56:16,588 - INFO - Epoch[49] Elapsed time 0.306 seconds
+2026-10-30 15:56:16,589 - INFO - Epoch[49] Evaluation metric 'epoch_loss'=3.874466
+2026-10-30 15:56:16,606 - INFO - Epoch[50] Learning rate is 0.001
+2026-10-30 15:56:16,890 - INFO - Epoch[50] Elapsed time 0.283 seconds
+2026-10-30 15:56:16,890 - INFO - Epoch[50] Evaluation metric 'epoch_loss'=4.088461
+2026-10-30 15:56:16,908 - INFO - Epoch[51] Learning rate is 0.001
+2026-10-30 15:56:17,208 - INFO - Epoch[51] Elapsed time 0.299 seconds
+2026-10-30 15:56:17,208 - INFO - Epoch[51] Evaluation metric 'epoch_loss'=4.196374
+2026-10-30 15:56:17,227 - INFO - Epoch[52] Learning rate is 0.001
+2026-10-30 15:56:17,554 - INFO - Epoch[52] Elapsed time 0.326 seconds
+2026-10-30 15:56:17,555 - INFO - Epoch[52] Evaluation metric 'epoch_loss'=3.791245
+2026-10-30 15:56:17,580 - INFO - Epoch[53] Learning rate is 0.001
+2026-10-30 15:56:17,899 - INFO - Epoch[53] Elapsed time 0.319 seconds
+2026-10-30 15:56:17,900 - INFO - Epoch[53] Evaluation metric 'epoch_loss'=4.218488
+2026-10-30 15:56:17,917 - INFO - Epoch[54] Learning rate is 0.001
+2026-10-30 15:56:18,304 - INFO - Epoch[54] Elapsed time 0.387 seconds
+2026-10-30 15:56:18,305 - INFO - Epoch[54] Evaluation metric 'epoch_loss'=4.417692
+2026-10-30 15:56:18,323 - INFO - Epoch[55] Learning rate is 0.001
+2026-10-30 15:56:18,580 - INFO - Epoch[55] Elapsed time 0.257 seconds
+2026-10-30 15:56:18,581 - INFO - Epoch[55] Evaluation metric 'epoch_loss'=4.472907
+2026-10-30 15:56:18,607 - INFO - Epoch[56] Learning rate is 0.001
+2026-10-30 15:56:18,921 - INFO - Epoch[56] Elapsed time 0.314 seconds
+2026-10-30 15:56:18,922 - INFO - Epoch[56] Evaluation metric 'epoch_loss'=4.195818
+2026-10-30 15:56:18,940 - INFO - Epoch[57] Learning rate is 0.001
+2026-10-30 15:56:19,238 - INFO - Epoch[57] Elapsed time 0.299 seconds
+2026-10-30 15:56:19,239 - INFO - Epoch[57] Evaluation metric 'epoch_loss'=4.227471
+2026-10-30 15:56:19,265 - INFO - Epoch[58] Learning rate is 0.001
+2026-10-30 15:56:19,509 - INFO - Epoch[58] Elapsed time 0.242 seconds
+2026-10-30 15:56:19,509 - INFO - Epoch[58] Evaluation metric 'epoch_loss'=4.439214
+2026-10-30 15:56:19,531 - INFO - Epoch[59] Learning rate is 0.001
+2026-10-30 15:56:19,834 - INFO - Epoch[59] Elapsed time 0.303 seconds
+2026-10-30 15:56:19,835 - INFO - Epoch[59] Evaluation metric 'epoch_loss'=3.707280
+2026-10-30 15:56:19,857 - INFO - Epoch[60] Learning rate is 0.001
+2026-10-30 15:56:20,122 - INFO - Epoch[60] Elapsed time 0.265 seconds
+2026-10-30 15:56:20,122 - INFO - Epoch[60] Evaluation metric 'epoch_loss'=4.208288
+2026-10-30 15:56:20,142 - INFO - Epoch[61] Learning rate is 0.001
+2026-10-30 15:56:20,495 - INFO - Epoch[61] Elapsed time 0.353 seconds
+2026-10-30 15:56:20,496 - INFO - Epoch[61] Evaluation metric 'epoch_loss'=4.408514
+2026-10-30 15:56:20,516 - INFO - Epoch[62] Learning rate is 0.001
+2026-10-30 15:56:20,765 - INFO - Epoch[62] Elapsed time 0.248 seconds
+2026-10-30 15:56:20,766 - INFO - Epoch[62] Evaluation metric 'epoch_loss'=4.750878
+2026-10-30 15:56:20,783 - INFO - Epoch[63] Learning rate is 0.001
+2026-10-30 15:56:21,126 - INFO - Epoch[63] Elapsed time 0.342 seconds
+2026-10-30 15:56:21,127 - INFO - Epoch[63] Evaluation metric 'epoch_loss'=4.022259
+2026-10-30 15:56:21,144 - INFO - Epoch[64] Learning rate is 0.001
+2026-10-30 15:56:21,432 - INFO - Epoch[64] Elapsed time 0.287 seconds
+2026-10-30 15:56:21,432 - INFO - Epoch[64] Evaluation metric 'epoch_loss'=4.167654
+2026-10-30 15:56:21,448 - INFO - Epoch[65] Learning rate is 0.001
+2026-10-30 15:56:21,681 - INFO - Epoch[65] Elapsed time 0.233 seconds
+2026-10-30 15:56:21,681 - INFO - Epoch[65] Evaluation metric 'epoch_loss'=4.033060
+2026-10-30 15:56:21,700 - INFO - Epoch[66] Learning rate is 0.001
+2026-10-30 15:56:22,043 - INFO - Epoch[66] Elapsed time 0.341 seconds
+2026-10-30 15:56:22,043 - INFO - Epoch[66] Evaluation metric 'epoch_loss'=4.063092
+2026-10-30 15:56:22,065 - INFO - Epoch[67] Learning rate is 0.001
+2026-10-30 15:56:22,348 - INFO - Epoch[67] Elapsed time 0.283 seconds
+2026-10-30 15:56:22,351 - INFO - Epoch[67] Evaluation metric 'epoch_loss'=4.051603
+2026-10-30 15:56:22,368 - INFO - Epoch[68] Learning rate is 0.001
+2026-10-30 15:56:22,702 - INFO - Epoch[68] Elapsed time 0.332 seconds
+2026-10-30 15:56:22,702 - INFO - Epoch[68] Evaluation metric 'epoch_loss'=3.802231
+2026-10-30 15:56:22,720 - INFO - Epoch[69] Learning rate is 0.001
+2026-10-30 15:56:23,082 - INFO - Epoch[69] Elapsed time 0.362 seconds
+2026-10-30 15:56:23,083 - INFO - Epoch[69] Evaluation metric 'epoch_loss'=4.288458
+2026-10-30 15:56:23,100 - INFO - Epoch[70] Learning rate is 0.0005
+2026-10-30 15:56:23,388 - INFO - Epoch[70] Elapsed time 0.288 seconds
+2026-10-30 15:56:23,391 - INFO - Epoch[70] Evaluation metric 'epoch_loss'=3.781554
+2026-10-30 15:56:23,406 - INFO - Epoch[71] Learning rate is 0.0005
+2026-10-30 15:56:23,738 - INFO - Epoch[71] Elapsed time 0.331 seconds
+2026-10-30 15:56:23,738 - INFO - Epoch[71] Evaluation metric 'epoch_loss'=4.262619
+2026-10-30 15:56:23,758 - INFO - Epoch[72] Learning rate is 0.0005
+2026-10-30 15:56:24,055 - INFO - Epoch[72] Elapsed time 0.297 seconds
+2026-10-30 15:56:24,057 - INFO - Epoch[72] Evaluation metric 'epoch_loss'=4.288753
+2026-10-30 15:56:24,078 - INFO - Epoch[73] Learning rate is 0.0005
+2026-10-30 15:56:24,391 - INFO - Epoch[73] Elapsed time 0.313 seconds
+2026-10-30 15:56:24,392 - INFO - Epoch[73] Evaluation metric 'epoch_loss'=3.678848
+2026-10-30 15:56:24,413 - INFO - Epoch[74] Learning rate is 0.0005
+2026-10-30 15:56:24,804 - INFO - Epoch[74] Elapsed time 0.390 seconds
+2026-10-30 15:56:24,804 - INFO - Epoch[74] Evaluation metric 'epoch_loss'=4.379611
+2026-10-30 15:56:24,822 - INFO - Epoch[75] Learning rate is 0.0005
+2026-10-30 15:56:25,059 - INFO - Epoch[75] Elapsed time 0.237 seconds
+2026-10-30 15:56:25,060 - INFO - Epoch[75] Evaluation metric 'epoch_loss'=3.940807
+2026-10-30 15:56:25,082 - INFO - Epoch[76] Learning rate is 0.0005
+2026-10-30 15:56:25,411 - INFO - Epoch[76] Elapsed time 0.329 seconds
+2026-10-30 15:56:25,412 - INFO - Epoch[76] Evaluation metric 'epoch_loss'=3.993760
+2026-10-30 15:56:25,431 - INFO - Epoch[77] Learning rate is 0.0005
+2026-10-30 15:56:25,755 - INFO - Epoch[77] Elapsed time 0.324 seconds
+2026-10-30 15:56:25,756 - INFO - Epoch[77] Evaluation metric 'epoch_loss'=4.014857
+2026-10-30 15:56:25,773 - INFO - Epoch[78] Learning rate is 0.0005
+2026-10-30 15:56:26,127 - INFO - Epoch[78] Elapsed time 0.353 seconds
+2026-10-30 15:56:26,127 - INFO - Epoch[78] Evaluation metric 'epoch_loss'=4.568785
+2026-10-30 15:56:26,145 - INFO - Epoch[79] Learning rate is 0.0005
+2026-10-30 15:56:26,343 - INFO - Epoch[79] Elapsed time 0.197 seconds
+2026-10-30 15:56:26,343 - INFO - Epoch[79] Evaluation metric 'epoch_loss'=3.931255
+2026-10-30 15:56:26,359 - INFO - Epoch[80] Learning rate is 0.0005
+2026-10-30 15:56:26,674 - INFO - Epoch[80] Elapsed time 0.314 seconds
+2026-10-30 15:56:26,674 - INFO - Epoch[80] Evaluation metric 'epoch_loss'=4.272770
+2026-10-30 15:56:26,691 - INFO - Epoch[81] Learning rate is 0.0005
+2026-10-30 15:56:26,961 - INFO - Epoch[81] Elapsed time 0.271 seconds
+2026-10-30 15:56:26,962 - INFO - Epoch[81] Evaluation metric 'epoch_loss'=4.184721
+2026-10-30 15:56:26,980 - INFO - Epoch[82] Learning rate is 0.0005
+2026-10-30 15:56:27,323 - INFO - Epoch[82] Elapsed time 0.342 seconds
+2026-10-30 15:56:27,323 - INFO - Epoch[82] Evaluation metric 'epoch_loss'=3.958561
+2026-10-30 15:56:27,343 - INFO - Epoch[83] Learning rate is 0.0005
+2026-10-30 15:56:27,654 - INFO - Epoch[83] Elapsed time 0.311 seconds
+2026-10-30 15:56:27,656 - INFO - Epoch[83] Evaluation metric 'epoch_loss'=4.147283
+2026-10-30 15:56:27,684 - INFO - Epoch[84] Learning rate is 0.00025
+2026-10-30 15:56:27,954 - INFO - Epoch[84] Elapsed time 0.268 seconds
+2026-10-30 15:56:27,954 - INFO - Epoch[84] Evaluation metric 'epoch_loss'=3.981626
+2026-10-30 15:56:27,976 - INFO - Epoch[85] Learning rate is 0.00025
+2026-10-30 15:56:28,278 - INFO - Epoch[85] Elapsed time 0.302 seconds
+2026-10-30 15:56:28,280 - INFO - Epoch[85] Evaluation metric 'epoch_loss'=4.119669
+2026-10-30 15:56:28,303 - INFO - Epoch[86] Learning rate is 0.00025
+2026-10-30 15:56:28,614 - INFO - Epoch[86] Elapsed time 0.309 seconds
+2026-10-30 15:56:28,614 - INFO - Epoch[86] Evaluation metric 'epoch_loss'=4.171328
+2026-10-30 15:56:28,633 - INFO - Epoch[87] Learning rate is 0.00025
+2026-10-30 15:56:28,960 - INFO - Epoch[87] Elapsed time 0.326 seconds
+2026-10-30 15:56:28,961 - INFO - Epoch[87] Evaluation metric 'epoch_loss'=4.106443
+2026-10-30 15:56:28,981 - INFO - Epoch[88] Learning rate is 0.00025
+2026-10-30 15:56:29,324 - INFO - Epoch[88] Elapsed time 0.342 seconds
+2026-10-30 15:56:29,325 - INFO - Epoch[88] Evaluation metric 'epoch_loss'=4.043764
+2026-10-30 15:56:29,347 - INFO - Epoch[89] Learning rate is 0.00025
+2026-10-30 15:56:29,659 - INFO - Epoch[89] Elapsed time 0.311 seconds
+2026-10-30 15:56:29,660 - INFO - Epoch[89] Evaluation metric 'epoch_loss'=4.270385
+2026-10-30 15:56:29,679 - INFO - Epoch[90] Learning rate is 0.00025
+2026-10-30 15:56:30,041 - INFO - Epoch[90] Elapsed time 0.361 seconds
+2026-10-30 15:56:30,041 - INFO - Epoch[90] Evaluation metric 'epoch_loss'=4.022013
+2026-10-30 15:56:30,061 - INFO - Epoch[91] Learning rate is 0.00025
+2026-10-30 15:56:30,366 - INFO - Epoch[91] Elapsed time 0.304 seconds
+2026-10-30 15:56:30,366 - INFO - Epoch[91] Evaluation metric 'epoch_loss'=4.147020
+2026-10-30 15:56:30,387 - INFO - Epoch[92] Learning rate is 0.00025
+2026-10-30 15:56:30,678 - INFO - Epoch[92] Elapsed time 0.291 seconds
+2026-10-30 15:56:30,679 - INFO - Epoch[92] Evaluation metric 'epoch_loss'=3.882497
+2026-10-30 15:56:30,696 - INFO - Epoch[93] Learning rate is 0.00025
+2026-10-30 15:56:30,994 - INFO - Epoch[93] Elapsed time 0.298 seconds
+2026-10-30 15:56:30,995 - INFO - Epoch[93] Evaluation metric 'epoch_loss'=3.959789
+2026-10-30 15:56:31,025 - INFO - Epoch[94] Learning rate is 0.000125
+2026-10-30 15:56:31,459 - INFO - Epoch[94] Elapsed time 0.432 seconds
+2026-10-30 15:56:31,460 - INFO - Epoch[94] Evaluation metric 'epoch_loss'=4.229558
+2026-10-30 15:56:31,478 - INFO - Epoch[95] Learning rate is 0.000125
+2026-10-30 15:56:31,756 - INFO - Epoch[95] Elapsed time 0.278 seconds
+2026-10-30 15:56:31,757 - INFO - Epoch[95] Evaluation metric 'epoch_loss'=4.080308
+2026-10-30 15:56:31,782 - INFO - Epoch[96] Learning rate is 0.000125
+2026-10-30 15:56:32,050 - INFO - Epoch[96] Elapsed time 0.268 seconds
+2026-10-30 15:56:32,051 - INFO - Epoch[96] Evaluation metric 'epoch_loss'=3.979548
+2026-10-30 15:56:32,070 - INFO - Epoch[97] Learning rate is 0.000125
+2026-10-30 15:56:32,388 - INFO - Epoch[97] Elapsed time 0.316 seconds
+2026-10-30 15:56:32,388 - INFO - Epoch[97] Evaluation metric 'epoch_loss'=4.039095
+2026-10-30 15:56:32,409 - INFO - Epoch[98] Learning rate is 0.000125
+2026-10-30 15:56:32,679 - INFO - Epoch[98] Elapsed time 0.270 seconds
+2026-10-30 15:56:32,680 - INFO - Epoch[98] Evaluation metric 'epoch_loss'=3.869065
+2026-10-30 15:56:32,699 - INFO - Epoch[99] Learning rate is 0.000125
+2026-10-30 15:56:33,013 - INFO - Epoch[99] Elapsed time 0.314 seconds
+2026-10-30 15:56:33,014 - INFO - Epoch[99] Evaluation metric 'epoch_loss'=4.232563
+2026-10-30 15:56:33,033 - INFO - Computing averaged parameters.
+2026-10-30 15:56:33,045 - INFO - Loading averaged parameters.
+2026-10-30 15:56:33,087 - INFO - End model training
+2026-10-30 15:56:36,377 - INFO - BESS_house_3 - MAE: 0.1734, RMSE: 0.2530
+2026-10-30 15:56:37,190 - INFO - Using random seed: 1793375797
+2026-10-30 15:56:37,193 - INFO - Training BESS_house_4 model on 8544 samples...
+2026-10-30 15:56:37,195 - WARNING - Multiple 15 does not divide base seasonality 1. Falling back to seasonality 1.
+2026-10-30 15:56:37,197 - INFO - Using dilation depth 9 and receptive field length 512
+2026-10-30 15:56:37,280 - INFO - Start model training
+2026-10-30 15:56:37,288 - INFO - Epoch[0] Learning rate is 0.001
+2026-10-30 15:56:37,691 - INFO - Number of parameters in WaveNetTraining: 93509
+2026-10-30 15:56:37,692 - INFO - Epoch[0] Elapsed time 0.404 seconds
+2026-10-30 15:56:37,694 - INFO - Epoch[0] Evaluation metric 'epoch_loss'=6.895263
+2026-10-30 15:56:37,714 - INFO - Epoch[1] Learning rate is 0.001
+2026-10-30 15:56:38,035 - INFO - Epoch[1] Elapsed time 0.321 seconds
+2026-10-30 15:56:38,038 - INFO - Epoch[1] Evaluation metric 'epoch_loss'=6.821949
+2026-10-30 15:56:38,059 - INFO - Epoch[2] Learning rate is 0.001
+2026-10-30 15:56:38,399 - INFO - Epoch[2] Elapsed time 0.339 seconds
+2026-10-30 15:56:38,400 - INFO - Epoch[2] Evaluation metric 'epoch_loss'=6.771210
+2026-10-30 15:56:38,423 - INFO - Epoch[3] Learning rate is 0.001
+2026-10-30 15:56:38,661 - INFO - Epoch[3] Elapsed time 0.238 seconds
+2026-10-30 15:56:38,662 - INFO - Epoch[3] Evaluation metric 'epoch_loss'=6.758028
+2026-10-30 15:56:38,684 - INFO - Epoch[4] Learning rate is 0.001
+2026-10-30 15:56:38,956 - INFO - Epoch[4] Elapsed time 0.270 seconds
+2026-10-30 15:56:38,957 - INFO - Epoch[4] Evaluation metric 'epoch_loss'=6.767016
+2026-10-30 15:56:38,978 - INFO - Epoch[5] Learning rate is 0.001
+2026-10-30 15:56:39,252 - INFO - Epoch[5] Elapsed time 0.274 seconds
+2026-10-30 15:56:39,254 - INFO - Epoch[5] Evaluation metric 'epoch_loss'=6.590872
+2026-10-30 15:56:39,276 - INFO - Epoch[6] Learning rate is 0.001
+2026-10-30 15:56:39,547 - INFO - Epoch[6] Elapsed time 0.270 seconds
+2026-10-30 15:56:39,547 - INFO - Epoch[6] Evaluation metric 'epoch_loss'=6.560830
+2026-10-30 15:56:39,565 - INFO - Epoch[7] Learning rate is 0.001
+2026-10-30 15:56:39,855 - INFO - Epoch[7] Elapsed time 0.289 seconds
+2026-10-30 15:56:39,855 - INFO - Epoch[7] Evaluation metric 'epoch_loss'=6.595944
+2026-10-30 15:56:39,875 - INFO - Epoch[8] Learning rate is 0.001
+2026-10-30 15:56:40,134 - INFO - Epoch[8] Elapsed time 0.258 seconds
+2026-10-30 15:56:40,136 - INFO - Epoch[8] Evaluation metric 'epoch_loss'=6.546994
+2026-10-30 15:56:40,169 - INFO - Epoch[9] Learning rate is 0.001
+2026-10-30 15:56:40,477 - INFO - Epoch[9] Elapsed time 0.307 seconds
+2026-10-30 15:56:40,477 - INFO - Epoch[9] Evaluation metric 'epoch_loss'=6.371880
+2026-10-30 15:56:40,494 - INFO - Epoch[10] Learning rate is 0.001
+2026-10-30 15:56:40,760 - INFO - Epoch[10] Elapsed time 0.266 seconds
+2026-10-30 15:56:40,762 - INFO - Epoch[10] Evaluation metric 'epoch_loss'=6.253806
+2026-10-30 15:56:40,783 - INFO - Epoch[11] Learning rate is 0.001
+2026-10-30 15:56:41,063 - INFO - Epoch[11] Elapsed time 0.279 seconds
+2026-10-30 15:56:41,063 - INFO - Epoch[11] Evaluation metric 'epoch_loss'=6.325955
+2026-10-30 15:56:41,084 - INFO - Epoch[12] Learning rate is 0.001
+2026-10-30 15:56:41,410 - INFO - Epoch[12] Elapsed time 0.326 seconds
+2026-10-30 15:56:41,411 - INFO - Epoch[12] Evaluation metric 'epoch_loss'=6.188685
+2026-10-30 15:56:41,432 - INFO - Epoch[13] Learning rate is 0.001
+2026-10-30 15:56:41,711 - INFO - Epoch[13] Elapsed time 0.278 seconds
+2026-10-30 15:56:41,712 - INFO - Epoch[13] Evaluation metric 'epoch_loss'=6.172205
+2026-10-30 15:56:41,727 - INFO - Epoch[14] Learning rate is 0.001
+2026-10-30 15:56:41,995 - INFO - Epoch[14] Elapsed time 0.268 seconds
+2026-10-30 15:56:41,997 - INFO - Epoch[14] Evaluation metric 'epoch_loss'=5.586741
+2026-10-30 15:56:42,019 - INFO - Epoch[15] Learning rate is 0.001
+2026-10-30 15:56:42,326 - INFO - Epoch[15] Elapsed time 0.306 seconds
+2026-10-30 15:56:42,327 - INFO - Epoch[15] Evaluation metric 'epoch_loss'=5.791849
+2026-10-30 15:56:42,350 - INFO - Epoch[16] Learning rate is 0.001
+2026-10-30 15:56:42,651 - INFO - Epoch[16] Elapsed time 0.299 seconds
+2026-10-30 15:56:42,652 - INFO - Epoch[16] Evaluation metric 'epoch_loss'=5.674788
+2026-10-30 15:56:42,671 - INFO - Epoch[17] Learning rate is 0.001
+2026-10-30 15:56:42,950 - INFO - Epoch[17] Elapsed time 0.278 seconds
+2026-10-30 15:56:42,950 - INFO - Epoch[17] Evaluation metric 'epoch_loss'=5.356797
+2026-10-30 15:56:42,970 - INFO - Epoch[18] Learning rate is 0.001
+2026-10-30 15:56:43,257 - INFO - Epoch[18] Elapsed time 0.286 seconds
+2026-10-30 15:56:43,258 - INFO - Epoch[18] Evaluation metric 'epoch_loss'=4.967332
+2026-10-30 15:56:43,280 - INFO - Epoch[19] Learning rate is 0.001
+2026-10-30 15:56:43,554 - INFO - Epoch[19] Elapsed time 0.274 seconds
+2026-10-30 15:56:43,554 - INFO - Epoch[19] Evaluation metric 'epoch_loss'=4.564987
+2026-10-30 15:56:43,575 - INFO - Epoch[20] Learning rate is 0.001
+2026-10-30 15:56:43,912 - INFO - Epoch[20] Elapsed time 0.337 seconds
+2026-10-30 15:56:43,912 - INFO - Epoch[20] Evaluation metric 'epoch_loss'=5.045851
+2026-10-30 15:56:43,932 - INFO - Epoch[21] Learning rate is 0.001
+2026-10-30 15:56:44,216 - INFO - Epoch[21] Elapsed time 0.282 seconds
+2026-10-30 15:56:44,216 - INFO - Epoch[21] Evaluation metric 'epoch_loss'=4.708072
+2026-10-30 15:56:44,238 - INFO - Epoch[22] Learning rate is 0.001
+2026-10-30 15:56:44,524 - INFO - Epoch[22] Elapsed time 0.286 seconds
+2026-10-30 15:56:44,525 - INFO - Epoch[22] Evaluation metric 'epoch_loss'=4.522397
+2026-10-30 15:56:44,547 - INFO - Epoch[23] Learning rate is 0.001
+2026-10-30 15:56:44,837 - INFO - Epoch[23] Elapsed time 0.290 seconds
+2026-10-30 15:56:44,838 - INFO - Epoch[23] Evaluation metric 'epoch_loss'=4.530738
+2026-10-30 15:56:44,862 - INFO - Epoch[24] Learning rate is 0.001
+2026-10-30 15:56:45,095 - INFO - Epoch[24] Elapsed time 0.232 seconds
+2026-10-30 15:56:45,095 - INFO - Epoch[24] Evaluation metric 'epoch_loss'=4.630373
+2026-10-30 15:56:45,117 - INFO - Epoch[25] Learning rate is 0.001
+2026-10-30 15:56:45,395 - INFO - Epoch[25] Elapsed time 0.278 seconds
+2026-10-30 15:56:45,397 - INFO - Epoch[25] Evaluation metric 'epoch_loss'=4.755013
+2026-10-30 15:56:45,419 - INFO - Epoch[26] Learning rate is 0.001
+2026-10-30 15:56:45,697 - INFO - Epoch[26] Elapsed time 0.277 seconds
+2026-10-30 15:56:45,698 - INFO - Epoch[26] Evaluation metric 'epoch_loss'=4.722347
+2026-10-30 15:56:45,718 - INFO - Epoch[27] Learning rate is 0.001
+2026-10-30 15:56:46,056 - INFO - Epoch[27] Elapsed time 0.338 seconds
+2026-10-30 15:56:46,056 - INFO - Epoch[27] Evaluation metric 'epoch_loss'=4.951563
+2026-10-30 15:56:46,079 - INFO - Epoch[28] Learning rate is 0.001
+2026-10-30 15:56:46,462 - INFO - Epoch[28] Elapsed time 0.383 seconds
+2026-10-30 15:56:46,464 - INFO - Epoch[28] Evaluation metric 'epoch_loss'=4.350374
+2026-10-30 15:56:46,486 - INFO - Epoch[29] Learning rate is 0.001
+2026-10-30 15:56:46,785 - INFO - Epoch[29] Elapsed time 0.297 seconds
+2026-10-30 15:56:46,786 - INFO - Epoch[29] Evaluation metric 'epoch_loss'=3.756347
+2026-10-30 15:56:46,808 - INFO - Epoch[30] Learning rate is 0.001
+2026-10-30 15:56:47,091 - INFO - Epoch[30] Elapsed time 0.282 seconds
+2026-10-30 15:56:47,093 - INFO - Epoch[30] Evaluation metric 'epoch_loss'=3.639135
+2026-10-30 15:56:47,114 - INFO - Epoch[31] Learning rate is 0.001
+2026-10-30 15:56:47,385 - INFO - Epoch[31] Elapsed time 0.270 seconds
+2026-10-30 15:56:47,387 - INFO - Epoch[31] Evaluation metric 'epoch_loss'=3.969303
+2026-10-30 15:56:47,406 - INFO - Epoch[32] Learning rate is 0.001
+2026-10-30 15:56:47,757 - INFO - Epoch[32] Elapsed time 0.350 seconds
+2026-10-30 15:56:47,757 - INFO - Epoch[32] Evaluation metric 'epoch_loss'=3.801146
+2026-10-30 15:56:47,777 - INFO - Epoch[33] Learning rate is 0.001
+2026-10-30 15:56:47,986 - INFO - Epoch[33] Elapsed time 0.208 seconds
+2026-10-30 15:56:47,987 - INFO - Epoch[33] Evaluation metric 'epoch_loss'=4.369891
+2026-10-30 15:56:48,007 - INFO - Epoch[34] Learning rate is 0.001
+2026-10-30 15:56:48,326 - INFO - Epoch[34] Elapsed time 0.318 seconds
+2026-10-30 15:56:48,326 - INFO - Epoch[34] Evaluation metric 'epoch_loss'=3.728514
+2026-10-30 15:56:48,345 - INFO - Epoch[35] Learning rate is 0.001
+2026-10-30 15:56:48,607 - INFO - Epoch[35] Elapsed time 0.262 seconds
+2026-10-30 15:56:48,607 - INFO - Epoch[35] Evaluation metric 'epoch_loss'=4.015094
+2026-10-30 15:56:48,625 - INFO - Epoch[36] Learning rate is 0.001
+2026-10-30 15:56:48,953 - INFO - Epoch[36] Elapsed time 0.328 seconds
+2026-10-30 15:56:48,954 - INFO - Epoch[36] Evaluation metric 'epoch_loss'=4.055957
+2026-10-30 15:56:48,972 - INFO - Epoch[37] Learning rate is 0.001
+2026-10-30 15:56:49,222 - INFO - Epoch[37] Elapsed time 0.249 seconds
+2026-10-30 15:56:49,222 - INFO - Epoch[37] Evaluation metric 'epoch_loss'=3.670221
+2026-10-30 15:56:49,243 - INFO - Epoch[38] Learning rate is 0.001
+2026-10-30 15:56:49,522 - INFO - Epoch[38] Elapsed time 0.278 seconds
+2026-10-30 15:56:49,523 - INFO - Epoch[38] Evaluation metric 'epoch_loss'=3.704532
+2026-10-30 15:56:49,540 - INFO - Epoch[39] Learning rate is 0.001
+2026-10-30 15:56:49,884 - INFO - Epoch[39] Elapsed time 0.344 seconds
+2026-10-30 15:56:49,884 - INFO - Epoch[39] Evaluation metric 'epoch_loss'=3.737242
+2026-10-30 15:56:49,903 - INFO - Epoch[40] Learning rate is 0.001
+2026-10-30 15:56:50,189 - INFO - Epoch[40] Elapsed time 0.285 seconds
+2026-10-30 15:56:50,189 - INFO - Epoch[40] Evaluation metric 'epoch_loss'=4.070518
+2026-10-30 15:56:50,207 - INFO - Epoch[41] Learning rate is 0.0005
+2026-10-30 15:56:50,609 - INFO - Epoch[41] Elapsed time 0.402 seconds
+2026-10-30 15:56:50,610 - INFO - Epoch[41] Evaluation metric 'epoch_loss'=3.776343
+2026-10-30 15:56:50,628 - INFO - Epoch[42] Learning rate is 0.0005
+2026-10-30 15:56:50,861 - INFO - Epoch[42] Elapsed time 0.232 seconds
+2026-10-30 15:56:50,864 - INFO - Epoch[42] Evaluation metric 'epoch_loss'=3.882010
+2026-10-30 15:56:50,882 - INFO - Epoch[43] Learning rate is 0.0005
+2026-10-30 15:56:51,234 - INFO - Epoch[43] Elapsed time 0.353 seconds
+2026-10-30 15:56:51,235 - INFO - Epoch[43] Evaluation metric 'epoch_loss'=3.733616
+2026-10-30 15:56:51,250 - INFO - Epoch[44] Learning rate is 0.0005
+2026-10-30 15:56:51,531 - INFO - Epoch[44] Elapsed time 0.281 seconds
+2026-10-30 15:56:51,532 - INFO - Epoch[44] Evaluation metric 'epoch_loss'=3.738493
+2026-10-30 15:56:51,548 - INFO - Epoch[45] Learning rate is 0.0005
+2026-10-30 15:56:51,857 - INFO - Epoch[45] Elapsed time 0.309 seconds
+2026-10-30 15:56:51,858 - INFO - Epoch[45] Evaluation metric 'epoch_loss'=4.147839
+2026-10-30 15:56:51,874 - INFO - Epoch[46] Learning rate is 0.0005
+2026-10-30 15:56:52,184 - INFO - Epoch[46] Elapsed time 0.308 seconds
+2026-10-30 15:56:52,185 - INFO - Epoch[46] Evaluation metric 'epoch_loss'=3.875857
+2026-10-30 15:56:52,201 - INFO - Epoch[47] Learning rate is 0.0005
+2026-10-30 15:56:52,431 - INFO - Epoch[47] Elapsed time 0.230 seconds
+2026-10-30 15:56:52,432 - INFO - Epoch[47] Evaluation metric 'epoch_loss'=3.929076
+2026-10-30 15:56:52,446 - INFO - Epoch[48] Learning rate is 0.0005
+2026-10-30 15:56:52,750 - INFO - Epoch[48] Elapsed time 0.303 seconds
+2026-10-30 15:56:52,750 - INFO - Epoch[48] Evaluation metric 'epoch_loss'=3.694938
+2026-10-30 15:56:52,769 - INFO - Epoch[49] Learning rate is 0.0005
+2026-10-30 15:56:53,069 - INFO - Epoch[49] Elapsed time 0.299 seconds
+2026-10-30 15:56:53,069 - INFO - Epoch[49] Evaluation metric 'epoch_loss'=4.113002
+2026-10-30 15:56:53,087 - INFO - Epoch[50] Learning rate is 0.0005
+2026-10-30 15:56:53,386 - INFO - Epoch[50] Elapsed time 0.298 seconds
+2026-10-30 15:56:53,386 - INFO - Epoch[50] Evaluation metric 'epoch_loss'=3.353481
+2026-10-30 15:56:53,403 - INFO - Epoch[51] Learning rate is 0.0005
+2026-10-30 15:56:53,809 - INFO - Epoch[51] Elapsed time 0.406 seconds
+2026-10-30 15:56:53,809 - INFO - Epoch[51] Evaluation metric 'epoch_loss'=3.743735
+2026-10-30 15:56:53,824 - INFO - Epoch[52] Learning rate is 0.0005
+2026-10-30 15:56:54,154 - INFO - Epoch[52] Elapsed time 0.329 seconds
+2026-10-30 15:56:54,155 - INFO - Epoch[52] Evaluation metric 'epoch_loss'=3.979387
+2026-10-30 15:56:54,170 - INFO - Epoch[53] Learning rate is 0.0005
+2026-10-30 15:56:54,411 - INFO - Epoch[53] Elapsed time 0.241 seconds
+2026-10-30 15:56:54,411 - INFO - Epoch[53] Evaluation metric 'epoch_loss'=3.603011
+2026-10-30 15:56:54,428 - INFO - Epoch[54] Learning rate is 0.0005
+2026-10-30 15:56:54,657 - INFO - Epoch[54] Elapsed time 0.228 seconds
+2026-10-30 15:56:54,657 - INFO - Epoch[54] Evaluation metric 'epoch_loss'=4.046915
+2026-10-30 15:56:54,672 - INFO - Epoch[55] Learning rate is 0.0005
+2026-10-30 15:56:54,974 - INFO - Epoch[55] Elapsed time 0.302 seconds
+2026-10-30 15:56:54,975 - INFO - Epoch[55] Evaluation metric 'epoch_loss'=3.434387
+2026-10-30 15:56:54,991 - INFO - Epoch[56] Learning rate is 0.0005
+2026-10-30 15:56:55,268 - INFO - Epoch[56] Elapsed time 0.277 seconds
+2026-10-30 15:56:55,269 - INFO - Epoch[56] Evaluation metric 'epoch_loss'=3.453439
+2026-10-30 15:56:55,285 - INFO - Epoch[57] Learning rate is 0.0005
+2026-10-30 15:56:55,576 - INFO - Epoch[57] Elapsed time 0.291 seconds
+2026-10-30 15:56:55,576 - INFO - Epoch[57] Evaluation metric 'epoch_loss'=3.674373
+2026-10-30 15:56:55,593 - INFO - Epoch[58] Learning rate is 0.0005
+2026-10-30 15:56:55,864 - INFO - Epoch[58] Elapsed time 0.271 seconds
+2026-10-30 15:56:55,865 - INFO - Epoch[58] Evaluation metric 'epoch_loss'=3.467380
+2026-10-30 15:56:55,885 - INFO - Epoch[59] Learning rate is 0.0005
+2026-10-30 15:56:56,149 - INFO - Epoch[59] Elapsed time 0.264 seconds
+2026-10-30 15:56:56,150 - INFO - Epoch[59] Evaluation metric 'epoch_loss'=3.465527
+2026-10-30 15:56:56,171 - INFO - Epoch[60] Learning rate is 0.0005
+2026-10-30 15:56:56,514 - INFO - Epoch[60] Elapsed time 0.343 seconds
+2026-10-30 15:56:56,515 - INFO - Epoch[60] Evaluation metric 'epoch_loss'=3.318913
+2026-10-30 15:56:56,534 - INFO - Epoch[61] Learning rate is 0.0005
+2026-10-30 15:56:56,763 - INFO - Epoch[61] Elapsed time 0.227 seconds
+2026-10-30 15:56:56,763 - INFO - Epoch[61] Evaluation metric 'epoch_loss'=3.543759
+2026-10-30 15:56:56,783 - INFO - Epoch[62] Learning rate is 0.0005
+2026-10-30 15:56:57,083 - INFO - Epoch[62] Elapsed time 0.300 seconds
+2026-10-30 15:56:57,084 - INFO - Epoch[62] Evaluation metric 'epoch_loss'=3.810149
+2026-10-30 15:56:57,104 - INFO - Epoch[63] Learning rate is 0.0005
+2026-10-30 15:56:57,392 - INFO - Epoch[63] Elapsed time 0.287 seconds
+2026-10-30 15:56:57,392 - INFO - Epoch[63] Evaluation metric 'epoch_loss'=3.974381
+2026-10-30 15:56:57,408 - INFO - Epoch[64] Learning rate is 0.0005
+2026-10-30 15:56:57,734 - INFO - Epoch[64] Elapsed time 0.327 seconds
+2026-10-30 15:56:57,735 - INFO - Epoch[64] Evaluation metric 'epoch_loss'=3.614836
+2026-10-30 15:56:57,753 - INFO - Epoch[65] Learning rate is 0.0005
+2026-10-30 15:56:58,020 - INFO - Epoch[65] Elapsed time 0.266 seconds
+2026-10-30 15:56:58,020 - INFO - Epoch[65] Evaluation metric 'epoch_loss'=3.678838
+2026-10-30 15:56:58,045 - INFO - Epoch[66] Learning rate is 0.0005
+2026-10-30 15:56:58,396 - INFO - Epoch[66] Elapsed time 0.350 seconds
+2026-10-30 15:56:58,397 - INFO - Epoch[66] Evaluation metric 'epoch_loss'=3.328821
+2026-10-30 15:56:58,411 - INFO - Epoch[67] Learning rate is 0.0005
+2026-10-30 15:56:58,702 - INFO - Epoch[67] Elapsed time 0.291 seconds
+2026-10-30 15:56:58,703 - INFO - Epoch[67] Evaluation metric 'epoch_loss'=3.760256
+2026-10-30 15:56:58,722 - INFO - Epoch[68] Learning rate is 0.0005
+2026-10-30 15:56:58,994 - INFO - Epoch[68] Elapsed time 0.272 seconds
+2026-10-30 15:56:58,995 - INFO - Epoch[68] Evaluation metric 'epoch_loss'=4.125030
+2026-10-30 15:56:59,014 - INFO - Epoch[69] Learning rate is 0.0005
+2026-10-30 15:56:59,322 - INFO - Epoch[69] Elapsed time 0.308 seconds
+2026-10-30 15:56:59,323 - INFO - Epoch[69] Evaluation metric 'epoch_loss'=4.190650
+2026-10-30 15:56:59,341 - INFO - Epoch[70] Learning rate is 0.0005
+2026-10-30 15:56:59,632 - INFO - Epoch[70] Elapsed time 0.291 seconds
+2026-10-30 15:56:59,633 - INFO - Epoch[70] Evaluation metric 'epoch_loss'=3.645438
+2026-10-30 15:56:59,654 - INFO - Epoch[71] Learning rate is 0.00025
+2026-10-30 15:56:59,981 - INFO - Epoch[71] Elapsed time 0.327 seconds
+2026-10-30 15:56:59,981 - INFO - Epoch[71] Evaluation metric 'epoch_loss'=3.966711
+2026-10-30 15:56:59,997 - INFO - Epoch[72] Learning rate is 0.00025
+2026-10-30 15:57:00,439 - INFO - Epoch[72] Elapsed time 0.441 seconds
+2026-10-30 15:57:00,441 - INFO - Epoch[72] Evaluation metric 'epoch_loss'=4.276747
+2026-10-30 15:57:00,459 - INFO - Epoch[73] Learning rate is 0.00025
+2026-10-30 15:57:00,718 - INFO - Epoch[73] Elapsed time 0.259 seconds
+2026-10-30 15:57:00,719 - INFO - Epoch[73] Evaluation metric 'epoch_loss'=3.933113
+2026-10-30 15:57:00,735 - INFO - Epoch[74] Learning rate is 0.00025
+2026-10-30 15:57:01,002 - INFO - Epoch[74] Elapsed time 0.267 seconds
+2026-10-30 15:57:01,003 - INFO - Epoch[74] Evaluation metric 'epoch_loss'=3.962857
+2026-10-30 15:57:01,023 - INFO - Epoch[75] Learning rate is 0.00025
+2026-10-30 15:57:01,298 - INFO - Epoch[75] Elapsed time 0.275 seconds
+2026-10-30 15:57:01,299 - INFO - Epoch[75] Evaluation metric 'epoch_loss'=3.267109
+2026-10-30 15:57:01,321 - INFO - Epoch[76] Learning rate is 0.00025
+2026-10-30 15:57:01,599 - INFO - Epoch[76] Elapsed time 0.278 seconds
+2026-10-30 15:57:01,605 - INFO - Epoch[76] Evaluation metric 'epoch_loss'=3.469262
+2026-10-30 15:57:01,628 - INFO - Epoch[77] Learning rate is 0.00025
+2026-10-30 15:57:01,950 - INFO - Epoch[77] Elapsed time 0.322 seconds
+2026-10-30 15:57:01,952 - INFO - Epoch[77] Evaluation metric 'epoch_loss'=3.742162
+2026-10-30 15:57:01,969 - INFO - Epoch[78] Learning rate is 0.00025
+2026-10-30 15:57:02,309 - INFO - Epoch[78] Elapsed time 0.339 seconds
+2026-10-30 15:57:02,309 - INFO - Epoch[78] Evaluation metric 'epoch_loss'=4.132899
+2026-10-30 15:57:02,329 - INFO - Epoch[79] Learning rate is 0.00025
+2026-10-30 15:57:02,642 - INFO - Epoch[79] Elapsed time 0.312 seconds
+2026-10-30 15:57:02,642 - INFO - Epoch[79] Evaluation metric 'epoch_loss'=3.888399
+2026-10-30 15:57:02,659 - INFO - Epoch[80] Learning rate is 0.00025
+2026-10-30 15:57:02,912 - INFO - Epoch[80] Elapsed time 0.253 seconds
+2026-10-30 15:57:02,913 - INFO - Epoch[80] Evaluation metric 'epoch_loss'=3.328264
+2026-10-30 15:57:02,932 - INFO - Epoch[81] Learning rate is 0.00025
+2026-10-30 15:57:03,222 - INFO - Epoch[81] Elapsed time 0.289 seconds
+2026-10-30 15:57:03,223 - INFO - Epoch[81] Evaluation metric 'epoch_loss'=3.390751
+2026-10-30 15:57:03,239 - INFO - Epoch[82] Learning rate is 0.00025
+2026-10-30 15:57:03,547 - INFO - Epoch[82] Elapsed time 0.308 seconds
+2026-10-30 15:57:03,547 - INFO - Epoch[82] Evaluation metric 'epoch_loss'=3.490607
+2026-10-30 15:57:03,572 - INFO - Epoch[83] Learning rate is 0.00025
+2026-10-30 15:57:03,784 - INFO - Epoch[83] Elapsed time 0.211 seconds
+2026-10-30 15:57:03,785 - INFO - Epoch[83] Evaluation metric 'epoch_loss'=3.460778
+2026-10-30 15:57:03,800 - INFO - Epoch[84] Learning rate is 0.00025
+2026-10-30 15:57:04,108 - INFO - Epoch[84] Elapsed time 0.308 seconds
+2026-10-30 15:57:04,109 - INFO - Epoch[84] Evaluation metric 'epoch_loss'=3.594448
+2026-10-30 15:57:04,127 - INFO - Epoch[85] Learning rate is 0.00025
+2026-10-30 15:57:04,430 - INFO - Epoch[85] Elapsed time 0.303 seconds
+2026-10-30 15:57:04,431 - INFO - Epoch[85] Evaluation metric 'epoch_loss'=3.802641
+2026-10-30 15:57:04,446 - INFO - Epoch[86] Learning rate is 0.000125
+2026-10-30 15:57:04,734 - INFO - Epoch[86] Elapsed time 0.288 seconds
+2026-10-30 15:57:04,735 - INFO - Epoch[86] Evaluation metric 'epoch_loss'=4.016805
+2026-10-30 15:57:04,753 - INFO - Epoch[87] Learning rate is 0.000125
+2026-10-30 15:57:05,053 - INFO - Epoch[87] Elapsed time 0.299 seconds
+2026-10-30 15:57:05,054 - INFO - Epoch[87] Evaluation metric 'epoch_loss'=3.721042
+2026-10-30 15:57:05,072 - INFO - Epoch[88] Learning rate is 0.000125
+2026-10-30 15:57:05,379 - INFO - Epoch[88] Elapsed time 0.307 seconds
+2026-10-30 15:57:05,385 - INFO - Epoch[88] Evaluation metric 'epoch_loss'=3.641212
+2026-10-30 15:57:05,406 - INFO - Epoch[89] Learning rate is 0.000125
+2026-10-30 15:57:05,681 - INFO - Epoch[89] Elapsed time 0.274 seconds
+2026-10-30 15:57:05,681 - INFO - Epoch[89] Evaluation metric 'epoch_loss'=3.652050
+2026-10-30 15:57:05,701 - INFO - Epoch[90] Learning rate is 0.000125
+2026-10-30 15:57:05,932 - INFO - Epoch[90] Elapsed time 0.231 seconds
+2026-10-30 15:57:05,932 - INFO - Epoch[90] Evaluation metric 'epoch_loss'=3.827034
+2026-10-30 15:57:05,953 - INFO - Epoch[91] Learning rate is 0.000125
+2026-10-30 15:57:06,285 - INFO - Epoch[91] Elapsed time 0.332 seconds
+2026-10-30 15:57:06,286 - INFO - Epoch[91] Evaluation metric 'epoch_loss'=3.486810
+2026-10-30 15:57:06,307 - INFO - Epoch[92] Learning rate is 0.000125
+2026-10-30 15:57:06,820 - INFO - Epoch[92] Elapsed time 0.512 seconds
+2026-10-30 15:57:06,820 - INFO - Epoch[92] Evaluation metric 'epoch_loss'=3.788278
+2026-10-30 15:57:06,835 - INFO - Epoch[93] Learning rate is 0.000125
+2026-10-30 15:57:07,148 - INFO - Epoch[93] Elapsed time 0.313 seconds
+2026-10-30 15:57:07,149 - INFO - Epoch[93] Evaluation metric 'epoch_loss'=4.142190
+2026-10-30 15:57:07,169 - INFO - Epoch[94] Learning rate is 0.000125
+2026-10-30 15:57:07,437 - INFO - Epoch[94] Elapsed time 0.267 seconds
+2026-10-30 15:57:07,437 - INFO - Epoch[94] Evaluation metric 'epoch_loss'=4.078701
+2026-10-30 15:57:07,453 - INFO - Epoch[95] Learning rate is 0.000125
+2026-10-30 15:57:07,759 - INFO - Epoch[95] Elapsed time 0.305 seconds
+2026-10-30 15:57:07,759 - INFO - Epoch[95] Evaluation metric 'epoch_loss'=3.923142
+2026-10-30 15:57:07,781 - INFO - Epoch[96] Learning rate is 6.25e-05
+2026-10-30 15:57:08,078 - INFO - Epoch[96] Elapsed time 0.296 seconds
+2026-10-30 15:57:08,079 - INFO - Epoch[96] Evaluation metric 'epoch_loss'=3.907834
+2026-10-30 15:57:08,095 - INFO - Epoch[97] Learning rate is 6.25e-05
+2026-10-30 15:57:08,402 - INFO - Epoch[97] Elapsed time 0.306 seconds
+2026-10-30 15:57:08,403 - INFO - Epoch[97] Evaluation metric 'epoch_loss'=3.787807
+2026-10-30 15:57:08,422 - INFO - Epoch[98] Learning rate is 6.25e-05
+2026-10-30 15:57:08,635 - INFO - Epoch[98] Elapsed time 0.212 seconds
+2026-10-30 15:57:08,636 - INFO - Epoch[98] Evaluation metric 'epoch_loss'=3.245573
+2026-10-30 15:57:08,654 - INFO - Epoch[99] Learning rate is 6.25e-05
+2026-10-30 15:57:08,948 - INFO - Epoch[99] Elapsed time 0.293 seconds
+2026-10-30 15:57:08,948 - INFO - Epoch[99] Evaluation metric 'epoch_loss'=3.553329
+2026-10-30 15:57:08,967 - INFO - Computing averaged parameters.
+2026-10-30 15:57:08,979 - INFO - Loading averaged parameters.
+2026-10-30 15:57:09,024 - INFO - End model training
+2026-10-30 15:57:12,193 - INFO - BESS_house_4 - MAE: 0.1601, RMSE: 0.2021
+2026-10-30 15:57:12,996 - INFO - Saved model metrics to /content/drive/MyDrive/forecast-models-evaluation/results/results_belgium/WaveNet/Sampling_100/Epochs_100_10/model_metrics_summary.csv
+2026-10-30 15:57:13,752 - INFO - ...End training...
+2026-10-30 15:57:13,753 - INFO - Training completed in 298.78 seconds.

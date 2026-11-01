@@ -1,111 +1,21 @@
-2026-10-10 04:48:25,601 - INFO - Logger initialized at /content/drive/MyDrive/Forecast-Models-Evaluation/results/results_belgium/TimerXL/Sampling_25/Run_1/training_log.txt
-2026-10-10 04:48:25,602 - INFO - ...Start thuml/timer-base-84m forecasting on belgium dataset...
-2026-10-10 04:48:25,653 - INFO - Running thuml/timer-base-84m (PV_house_1) for 2136 samples (25% of original training set)...
-2026-10-10 04:48:25,799 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
-2026-10-10 04:48:25,890 - INFO - HTTP Request: GET https://huggingface.co/api/models/thuml/timer-base-84m "HTTP/1.1 200 OK"
-2026-10-10 04:48:25,982 - INFO - HTTP Request: HEAD https://huggingface.co/thuml/timer-base-84m/resolve/70077a71acce1b4c00d98332fcaabc694255d8e5/adapter_config.json "HTTP/1.1 404 Not Found"
-2026-10-10 04:48:25,982 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-2026-10-10 04:48:26,072 - INFO - HTTP Request: HEAD https://huggingface.co/thuml/timer-base-84m/resolve/70077a71acce1b4c00d98332fcaabc694255d8e5/config.json "HTTP/1.1 307 Temporary Redirect"
-2026-10-10 04:48:26,085 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/thuml/timer-base-84m/70077a71acce1b4c00d98332fcaabc694255d8e5/config.json?%2Fthuml%2Ftimer-base-84m%2Fresolve%2F70077a71acce1b4c00d98332fcaabc694255d8e5%2Fconfig.json=&etag=%22c1bd77f6be465ed289ef350b23b9a399843d17fe%22 "HTTP/1.1 200 OK"
-2026-10-10 04:48:26,098 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/thuml/timer-base-84m/70077a71acce1b4c00d98332fcaabc694255d8e5/config.json?%2Fthuml%2Ftimer-base-84m%2Fresolve%2F70077a71acce1b4c00d98332fcaabc694255d8e5%2Fconfig.json=&etag=%22c1bd77f6be465ed289ef350b23b9a399843d17fe%22 "HTTP/1.1 200 OK"
-2026-10-10 04:48:26,188 - INFO - HTTP Request: HEAD https://huggingface.co/thuml/timer-base-84m/resolve/70077a71acce1b4c00d98332fcaabc694255d8e5/configuration_timer.py "HTTP/1.1 307 Temporary Redirect"
-2026-10-10 04:48:26,200 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/thuml/timer-base-84m/70077a71acce1b4c00d98332fcaabc694255d8e5/configuration_timer.py?%2Fthuml%2Ftimer-base-84m%2Fresolve%2F70077a71acce1b4c00d98332fcaabc694255d8e5%2Fconfiguration_timer.py=&etag=%22a47d14c984ebdcbe2ca8a3985e6927a5bc68433b%22 "HTTP/1.1 200 OK"
-2026-10-10 04:48:26,213 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/thuml/timer-base-84m/70077a71acce1b4c00d98332fcaabc694255d8e5/configuration_timer.py?%2Fthuml%2Ftimer-base-84m%2Fresolve%2F70077a71acce1b4c00d98332fcaabc694255d8e5%2Fconfiguration_timer.py=&etag=%22a47d14c984ebdcbe2ca8a3985e6927a5bc68433b%22 "HTTP/1.1 200 OK"
-2026-10-10 04:48:26,313 - INFO - HTTP Request: HEAD https://huggingface.co/thuml/timer-base-84m/resolve/70077a71acce1b4c00d98332fcaabc694255d8e5/modeling_timer.py "HTTP/1.1 307 Temporary Redirect"
-2026-10-10 04:48:26,325 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/thuml/timer-base-84m/70077a71acce1b4c00d98332fcaabc694255d8e5/modeling_timer.py?%2Fthuml%2Ftimer-base-84m%2Fresolve%2F70077a71acce1b4c00d98332fcaabc694255d8e5%2Fmodeling_timer.py=&etag=%223b1ae3e2d4af4a0825b5bccf5ae2c723ff95dcc8%22 "HTTP/1.1 200 OK"
-2026-10-10 04:48:26,338 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/thuml/timer-base-84m/70077a71acce1b4c00d98332fcaabc694255d8e5/modeling_timer.py?%2Fthuml%2Ftimer-base-84m%2Fresolve%2F70077a71acce1b4c00d98332fcaabc694255d8e5%2Fmodeling_timer.py=&etag=%223b1ae3e2d4af4a0825b5bccf5ae2c723ff95dcc8%22 "HTTP/1.1 200 OK"
-2026-10-10 04:48:26,438 - INFO - HTTP Request: HEAD https://huggingface.co/thuml/timer-base-84m/resolve/70077a71acce1b4c00d98332fcaabc694255d8e5/ts_generation_mixin.py "HTTP/1.1 307 Temporary Redirect"
-2026-10-10 04:48:26,450 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/thuml/timer-base-84m/70077a71acce1b4c00d98332fcaabc694255d8e5/ts_generation_mixin.py?%2Fthuml%2Ftimer-base-84m%2Fresolve%2F70077a71acce1b4c00d98332fcaabc694255d8e5%2Fts_generation_mixin.py=&etag=%22b56ef7b3688f1c69e4d130c5149b9333cd540225%22 "HTTP/1.1 200 OK"
-2026-10-10 04:48:26,462 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/thuml/timer-base-84m/70077a71acce1b4c00d98332fcaabc694255d8e5/ts_generation_mixin.py?%2Fthuml%2Ftimer-base-84m%2Fresolve%2F70077a71acce1b4c00d98332fcaabc694255d8e5%2Fts_generation_mixin.py=&etag=%22b56ef7b3688f1c69e4d130c5149b9333cd540225%22 "HTTP/1.1 200 OK"
-2026-10-10 04:48:26,993 - INFO - HTTP Request: HEAD https://huggingface.co/thuml/timer-base-84m/resolve/70077a71acce1b4c00d98332fcaabc694255d8e5/model.safetensors "HTTP/1.1 302 Found"
-2026-10-10 04:48:27,135 - INFO - HTTP Request: GET https://huggingface.co/api/models/thuml/timer-base-84m/xet-read-token/70077a71acce1b4c00d98332fcaabc694255d8e5 "HTTP/1.1 200 OK"
-2026-10-10 04:48:30,250 - INFO - HTTP Request: HEAD https://huggingface.co/thuml/timer-base-84m/resolve/70077a71acce1b4c00d98332fcaabc694255d8e5/generation_config.json "HTTP/1.1 307 Temporary Redirect"
-2026-10-10 04:48:30,262 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/thuml/timer-base-84m/70077a71acce1b4c00d98332fcaabc694255d8e5/generation_config.json?%2Fthuml%2Ftimer-base-84m%2Fresolve%2F70077a71acce1b4c00d98332fcaabc694255d8e5%2Fgeneration_config.json=&etag=%220975af4c75a341cdb5e8c5a4df54e8680bf63115%22 "HTTP/1.1 200 OK"
-2026-10-10 04:48:30,275 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/thuml/timer-base-84m/70077a71acce1b4c00d98332fcaabc694255d8e5/generation_config.json?%2Fthuml%2Ftimer-base-84m%2Fresolve%2F70077a71acce1b4c00d98332fcaabc694255d8e5%2Fgeneration_config.json=&etag=%220975af4c75a341cdb5e8c5a4df54e8680bf63115%22 "HTTP/1.1 200 OK"
-2026-10-10 04:48:30,363 - INFO - HTTP Request: HEAD https://huggingface.co/thuml/timer-base-84m/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
-2026-10-10 04:48:30,438 - ERROR - Skipping thuml/timer-base-84m on belgium due to error: index 22 is out of bounds for dimension 0 with size 22
-Traceback (most recent call last):
-  File "/content/drive/MyDrive/Forecast-Models-Evaluation/models/fmodel_timerxl.py", line 107, in paper_forecasting_train
-    train_all_models(dataset_name, dataset, start_dt, end_dt, save_dir, freq_str, forecast_horizon, model_id, sampling_rate, device)
-    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/content/drive/MyDrive/Forecast-Models-Evaluation/models/fmodel_timerxl.py", line 73, in train_all_models
-    pv_mae, pv_rmse = hf_causal_forecast_model(pv_data, f"PV_house_{house}", save_dir, freq, forecast_horizon, model_id, sampling_rate, device)
-                      ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/content/drive/MyDrive/Forecast-Models-Evaluation/models/fmodel_timerxl.py", line 45, in hf_causal_forecast_model
-    output = model.generate(
-        context_tensor,
-        max_new_tokens=forecast_horizon,
-        use_cache=False
-    )
-  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
-    return func(*args, **kwargs)
-  File "/root/.cache/huggingface/modules/transformers_modules/thuml/timer_hyphen_base_hyphen_84m/70077a71acce1b4c00d98332fcaabc694255d8e5/ts_generation_mixin.py", line 38, in generate
-    return super().generate(inputs=inputs, generation_config=generation_config, logits_processor=logits_processor, stopping_criteria=stopping_criteria, prefix_allowed_tokens_fn=prefix_allowed_tokens_fn, synced_gpus=synced_gpus, assistant_model=assistant_model, streamer=streamer, negative_prompt_ids=negative_prompt_ids, negative_prompt_attention_mask=negative_prompt_attention_mask, **kwargs)
-           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
-    return func(*args, **kwargs)
-  File "/usr/local/lib/python3.13/dist-packages/transformers/generation/utils.py", line 2976, in generate
-    result = decoding_method(
-        self,
-    ...<5 lines>...
-        **model_kwargs,
-    )
-  File "/usr/local/lib/python3.13/dist-packages/transformers/generation/utils.py", line 3176, in _sample
-    outputs = self._prefill(
-        input_ids,
-    ...<2 lines>...
-        is_first_iteration=not generation_config.is_assistant,
-    )
-  File "/usr/local/lib/python3.13/dist-packages/transformers/generation/utils.py", line 4287, in _prefill
-    return self(**model_inputs, return_dict=True)
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/root/.cache/huggingface/modules/transformers_modules/thuml/timer_hyphen_base_hyphen_84m/70077a71acce1b4c00d98332fcaabc694255d8e5/modeling_timer.py", line 437, in forward
-    outputs = self.model(
-        input_ids=input_ids,
-    ...<7 lines>...
-        return_dict=return_dict,
-    )
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/root/.cache/huggingface/modules/transformers_modules/thuml/timer_hyphen_base_hyphen_84m/70077a71acce1b4c00d98332fcaabc694255d8e5/modeling_timer.py", line 349, in forward
-    layer_outputs = decoder_layer(
-        hidden_states,
-    ...<4 lines>...
-        use_cache=use_cache,
-    )
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/root/.cache/huggingface/modules/transformers_modules/thuml/timer_hyphen_base_hyphen_84m/70077a71acce1b4c00d98332fcaabc694255d8e5/modeling_timer.py", line 199, in forward
-    hidden_states, self_attn_weights, present_key_value = self.self_attn(
-                                                          ~~~~~~~~~~~~~~^
-        hidden_states=hidden_states,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        use_cache=use_cache,
-        ^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/root/.cache/huggingface/modules/transformers_modules/thuml/timer_hyphen_base_hyphen_84m/70077a71acce1b4c00d98332fcaabc694255d8e5/modeling_timer.py", line 136, in forward
-    query_states, key_states = apply_rotary_pos_emb(
-                               ~~~~~~~~~~~~~~~~~~~~^
-        query_states, key_states, cos, sin, position_ids)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/root/.cache/huggingface/modules/transformers_modules/thuml/timer_hyphen_base_hyphen_84m/70077a71acce1b4c00d98332fcaabc694255d8e5/modeling_timer.py", line 20, in apply_rotary_pos_emb
-    cos = cos[position_ids].unsqueeze(unsqueeze_dim)
-          ~~~^^^^^^^^^^^^^^
-IndexError: index 22 is out of bounds for dimension 0 with size 22
+2026-10-31 13:38:51,121 - INFO - Logger initialized at /content/drive/MyDrive/forecast-models-evaluation/results/results_belgium/TimerXL/Sampling_25/Run_1/training_log.txt
+2026-10-31 13:38:51,121 - INFO - ...Start thuml/timer-base-84m forecasting on belgium dataset...
+2026-10-31 13:38:51,181 - INFO - Running thuml/timer-base-84m (PV_house_1) for 2136 samples (25% of original training set)...
+2026-10-31 13:38:58,047 - INFO - PV_house_1 - MAE: 0.0818, RMSE: 0.1411
+2026-10-31 13:38:59,043 - INFO - Running thuml/timer-base-84m (PV_house_2) for 2136 samples (25% of original training set)...
+2026-10-31 13:38:59,972 - INFO - PV_house_2 - MAE: 0.0817, RMSE: 0.1403
+2026-10-31 13:39:00,686 - INFO - Running thuml/timer-base-84m (PV_house_3) for 2136 samples (25% of original training set)...
+2026-10-31 13:39:01,472 - INFO - PV_house_3 - MAE: 0.0782, RMSE: 0.1352
+2026-10-31 13:39:02,225 - INFO - Running thuml/timer-base-84m (PV_house_4) for 2136 samples (25% of original training set)...
+2026-10-31 13:39:03,005 - INFO - PV_house_4 - MAE: 0.0808, RMSE: 0.1395
+2026-10-31 13:39:03,471 - INFO - Running thuml/timer-base-84m (BESS_house_1) for 2136 samples (25% of original training set)...
+2026-10-31 13:39:04,257 - INFO - BESS_house_1 - MAE: 0.0790, RMSE: 0.1166
+2026-10-31 13:39:04,756 - INFO - Running thuml/timer-base-84m (BESS_house_2) for 2136 samples (25% of original training set)...
+2026-10-31 13:39:05,539 - INFO - BESS_house_2 - MAE: 0.1274, RMSE: 0.1669
+2026-10-31 13:39:06,122 - INFO - Running thuml/timer-base-84m (BESS_house_3) for 2136 samples (25% of original training set)...
+2026-10-31 13:39:06,898 - INFO - BESS_house_3 - MAE: 0.1096, RMSE: 0.1424
+2026-10-31 13:39:07,449 - INFO - Running thuml/timer-base-84m (BESS_house_4) for 2136 samples (25% of original training set)...
+2026-10-31 13:39:08,243 - INFO - BESS_house_4 - MAE: 0.0803, RMSE: 0.1030
+2026-10-31 13:39:08,458 - INFO - Saved model metrics to /content/drive/MyDrive/forecast-models-evaluation/results/results_belgium/TimerXL/Sampling_25/Run_1/model_metrics_summary.csv
+2026-10-31 13:39:08,858 - INFO - ...End thuml/timer-base-84m forecasting on belgium dataset...
+2026-10-31 13:39:08,859 - INFO - Forecasting completed in 17.74 seconds.

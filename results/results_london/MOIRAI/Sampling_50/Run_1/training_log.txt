@@ -1,0 +1,12 @@
+2026-10-31 15:36:27,288 - INFO - Logger initialized at /content/drive/MyDrive/forecast-models-evaluation/results/results_london/MOIRAI/Sampling_50/Run_1/training_log.txt
+2026-10-31 15:36:27,289 - INFO - ...Start Uni2TS/Moirai forecasting...
+2026-10-31 15:36:27,289 - INFO - Forecasting London load
+2026-10-31 15:36:27,328 - INFO - Running Moirai london_load for 8658 samples (50% of original training set)...
+2026-10-31 15:36:27,329 - WARNING - Frequency inferred as None. Reindexing to uniform frequency 30T.
+2026-10-31 15:36:27,421 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 15:36:27,433 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-1.1-R-small/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/config.json?%2FSalesforce%2Fmoirai-1.1-R-small%2Fresolve%2Fmain%2Fconfig.json=&etag=%22ae2a0de8172dba3af57413d0d459723ecf714773%22 "HTTP/1.1 200 OK"
+2026-10-31 15:36:27,608 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-31 15:36:27,979 - INFO - london_load - MAE: 0.0264, RMSE: 0.0374
+2026-10-31 15:36:29,051 - INFO - Saved model metrics to /content/drive/MyDrive/forecast-models-evaluation/results/results_london/MOIRAI/Sampling_50/Run_1/model_metrics_summary.csv
+2026-10-31 15:36:29,651 - INFO - ...End Uni2TS/Moirai forecasting...
+2026-10-31 15:36:29,651 - INFO - Forecasting completed in 2.36 seconds.

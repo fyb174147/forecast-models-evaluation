@@ -1,0 +1,19 @@
+2026-10-11 10:29:07,353 - INFO - Logger initialized at /content/drive/MyDrive/forecast-models-evaluation/results/results_zonnedael/TimesFM/Sampling_33/Run_1/training_log.txt
+2026-10-11 10:29:07,470 - INFO - HTTP Request: HEAD https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-11 10:29:07,483 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/timesfm-2.5-200m-pytorch/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/config.json?%2Fgoogle%2Ftimesfm-2.5-200m-pytorch%2Fresolve%2Fmain%2Fconfig.json=&etag=%2294445b5415c93256bbab9cf759df2ffce2671b16%22 "HTTP/1.1 200 OK"
+2026-10-11 10:29:07,581 - INFO - HTTP Request: HEAD https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-11 10:29:07,594 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/timesfm-2.5-200m-pytorch/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/config.json?%2Fgoogle%2Ftimesfm-2.5-200m-pytorch%2Fresolve%2Fmain%2Fconfig.json=&etag=%2294445b5415c93256bbab9cf759df2ffce2671b16%22 "HTTP/1.1 200 OK"
+2026-10-11 10:29:07,595 - INFO - Downloading checkpoint from Hugging Face repo google/timesfm-2.5-200m-pytorch
+2026-10-11 10:29:07,686 - INFO - HTTP Request: HEAD https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-11 10:29:09,555 - INFO - Loading checkpoint from: /root/.cache/huggingface/hub/models--google--timesfm-2.5-200m-pytorch/snapshots/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/model.safetensors
+2026-10-11 10:29:10,022 - INFO - ...Start TimesFM forecasting...
+2026-10-11 10:29:10,022 - INFO - Forecasting Zonnedael customers
+2026-10-11 10:29:10,163 - INFO - Running TimesFM zonnedael_customer_8 for 5729 samples (33% of training set)...
+2026-10-11 10:29:13,425 - INFO - zonnedael_customer_8 - MAE: 0.0625, RMSE: 0.1189
+2026-10-11 10:29:13,777 - INFO - Running TimesFM zonnedael_customer_9 for 5729 samples (33% of training set)...
+2026-10-11 10:29:17,002 - INFO - zonnedael_customer_9 - MAE: 0.0394, RMSE: 0.0814
+2026-10-11 10:29:17,344 - INFO - Running TimesFM zonnedael_customer_43 for 5729 samples (33% of training set)...
+2026-10-11 10:29:20,585 - INFO - zonnedael_customer_43 - MAE: 0.0365, RMSE: 0.0616
+2026-10-11 10:29:20,938 - INFO - Saved model metrics to /content/drive/MyDrive/forecast-models-evaluation/results/results_zonnedael/TimesFM/Sampling_33/Run_1/model_metrics_summary.csv
+2026-10-11 10:29:21,305 - INFO - ...End TimesFM forecasting...
+2026-10-11 10:29:21,306 - INFO - Forecasting completed in 11.28 seconds.

@@ -1,91 +1,21 @@
-2026-10-10 04:48:30,688 - INFO - Logger initialized at /content/drive/MyDrive/Forecast-Models-Evaluation/results/results_belgium/TimerXL/Sampling_33/Run_1/training_log.txt
-2026-10-10 04:48:30,689 - INFO - ...Start thuml/timer-base-84m forecasting on belgium dataset...
-2026-10-10 04:48:30,740 - INFO - Running thuml/timer-base-84m (PV_house_1) for 2848 samples (33% of original training set)...
-2026-10-10 04:48:30,829 - INFO - HTTP Request: GET https://huggingface.co/api/models/thuml/timer-base-84m "HTTP/1.1 200 OK"
-2026-10-10 04:48:30,984 - INFO - HTTP Request: HEAD https://huggingface.co/thuml/timer-base-84m/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
-2026-10-10 04:48:30,994 - ERROR - Skipping thuml/timer-base-84m on belgium due to error: index 29 is out of bounds for dimension 0 with size 29
-Traceback (most recent call last):
-  File "/content/drive/MyDrive/Forecast-Models-Evaluation/models/fmodel_timerxl.py", line 107, in paper_forecasting_train
-    train_all_models(dataset_name, dataset, start_dt, end_dt, save_dir, freq_str, forecast_horizon, model_id, sampling_rate, device)
-    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/content/drive/MyDrive/Forecast-Models-Evaluation/models/fmodel_timerxl.py", line 73, in train_all_models
-    pv_mae, pv_rmse = hf_causal_forecast_model(pv_data, f"PV_house_{house}", save_dir, freq, forecast_horizon, model_id, sampling_rate, device)
-                      ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/content/drive/MyDrive/Forecast-Models-Evaluation/models/fmodel_timerxl.py", line 45, in hf_causal_forecast_model
-    output = model.generate(
-        context_tensor,
-        max_new_tokens=forecast_horizon,
-        use_cache=False
-    )
-  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
-    return func(*args, **kwargs)
-  File "/root/.cache/huggingface/modules/transformers_modules/thuml/timer_hyphen_base_hyphen_84m/70077a71acce1b4c00d98332fcaabc694255d8e5/ts_generation_mixin.py", line 38, in generate
-    return super().generate(inputs=inputs, generation_config=generation_config, logits_processor=logits_processor, stopping_criteria=stopping_criteria, prefix_allowed_tokens_fn=prefix_allowed_tokens_fn, synced_gpus=synced_gpus, assistant_model=assistant_model, streamer=streamer, negative_prompt_ids=negative_prompt_ids, negative_prompt_attention_mask=negative_prompt_attention_mask, **kwargs)
-           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
-    return func(*args, **kwargs)
-  File "/usr/local/lib/python3.13/dist-packages/transformers/generation/utils.py", line 2976, in generate
-    result = decoding_method(
-        self,
-    ...<5 lines>...
-        **model_kwargs,
-    )
-  File "/usr/local/lib/python3.13/dist-packages/transformers/generation/utils.py", line 3176, in _sample
-    outputs = self._prefill(
-        input_ids,
-    ...<2 lines>...
-        is_first_iteration=not generation_config.is_assistant,
-    )
-  File "/usr/local/lib/python3.13/dist-packages/transformers/generation/utils.py", line 4287, in _prefill
-    return self(**model_inputs, return_dict=True)
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/root/.cache/huggingface/modules/transformers_modules/thuml/timer_hyphen_base_hyphen_84m/70077a71acce1b4c00d98332fcaabc694255d8e5/modeling_timer.py", line 437, in forward
-    outputs = self.model(
-        input_ids=input_ids,
-    ...<7 lines>...
-        return_dict=return_dict,
-    )
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/root/.cache/huggingface/modules/transformers_modules/thuml/timer_hyphen_base_hyphen_84m/70077a71acce1b4c00d98332fcaabc694255d8e5/modeling_timer.py", line 349, in forward
-    layer_outputs = decoder_layer(
-        hidden_states,
-    ...<4 lines>...
-        use_cache=use_cache,
-    )
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/root/.cache/huggingface/modules/transformers_modules/thuml/timer_hyphen_base_hyphen_84m/70077a71acce1b4c00d98332fcaabc694255d8e5/modeling_timer.py", line 199, in forward
-    hidden_states, self_attn_weights, present_key_value = self.self_attn(
-                                                          ~~~~~~~~~~~~~~^
-        hidden_states=hidden_states,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        use_cache=use_cache,
-        ^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/root/.cache/huggingface/modules/transformers_modules/thuml/timer_hyphen_base_hyphen_84m/70077a71acce1b4c00d98332fcaabc694255d8e5/modeling_timer.py", line 136, in forward
-    query_states, key_states = apply_rotary_pos_emb(
-                               ~~~~~~~~~~~~~~~~~~~~^
-        query_states, key_states, cos, sin, position_ids)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/root/.cache/huggingface/modules/transformers_modules/thuml/timer_hyphen_base_hyphen_84m/70077a71acce1b4c00d98332fcaabc694255d8e5/modeling_timer.py", line 20, in apply_rotary_pos_emb
-    cos = cos[position_ids].unsqueeze(unsqueeze_dim)
-          ~~~^^^^^^^^^^^^^^
-IndexError: index 29 is out of bounds for dimension 0 with size 29
+2026-10-31 13:39:09,189 - INFO - Logger initialized at /content/drive/MyDrive/forecast-models-evaluation/results/results_belgium/TimerXL/Sampling_33/Run_1/training_log.txt
+2026-10-31 13:39:09,189 - INFO - ...Start thuml/timer-base-84m forecasting on belgium dataset...
+2026-10-31 13:39:09,204 - INFO - Running thuml/timer-base-84m (PV_house_1) for 2848 samples (33% of original training set)...
+2026-10-31 13:39:09,978 - INFO - PV_house_1 - MAE: 0.0761, RMSE: 0.1200
+2026-10-31 13:39:10,215 - INFO - Running thuml/timer-base-84m (PV_house_2) for 2848 samples (33% of original training set)...
+2026-10-31 13:39:10,984 - INFO - PV_house_2 - MAE: 0.0764, RMSE: 0.1167
+2026-10-31 13:39:11,237 - INFO - Running thuml/timer-base-84m (PV_house_3) for 2848 samples (33% of original training set)...
+2026-10-31 13:39:12,023 - INFO - PV_house_3 - MAE: 0.0761, RMSE: 0.1233
+2026-10-31 13:39:12,280 - INFO - Running thuml/timer-base-84m (PV_house_4) for 2848 samples (33% of original training set)...
+2026-10-31 13:39:13,062 - INFO - PV_house_4 - MAE: 0.0762, RMSE: 0.1211
+2026-10-31 13:39:13,294 - INFO - Running thuml/timer-base-84m (BESS_house_1) for 2848 samples (33% of original training set)...
+2026-10-31 13:39:14,107 - INFO - BESS_house_1 - MAE: 0.0656, RMSE: 0.1191
+2026-10-31 13:39:14,352 - INFO - Running thuml/timer-base-84m (BESS_house_2) for 2848 samples (33% of original training set)...
+2026-10-31 13:39:15,079 - INFO - BESS_house_2 - MAE: 0.1654, RMSE: 0.2237
+2026-10-31 13:39:15,306 - INFO - Running thuml/timer-base-84m (BESS_house_3) for 2848 samples (33% of original training set)...
+2026-10-31 13:39:16,020 - INFO - BESS_house_3 - MAE: 0.1455, RMSE: 0.2181
+2026-10-31 13:39:16,235 - INFO - Running thuml/timer-base-84m (BESS_house_4) for 2848 samples (33% of original training set)...
+2026-10-31 13:39:17,030 - INFO - BESS_house_4 - MAE: 0.0535, RMSE: 0.1151
+2026-10-31 13:39:17,270 - INFO - Saved model metrics to /content/drive/MyDrive/forecast-models-evaluation/results/results_belgium/TimerXL/Sampling_33/Run_1/model_metrics_summary.csv
+2026-10-31 13:39:17,666 - INFO - ...End thuml/timer-base-84m forecasting on belgium dataset...
+2026-10-31 13:39:17,667 - INFO - Forecasting completed in 8.48 seconds.

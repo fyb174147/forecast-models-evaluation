@@ -1,0 +1,15 @@
+2026-10-11 10:28:19,860 - INFO - Logger initialized at /content/drive/MyDrive/forecast-models-evaluation/results/results_london/TimesFM/Sampling_33/Run_1/training_log.txt
+2026-10-11 10:28:20,005 - INFO - HTTP Request: HEAD https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-11 10:28:20,017 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/timesfm-2.5-200m-pytorch/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/config.json?%2Fgoogle%2Ftimesfm-2.5-200m-pytorch%2Fresolve%2Fmain%2Fconfig.json=&etag=%2294445b5415c93256bbab9cf759df2ffce2671b16%22 "HTTP/1.1 200 OK"
+2026-10-11 10:28:20,102 - INFO - HTTP Request: HEAD https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-11 10:28:20,114 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/timesfm-2.5-200m-pytorch/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/config.json?%2Fgoogle%2Ftimesfm-2.5-200m-pytorch%2Fresolve%2Fmain%2Fconfig.json=&etag=%2294445b5415c93256bbab9cf759df2ffce2671b16%22 "HTTP/1.1 200 OK"
+2026-10-11 10:28:20,115 - INFO - Downloading checkpoint from Hugging Face repo google/timesfm-2.5-200m-pytorch
+2026-10-11 10:28:20,207 - INFO - HTTP Request: HEAD https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-11 10:28:21,747 - INFO - Loading checkpoint from: /root/.cache/huggingface/hub/models--google--timesfm-2.5-200m-pytorch/snapshots/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/model.safetensors
+2026-10-11 10:28:22,206 - INFO - ...Start TimesFM forecasting...
+2026-10-11 10:28:22,207 - INFO - Forecasting London load
+2026-10-11 10:28:22,240 - INFO - Running TimesFM london_load for 5773 samples (33% of training set)...
+2026-10-11 10:28:25,503 - INFO - london_load - MAE: 0.0320, RMSE: 0.0441
+2026-10-11 10:28:25,814 - INFO - Saved model metrics to /content/drive/MyDrive/forecast-models-evaluation/results/results_london/TimesFM/Sampling_33/Run_1/model_metrics_summary.csv
+2026-10-11 10:28:26,085 - INFO - ...End TimesFM forecasting...
+2026-10-11 10:28:26,086 - INFO - Forecasting completed in 3.88 seconds.

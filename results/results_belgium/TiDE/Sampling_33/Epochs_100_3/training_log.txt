@@ -1,44 +1,31 @@
-2026-10-10 09:40:50,879 - INFO - Logger initialized at /content/drive/MyDrive/Forecast-Models-Evaluation/results/results_belgium/TiDE/Sampling_33/Epochs_100_3/training_log.txt
-2026-10-10 09:40:50,880 - INFO - ...Start training for 100 epochs using TiDE...
-2026-10-10 09:40:50,880 - INFO - Training PV models
-2026-10-10 09:40:50,932 - INFO - Using random seed: 1791625250
-2026-10-10 09:40:50,933 - INFO - Training TiDE PV_house_1 model on 2848 samples (33.333333333333336% of original training set)...
-2026-10-10 09:40:55,845 - INFO - PV_house_1 - MAE: 0.0959, RMSE: 0.1472
-2026-10-10 09:40:56,102 - INFO - Using random seed: 1791625256
-2026-10-10 09:40:56,103 - INFO - Training TiDE PV_house_2 model on 2848 samples (33.333333333333336% of original training set)...
-2026-10-10 09:41:00,054 - ERROR - Skipping model TiDE due to error: [Errno 2] No such file or directory
-Traceback (most recent call last):
-  File "/content/drive/MyDrive/Forecast-Models-Evaluation/models/models_neuralforecast.py", line 156, in paper_forecasting_train
-  File "/content/drive/MyDrive/Forecast-Models-Evaluation/models/models_neuralforecast.py", line 102, in train_all_models
-  File "/content/drive/MyDrive/Forecast-Models-Evaluation/models/models_neuralforecast.py", line 76, in neural_forecast_model
-  File "/usr/local/lib/python3.13/dist-packages/neuralforecast/core.py", line 1500, in predict
-    fcsts, cols = self._generate_forecasts(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~^
-        dataset=dataset,
-        ^^^^^^^^^^^^^^^^
-    ...<5 lines>...
-        **data_kwargs,
-        ^^^^^^^^^^^^^^
-    )
-    ^
-  File "/usr/local/lib/python3.13/dist-packages/neuralforecast/core.py", line 3296, in _generate_forecasts
-    model_fcsts = model.predict(dataset=dataset, h=h, **data_kwargs)
-  File "/usr/local/lib/python3.13/dist-packages/neuralforecast/common/_base_model.py", line 2754, in predict
-    self._pred_trainer = pl.Trainer(**pred_trainer_kwargs)
-                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/pytorch_lightning/utilities/argparse.py", line 70, in insert_env_defaults
-    return fn(self, **kwargs)
-  File "/usr/local/lib/python3.13/dist-packages/pytorch_lightning/trainer/trainer.py", line 447, in __init__
-    self._callback_connector.on_trainer_init(
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-        callbacks,
-        ^^^^^^^^^^
-    ...<4 lines>...
-        max_time,
-        ^^^^^^^^^
-    )
-    ^
-  File "/usr/local/lib/python3.13/dist-packages/pytorch_lightning/trainer/connectors/callback_connector.py", line 63, in on_trainer_init
-    self.trainer._default_root_dir = default_root_dir or os.getcwd()
-                                                         ~~~~~~~~~^^
-FileNotFoundError: [Errno 2] No such file or directory
+2026-10-17 13:28:07,950 - INFO - Logger initialized at /content/drive/MyDrive/forecast-models-evaluation/results/results_belgium/TiDE/Sampling_33/Epochs_100_3/training_log.txt
+2026-10-17 13:28:07,951 - INFO - ...Start training for 100 epochs using TiDE...
+2026-10-17 13:28:07,951 - INFO - Training PV models
+2026-10-17 13:28:08,000 - INFO - Using random seed: 1792243688
+2026-10-17 13:28:08,000 - INFO - Training TiDE PV_house_1 model on 2849 samples (33.333333% of original training set)...
+2026-10-17 13:28:11,393 - INFO - PV_house_1 - MAE: 0.1008, RMSE: 0.1495
+2026-10-17 13:28:11,658 - INFO - Using random seed: 1792243691
+2026-10-17 13:28:11,658 - INFO - Training TiDE PV_house_2 model on 2849 samples (33.333333% of original training set)...
+2026-10-17 13:28:14,818 - INFO - PV_house_2 - MAE: 0.0973, RMSE: 0.1530
+2026-10-17 13:28:15,068 - INFO - Using random seed: 1792243695
+2026-10-17 13:28:15,068 - INFO - Training TiDE PV_house_3 model on 2849 samples (33.333333% of original training set)...
+2026-10-17 13:28:18,171 - INFO - PV_house_3 - MAE: 0.0984, RMSE: 0.1423
+2026-10-17 13:28:18,421 - INFO - Using random seed: 1792243698
+2026-10-17 13:28:18,422 - INFO - Training TiDE PV_house_4 model on 2849 samples (33.333333% of original training set)...
+2026-10-17 13:28:21,775 - INFO - PV_house_4 - MAE: 0.1097, RMSE: 0.1590
+2026-10-17 13:28:21,988 - INFO - Training BESS models
+2026-10-17 13:28:22,041 - INFO - Using random seed: 1792243702
+2026-10-17 13:28:22,042 - INFO - Training TiDE BESS_house_1 model on 2849 samples (33.333333% of original training set)...
+2026-10-17 13:28:25,429 - INFO - BESS_house_1 - MAE: 0.1011, RMSE: 0.1374
+2026-10-17 13:28:25,711 - INFO - Using random seed: 1792243705
+2026-10-17 13:28:25,711 - INFO - Training TiDE BESS_house_2 model on 2849 samples (33.333333% of original training set)...
+2026-10-17 13:28:28,878 - INFO - BESS_house_2 - MAE: 0.2044, RMSE: 0.2553
+2026-10-17 13:28:29,151 - INFO - Using random seed: 1792243709
+2026-10-17 13:28:29,152 - INFO - Training TiDE BESS_house_3 model on 2849 samples (33.333333% of original training set)...
+2026-10-17 13:28:32,380 - INFO - BESS_house_3 - MAE: 0.1569, RMSE: 0.2202
+2026-10-17 13:28:32,631 - INFO - Using random seed: 1792243712
+2026-10-17 13:28:32,631 - INFO - Training TiDE BESS_house_4 model on 2849 samples (33.333333% of original training set)...
+2026-10-17 13:28:36,158 - INFO - BESS_house_4 - MAE: 0.0823, RMSE: 0.1148
+2026-10-17 13:28:36,383 - INFO - Saved model metrics to /content/drive/MyDrive/forecast-models-evaluation/results/results_belgium/TiDE/Sampling_33/Epochs_100_3/model_metrics_summary.csv
+2026-10-17 13:28:36,767 - INFO - ...End training...
+2026-10-17 13:28:36,768 - INFO - Training completed in 28.82 seconds.
